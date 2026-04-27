@@ -1,0 +1,175 @@
+{
+  "title": "The Opportunities and Risks of Large Language Models in Mental Health",
+  "year": "2024",
+  "type_of_paper": "Viewpoint/narrative review",
+  "population": "Broad mental health populations globally; includes discussion of public users, patients/clients with mental health concerns, mental health providers, behavioral health professionals, peer support providers, and some specific groups mentioned in cited studies such as postpartum depression populations and people at risk of depression, suicidality, stress, anxiety, PTSD, and substance use concerns.",
+  "ai_type_application": "Large language models (LLMs), including general-purpose models (eg, ChatGPT, Bard/Gemini, LaMDA) and domain-specific/fine-tuned models (eg, Psy-LLM, MentalBERT, MentalRoBERTa, Mental-Alpaca, Med-PaLM 2), applied to mental health education, assessment/screening/diagnosis, provider training, and intervention/chatbots.",
+  "mental_health_outcome": "Mental health education quality; screening and detection of depression, suicidal ideation/suicide risk, stress, PTSD, and psychiatric diagnosis; intervention effects on depressive symptoms, anxiety symptoms, stress, therapeutic rapport, empathy, and safety/iatrogenic harms.",
+  "positive_effects": "The paper reports promising early evidence that LLMs can generate accurate, helpful, and immediate mental health information; answer some mental health questions with near-ceiling clinical accuracy in specific tasks (eg, postpartum depression questions for ChatGPT in one cited study); support provider training efficiency; detect depression and suicidal ideation from social media posts better than some non-mental-health-pretrained models; screen for depressive symptoms and suicide risk with varying accuracy; predict psychiatric diagnoses reasonably well in some benchmark case studies; and power chatbots that may reduce depressive symptoms, anxiety, and stress while expressing empathy, providing nonjudgmental responses, maintaining therapeutic conversations, and forming therapeutic rapport.",
+  "negative_effects": "The paper highlights risks that LLMs may generate inaccurate, biased, stigmatizing, unreliable, or iatrogenic mental health content; may perform worse than humans on quality, evidence alignment, or assessment tasks; may under- or overestimate suicide/PTSD risk; may fail to rule out associated conditions; may be ineffective for some kinds of distress; may have difficulty personalizing interventions, forget prior context, encourage harmful behaviors such as substance use, dieting, or weight loss, and respond inadequately to suicidality by being dismissive or failing to provide crisis resources/referrals. Broader risks include privacy/confidentiality problems, lack of informed consent, inappropriate trust, lack of explainability, and perpetuation of inequities and stigma.",
+  "evidence_type": "Narrative synthesis/viewpoint summarizing prior literature, including primary studies, systematic review/meta-analysis, and preprints; no new experimental data collected in this paper.",
+  "main_finding": "LLMs show substantial promise for mental health education and assessment and more tentative promise for intervention, but their use in mental health should be approached cautiously because current systems can be inaccurate, biased, unreliable, unsafe, and ethically problematic. Responsible development requires mental-health-specific fine-tuning, rigorous testing against human and evidence-based standards, human oversight, privacy protection, informed consent, risk-response safeguards, transparency, and an equity focus.",
+  "limitations_bias": "This is not a primary study and does not provide pooled quantitative effect estimates. It is a viewpoint/narrative review, so study selection methods are not described as systematic. Much of the cited evidence is early-stage, heterogeneous, and includes preprints and studies of varying rigor. Some cited chatbot/intervention evidence is mixed, and one cited Woebot paper is noted as retracted. Authors have conflicts of interest including employment/contracting with Google and equity/consulting relationships.",
+  "relevance_to_our_review": "Highly relevant as a background and evidence-mapping paper on AI effects on mental health, especially for identifying mechanisms, applications, benefits, harms, and candidate primary studies on LLMs/chatbots affecting depressive symptoms, anxiety, stress, suicide risk assessment, provider training, and safety outcomes. Best used to identify and contextualize primary studies rather than as direct effect evidence.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Useful for extracting conceptual categories of AI effects on mental health: beneficial effects (symptom reduction, access, psychoeducation, empathy, provider efficiency) and adverse effects (iatrogenic advice, bias, stigma, privacy risk, poor crisis handling). It distinguishes education, assessment, and intervention use cases and emphasizes that intervention evidence is weaker and riskier than education/assessment. Could support discussion section or evidence map; primary effect estimates should be taken from cited original studies.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Psy-LLM: scaling up global mental health psychological services with AI-based large language models",
+      "year": "2023",
+      "authors": "Lai T, Shi Y, Du Z, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Clinical accuracy of large language models and Google search responses to postpartum depression questions: cross-sectional study",
+      "year": "2023",
+      "authors": "Sezgin E, Chekeni F, Lee J, Keim S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Can we use ChatGPT for mental health and substance use education? Examining its quality and potential harms",
+      "year": "2023",
+      "authors": "Spallek S, Birrell L, Kershaw S, Devine EK, Thornton L",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Automatically enriching content for a behavioral health learning management system: a first look",
+      "year": "2023",
+      "authors": "Barish G, Marlotte L, Drayton M, Mogil C, Lester P",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Developing a natural language-based AI-chatbot for social work training: an illustrative case study",
+      "year": "2023",
+      "authors": "Chan C, Li F",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Human\u2013AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+      "year": "2023",
+      "authors": "Sharma A, Lin IW, Miner AS, Atkins DC, Althoff T",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "MentalBERT: publicly available pretrained language models for mental healthcare",
+      "year": "2021",
+      "authors": "Ji S, Zhang T, Ansari L, Fu J, Tiwari P, Cambria E",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Evaluation of ChatGPT for NLP-based mental health applications",
+      "year": "2023",
+      "authors": "Lamichhane B",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Will affective computing emerge from foundation models and general AI? A first evaluation on ChatGPT",
+      "year": "2023",
+      "authors": "Amin MM, Cambria E, Schuller BW",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Mental-LLM: leveraging large language models for mental health prediction via online text data",
+      "year": "2023",
+      "authors": "Xu X, Yao B, Dong Y, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "The capability of large language models to measure psychiatric functioning",
+      "year": "2023",
+      "authors": "Galatzer-Levy IR, McDuff D, Natarajan V, Karthikesalingam A, Malgaroli M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Towards accurate differential diagnosis with large language models",
+      "year": "2023",
+      "authors": "McDuff D, Schaekermann M, Tu T, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Beyond human expertise: the promise and limitations of ChatGPT in suicide risk assessment",
+      "year": "2023",
+      "authors": "Elyoseph Z, Levkovich I",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "An empathy-driven, conversational artificial intelligence agent (Wysa) for digital mental well-being: real-world data evaluation mixed-methods study",
+      "year": "2018",
+      "authors": "Inkster B, Sarda S, Subramanian V",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Using psychological artificial intelligence (Tess) to relieve symptoms of depression and anxiety: randomized controlled trial",
+      "year": "2018",
+      "authors": "Fulmer R, Joerin A, Gentile B, Lakerink L, Rauws M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Deep learning mental health dialogue system",
+      "year": "2023",
+      "authors": "Brocki L, Dyer GC, G\u0142adka A, Chung NC",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Evaluation of chatbot-delivered interventions for self-management of depression: content analysis",
+      "year": "2022",
+      "authors": "Martinengo L, Lum E, Car J",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support",
+      "year": "2024",
+      "authors": "Ma Z, Mei Y, Su Z",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Influence of rapport and social presence with an AI psychotherapy chatbot on users\u2019 self-disclosure",
+      "year": "2022",
+      "authors": "Lee J, Lee JG, Lee D",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Conversational bots for psychotherapy: a study of generative transformer models using domain-specific dialogues",
+      "year": "2022",
+      "authors": "Das A, Selek S, Warner AR, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Evaluating risk progression in mental health chatbots using escalating prompts",
+      "year": "2023",
+      "authors": "Heston TF",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Towards interpretable mental health analysis with large language models",
+      "year": "2023",
+      "authors": "Yang K, Ji S, Zhang T, Xie Q, Kuang Z, Ananiadou S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 22,
+  "source_file": "mental-2024-1-e59479.pdf"
+}

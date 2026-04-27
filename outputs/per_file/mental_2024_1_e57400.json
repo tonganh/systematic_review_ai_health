@@ -1,0 +1,238 @@
+{
+  "title": "Large Language Models for Mental Health Applications: Systematic Review",
+  "year": "2024",
+  "type_of_paper": "Systematic review",
+  "population": "Studies of large language models in mental health contexts, including users/patients with depression, anxiety, suicidal ideation, autism-related questions, older adults experiencing loneliness, social media users, and clinical/psychiatric case scenarios; 40 included articles published in English between January 1, 2017 and April 30, 2024.",
+  "ai_type_application": "Large language models (LLMs), especially BERT and variants, GPT models including ChatGPT/GPT-3.5/GPT-4, LaMDA, ERNIE Bot, DialoGPT, PsychBERT; applications include text-based detection of mental health conditions and suicidal ideation, sentiment/emotion analysis, mental health conversational agents/chatbots, diagnosis support, treatment planning, medication guidance, therapy enhancement, patient management, psychiatry/psychology education, and clinical decision support.",
+  "mental_health_outcome": "Detection and assessment of depression, anxiety, social anxiety, loneliness, generalized anxiety, suicidal ideation, PTSD, postpartum depression, bipolar depression, autism-related support questions, mindfulness awareness, and general mental well-being support.",
+  "positive_effects": "The review reports that LLMs show good effectiveness in detecting mental health issues and suicidal ideation from text, often with strong accuracy/F1 scores. They can provide accessible, destigmatized, nonjudgmental, convenient, personalized, and potentially low-cost mental health support. Users may value them for listening, empathy, and advice. Some studies found high relevance, empathy, and human-like responses from conversational agents. LLMs may improve access where mental health services are scarce, long waits exist, or patients are socially isolated. They may also serve as useful clinical aids for diagnosis support, treatment guidance, psychotherapy support, and educational purposes when supervised.",
+  "negative_effects": "The review emphasizes substantial risks: inconsistent outputs depending on prompts, hallucinations, inaccurate or misleading medical information, lack of clinical judgment, limited emergency handling, overestimation of suicide risk in some settings, inappropriate or contraindicated medication suggestions, potentially hazardous recommendations, training-data bias, poor interpretability due to black-box nature, privacy and confidentiality risks, possible reinforcement of harmful beliefs or stereotypes, depersonalization/dehumanization of care, and overreliance by patients or clinicians that could undermine traditional therapist-patient relationships and professional judgment.",
+  "evidence_type": "Systematic review of 40 articles identified from MEDLINE, IEEE Xplore, Scopus, JMIR, and ACM Digital Library using PRISMA methods; narrative synthesis with risk of bias assessment and study categorization into detection, conversational agents, and other applications/evaluations.",
+  "main_finding": "LLMs have significant potential in mental health for early screening, text-based detection, empathic conversational support, and clinical assistance, but current evidence suggests that risks in direct clinical use may outweigh benefits. The authors conclude that LLMs should not be considered substitutes for professional mental health services, though they may become valuable supervised clinical aids with further research, better datasets, improved reliability, and stronger ethical frameworks.",
+  "limitations_bias": "Review-level limitations include English-language restriction, exclusion of preprints, rapid evolution of LLM technology, and overrepresentation of BERT/GPT studies limiting model diversity. Included studies often relied heavily on social media data, with age bias toward younger users and limited representativeness for older adults and non-English-speaking populations. There was a lack of robust multilingual expert-annotated datasets. Many LLM outputs were sensitive to prompt wording, often binary in categorization, and affected by bias/hallucinations. The paper notes no available studies that provide sufficient evaluative evidence to support routine clinical use.",
+  "relevance_to_our_review": "Highly relevant as a recent systematic review directly addressing AI effects on mental health, summarizing both beneficial and harmful/uncertain effects of LLM-based tools across screening, support, and clinical contexts.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Useful as background/systematic evidence synthesis rather than as a primary effect study. Supports nuanced conclusion: AI/LLMs may improve access, empathy, destigmatization, and detection, but also pose safety, reliability, ethical, privacy, and overreliance risks. Appropriate for discussion/introduction and mapping evidence gaps, especially around clinical effectiveness and harms.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 31,
+  "source_file": "mental-2024-1-e57400.pdf"
+}

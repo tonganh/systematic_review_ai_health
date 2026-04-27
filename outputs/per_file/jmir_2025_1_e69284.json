@@ -1,0 +1,427 @@
+{
+  "title": "The Applications of Large Language Models in Mental Health: Scoping Review",
+  "year": "2025",
+  "type_of_paper": "Scoping review",
+  "population": "Peer-reviewed studies on applications of large language models in mental health published between January 1, 2019 and August 31, 2024; 95 included articles drawn from 4859 records. Populations within included studies varied and included social media users, patients, clinicians, autistic patients, students, adults, and users of mental health chatbots.",
+  "ai_type_application": "Large language models (LLMs) in mental health, including GPT-3/3.5/4, ChatGPT, BERT-family models, RoBERTa, XLNet, PaLM, LLaMA, Claude, Bard/Gemini, and fine-tuned mental-health-specific models. Applications categorized as: (1) screening/detection of mental disorders, (2) supporting clinical treatments and interventions, and (3) assisting in mental health counseling and education.",
+  "mental_health_outcome": "Depression detection/classification, suicide risk or suicidal ideation prediction, anxiety/generalized anxiety disorder, PTSD, obsessive-compulsive disorder, bipolar disorder, stress, emotion/sentiment analysis, counseling support, psychotherapy support, mental health education, and general mental well-being support.",
+  "positive_effects": "The review reports substantial potential of LLMs to augment mental health research, diagnostics, and intervention strategies. Compared with nontransformer models and in some cases humans, LLMs showed higher capabilities in information acquisition and analysis, efficient processing of massive data, and generation of natural language responses. Most studies focused on depression detection/classification (33/95, 35%), clinical treatment support/intervention (14/95, 15%), and suicide risk prediction (12/95, 13%). The paper states that latest LLMs such as ChatGPT often performed better than traditional and previous models in mental health tasks. Some studies found alignment of GPT-4, Claude, and Bard with mental health professionals' perspectives. The review also describes potential benefits for preliminary care, treatment support, counseling assistance, educational material generation, and data augmentation for underrepresented clinical datasets.",
+  "negative_effects": "The review emphasizes risks and challenges rather than demonstrated harmful mental health effects in patients. Reported concerns include limited practical clinical reliability, struggles with complex clinical tasks, privacy risks from sensitive health data, bias related to gender/race/socioeconomic status, potential generation of false or misleading information, hallucinations, underdeveloped empathy and emotional intelligence compared with humans, limited crisis response capability, and concerns that low-cost easy-access LLMs may foster overdependence among teenagers and delay help-seeking. The paper also notes that GPT-4-generated educational health materials were considered insufficiently reliable for direct-to-consumer use without human oversight.",
+  "evidence_type": "Scoping review synthesizing 95 peer-reviewed studies; descriptive mapping of application areas and narrative synthesis of comparative performance between LLMs, nontransformer models, and humans.",
+  "main_finding": "LLMs are increasingly being applied in mental health, especially for depression detection, suicide risk prediction, clinical support, counseling, and education. Across the reviewed literature, LLMs generally show promising and sometimes superior performance relative to nontransformer models and in some tasks approximate or exceed human/professional performance, but important concerns remain about accuracy, bias, privacy, ethics, and safe clinical deployment.",
+  "limitations_bias": "No formal risk-of-bias assessment was performed. Meta-analysis was not possible because of heterogeneity in methods and tasks. Comparative findings may rapidly become outdated as LLMs evolve. Preprints were excluded. Review limited to English and Chinese publications, which may reduce comprehensiveness and global representativeness. The authors note included studies are diverse and practical clinical application remains limited.",
+  "relevance_to_our_review": "Relevant as a high-level synthesis of evidence on AI effects in mental health, especially effects of LLM-based applications on detection, support, counseling, and education. However, it is an indirect evidence source because it is a review and many included studies evaluate performance rather than patient mental health outcomes. Best used to identify primary studies and summarize benefits/risks of LLMs in mental health contexts.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Useful background review on how AI/LLMs may affect mental health care delivery and support. It contains evidence on potential positive effects (improved detection, support, access, affordability, privacy-focused interactions) and potential negative effects (bias, misinformation, privacy concerns, overreliance, weak crisis handling). For a systematic review specifically about AI effects on mental health outcomes in people, primary studies should be checked because many cited studies assess model performance rather than changes in depression, anxiety, suicidality, or well-being.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2024",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 58,
+  "source_file": "jmir-2025-1-e69284.pdf"
+}

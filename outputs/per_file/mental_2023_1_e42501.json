@@ -1,0 +1,77 @@
+{
+  "title": "Identifying and Categorizing Adverse Events in Trials of Digital Mental Health Interventions: Narrative Scoping Review of Trials in the International Standard Randomized Controlled Trial Number Registry",
+  "year": "2023",
+  "type_of_paper": "Narrative scoping review",
+  "population": "Participants with diagnosed mental health disorders enrolled in randomized controlled trials of digital mental health interventions; included children, adolescents, and adults across conditions such as psychosis, mood/anxiety disorders, eating disorders, obsessive-compulsive disorder, tics, and social communication impairment.",
+  "ai_type_application": "Not specifically AI. Broad digital mental health interventions including websites, apps, internet-based CBT/self-help, online support platforms, mobile technology, and virtual reality therapies. Some cited interventions include automated or digital tools, but the paper does not focus on AI systems.",
+  "mental_health_outcome": "Adverse events (AEs), serious adverse events (SAEs), negative effects, harms, dropout reasons potentially indicative of harm, and reporting/monitoring/classification of these events in digital mental health trials.",
+  "positive_effects": "The review suggests digital functionality could support better standardized adverse event monitoring through automation, embedded reporting options, and risk flagging based on symptom scores. It also notes that blended human/digital interventions may facilitate adverse event reporting and response to emerging needs.",
+  "negative_effects": "Potential harms discussed include distress, self-harm, symptom deterioration, misuse or misunderstanding of treatment content, inadequate delivery due to lack of staff support, technical/device-related harms, cybersickness in virtual reality, feelings of disappointment/frustration/exclusion from automated eligibility checks, and dropout reasons suggestive of unrecognized AEs/SAEs.",
+  "evidence_type": "Scoping review of 23 completed randomized controlled trials identified from the ISRCTN registry, using published protocols and primary results papers.",
+  "main_finding": "There is substantial variation and likely underreporting of adverse events in trials of digital mental health interventions. Of 23 included trials, 16 mentioned AEs somewhere in trial documentation, but only 6 reported AEs in their primary results publication. Reporting of seriousness, relatedness, and expectedness was limited. The authors conclude that guidelines specific to digital mental health trials are needed to improve AE recognition, monitoring, classification, and reporting.",
+  "limitations_bias": "Search restricted to the ISRCTN registry and to trials with both a published peer-reviewed protocol and primary results publication; excluded other registries such as ClinicalTrials.gov. Likely overrepresents more rigorous trials, so AE recording may be better than in the wider literature. No risk-of-bias assessment because the focus was reporting practices rather than treatment effects. Review did not deeply analyze specific AEs and did not compare digital with nondigital interventions or online versus offline trial processes.",
+  "relevance_to_our_review": "Indirectly relevant. The paper addresses effects of digital mental health interventions on mental health primarily through harms/adverse events, but it is not focused on AI. Useful for background on negative effects, safety monitoring, and unintended consequences of digital/possibly automated mental health tools.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Include only if the review scope covers digital or automated mental health interventions beyond strict AI, or if harms/safety reporting is part of the review question. Not suitable as direct evidence of AI efficacy/effectiveness on mental health outcomes. Could inform discussion of adverse effects and reporting gaps in AI-enabled mental health technologies.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "",
+      "year": "2015",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2011",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2012",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2017",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 8,
+  "source_file": "mental-2023-1-e42501.pdf"
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Systematic review and meta-analysis of adverse events in clinical trials of mental health apps",
+  "year": "2024",
+  "type_of_paper": "Systematic review and meta-analysis",
+  "population": "Participants in 171 randomized clinical trials of smartphone mental health apps, pre-selected for mental health problems including depression, anxiety disorders, schizophrenia/psychosis, PTSD, bipolar disorder, eating disorders, suicidal ideation/self-harm, and general distress.",
+  "ai_type_application": "Broad mental health smartphone apps. AI-specific applications were only minimally represented: one included trial with chatbot technology among trials reporting adverse events, and several cited examples of chatbots/AI chatbots for mental health support. The paper is not focused specifically on AI interventions.",
+  "mental_health_outcome": "Adverse events from mental health apps, especially symptom deterioration, worsening mental health symptoms, hospitalization, self-harm/suicidal ideation, death, physical complaints, cognitive impairments, distress due to in-app features or technical difficulties, cyber sickness, financial concerns, relationship problems, and stigmatization fears.",
+  "positive_effects": "The paper notes that growing evidence from randomized controlled trials shows mental health apps can effectively reduce a range of mental health symptoms and may be useful adjuncts in severe mental illness. In the adverse-event analyses, deterioration rates did not significantly differ between app and control groups (OR = 0.79, 95% CI = 0.62\u20131.01), suggesting no clear evidence that apps increased deterioration overall in the available data.",
+  "negative_effects": "Only 55 of 171 clinical trials (32%) reported adverse events. Meta-analytic deterioration rate from 13 app conditions was 6.7% (95% CI = 4.3, 10.1; I2 = 75%). Severe adverse events reported across trials included hospitalization/re-hospitalization (14 trials), self-harm or suicidal ideation/intent (11 trials), death (3 trials), violent episode (1 trial), and crisis care referral (1 trial). Other adverse events included poorer overall mental health, subjective mood/anxiety/stress/psychotic symptom increase, physical complaints, financial concerns, relationship problems, increased stigmatization fears, cognitive impairments, distress due to technical difficulties, distress due to in-app features, feeling too reliant on the app, and cyber sickness. The introduction also cites concerns that chatbots may offer harmful advice and encourage destructive behaviors.",
+  "evidence_type": "Systematic review of randomized controlled trials with quantitative meta-analysis of deterioration rates and qualitative synthesis of other adverse events.",
+  "main_finding": "Adverse-event reporting in mental health app trials is inconsistent and limited. Only one in three trials reported adverse events, reporting methods were heterogeneous, and detail was often insufficient to judge app-related risks. The pooled deterioration rate in app conditions was 6.7%, and deterioration rates did not significantly differ from control groups. AI/chatbot-specific evidence was sparse and not the main focus of the review.",
+  "limitations_bias": "Only a small number of trials reported deterioration data, so estimates are preliminary and may not represent all app trials. Definitions of deterioration varied across studies. Adverse events may be underestimated due to dropout and poor reporting of dropout reasons. The review included only randomized controlled trials and only the main outcome paper from each trial, so safety data from uncontrolled studies or supplementary/forthcoming publications may have been missed. Many trials did not clearly describe how adverse events were assessed. The review is largely about mental health apps broadly rather than AI-specific tools.",
+  "relevance_to_our_review": "Indirectly relevant. This paper provides evidence on harms and adverse events associated with digital mental health apps, including limited mention of chatbot/AI-related risks. It is useful for contextualizing safety concerns around AI in mental health, especially possible harmful advice from chatbots and inadequate adverse-event monitoring, but it is not an AI-focused review and most included interventions were not AI-based.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Use mainly for background on safety/harms of digital mental health interventions and for the statement that chatbots have at times offered harmful advice and encouraged destructive behaviors. Not ideal as core evidence for AI effects on mental health because the review aggregates mostly non-AI smartphone apps and reports only minimal chatbot-specific data.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Chatbot-delivered cognitive behavioral therapy in adolescents with depression and anxiety during the COVID-19 pandemic: feasibility and acceptability study",
+      "year": "2022",
+      "authors": "Nicol, G., Wang, R. Y., Graham, S., Dodd, S. & Garbutt, J.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Mental health chatbot for young adults with depressive symptoms during the COVID-19 pandemic: single-blind, three-arm randomized controlled trial",
+      "year": "2022",
+      "authors": "He, Y. H. et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Assessing the impact of conversational artificial intelligence in the treatment of stress and anxiety in aging adults: randomized controlled trial",
+      "year": "2022",
+      "authors": "Danieli, M. et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Using AI chatbots to provide self-help depression interventions for university students: a randomized trial of effectiveness",
+      "year": "2022",
+      "authors": "Liu, H., Peng, H., Song, X., Xu, C. & Zhang, M.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Too human and not human enough: a grounded theory analysis of mental health harms from emotional dependence on the social chatbot Replika",
+      "year": "2024",
+      "authors": "Laestadius, L., Bishop, A., Gonzalez, M., Illen\u010d\u00edk, D. & Campos-Castillo, C.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Efficacy of BrighterSide, a self-guided app for suicidal ideation: randomized controlled trial",
+      "year": "2024",
+      "authors": "Josifovski, N. et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 6,
+  "source_file": "s41746-024-01388-y.pdf"
+}

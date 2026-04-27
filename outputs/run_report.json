@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-04-27T10:02:53.910565+00:00",
+  "finished_at": "2026-04-27T10:16:01.638458+00:00",
+  "model": "gpt-5.4",
+  "papers_dir": "papers",
+  "output_dir": "outputs",
+  "total_files_found": 21,
+  "processed": 21,
+  "success": 21,
+  "failed": 0,
+  "per_file_summaries_written": 21,
+  "primary_studies_rows_written": 120,
+  "usage": {
+    "input_tokens": 515952,
+    "output_tokens": 53983,
+    "total_tokens": 569935
+  },
+  "errors": []
+}

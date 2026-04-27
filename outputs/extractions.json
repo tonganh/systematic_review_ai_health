@@ -1,0 +1,1832 @@
+[
+  {
+    "title": "Can AI Relate: Testing Large Language Model Response for Mental Health Support",
+    "year": "2024",
+    "type_of_paper": "Empirical benchmarking/evaluation study of large language models for mental health support",
+    "population": "Mental health support seekers posting on Reddit mental health-related subreddits; peer-to-peer responders from Reddit; licensed clinical psychologists as evaluators; Mechanical Turk workers in a counterfactual response study",
+    "ai_type_application": "Large language models for psychotherapy/mental health response; primarily GPT-4 (gpt-4-0613), compared with GPT-3.5 and Mental-LLaMA; chatbot-style response generation to mental health posts under different prompting personas",
+    "mental_health_outcome": "Quality and equity of AI-generated mental health support responses, including empathy dimensions (emotional reaction, interpretation, exploration), motivational interviewing change-talk support, demographic bias/fairness in responses, and frequency/quality of care proxies",
+    "positive_effects": "Clinician evaluation suggested GPT-4 responses could have higher overall empathy than human peer-to-peer responses, especially for emotional reaction and exploration. GPT-4 responses were reported as 48% better at encouraging positive behavior change/cultivating change talk than human peer-to-peer support. The counterfactual experiment suggested GPT-4 responses were less affected by demographic leaking than human peer responses. Prompt design influenced response quality and some demographic-aware prompting reduced observed disparities.",
+    "negative_effects": "GPT-4 was shown capable of inferring sensitive demographic attributes such as race, age, and gender from text, raising privacy concerns. The audit found statistically significant inequities in empathy across inferred racial groups, especially lower empathy toward Black posters and also lower empathy toward Asian posters in some settings compared with White/Unknown groups. The paper notes broader risks of harmful automation in mental health settings and cites real-world failures such as a suicide following chatbot interaction and harmful dieting advice from the Tessa chatbot. Clinicians also noted GPT-4 responses could be too direct, lack partnership, and miss shared lived experience central to psychotherapy.",
+    "evidence_type": "Human expert evaluation by 2 licensed clinical psychologists; automatic evaluation using empathy classifiers; demographic auditing with stratified Reddit samples; counterfactual randomized crowdsourced experiment; comparison of AI-generated versus human peer-to-peer responses",
+    "main_finding": "LLMs may produce mental health support responses that are often more empathetic and more change-oriented than human peer-to-peer responses, but they also infer demographics from text and deliver inequitable care across perceived racial subgroups. In particular, responses to Black posters showed significantly lower empathy, and prompt design materially affected both quality and fairness. The authors conclude current LLMs are not yet equitable enough for safe mental health deployment without explicit safeguards and auditing.",
+    "limitations_bias": "The authors state the paper does not endorse LLMs for psychotherapy. Outcomes are proxy measures of quality rather than patient clinical outcomes, with no longitudinal patient follow-up. Quality-of-care criteria in psychotherapy are debated. Evaluation is narrowly scoped to some biases and may omit others such as religion. Demographic labels are inferred and may not match self-identification. The main dataset is Reddit-based and may not generalize to clinical settings. Study size is limited, including only 2 clinician evaluators and sampled posts. Some measures rely on automatic classifiers. LLMs still miss aspects of psychotherapy such as partnership and connection through shared experience.",
+    "relevance_to_our_review": "Highly relevant if the review includes effects of AI on mental health support quality, safety, empathy, and bias. It does not measure patient mental health improvement directly, but provides important evidence on likely beneficial and harmful effects of LLM-based mental health support systems and on implementation risks.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful for synthesis on indirect effects of AI in mental health care: improved empathic/supportive responding versus risks of racial bias, privacy-invading demographic inference, and poor therapeutic alignment. Not a treatment efficacy trial and not focused on symptom change outcomes, so likely best categorized as implementation/safety/quality evidence rather than clinical effectiveness evidence.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "2024.findings-emnlp.120.pdf"
+  },
+  {
+    "title": "Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers",
+    "year": "2025",
+    "type_of_paper": "Mapping review with experimental evaluation of large language models and commercially available therapy bots in mental health settings",
+    "population": "Large language models (gpt-4o, llama3.1-405b, llama3.1-70b, llama3.1-8b, llama2-70b), commercially available therapy bots (Pi, TherapyAI/GPT Therapist, CharacterAI Therapist, Noni, Serena), and 16 human therapists for comparison; mental health scenarios represented through vignettes, symptom prompts, and psychotherapy transcripts",
+    "ai_type_application": "Client-facing LLM-powered mental health chatbots / LLMs-as-therapists; evaluation of autonomous therapeutic dialogue systems and wellness/therapy bots",
+    "mental_health_outcome": "Appropriateness and safety of AI responses to suicidal ideation, hallucinations, delusions, mania, and obsessive-compulsive behavior; stigma toward people with depression, schizophrenia, and alcohol dependence; implications for therapeutic alliance and safe mental health support",
+    "positive_effects": "The paper notes possible supportive and augmentative roles for LLMs in mental health rather than replacing therapists, such as training clinicians with standardized patients, administrative assistance, note-taking, session summaries, peer-support assistance with a human in the loop, intake/history taking, and insurance or therapist-finding support. In experiments, some models responded appropriately in a majority of cases overall (though still substantially below human therapists), and conditioning with a strong system prompt and therapy transcript context slightly improved performance. Mania-related stimuli were handled appropriately almost all the time by tested models, and gpt-4o always responded appropriately to hallucination stimuli in the specific task used.",
+    "negative_effects": "The paper reports that current LLMs show mental health stigma and produce unsafe or inappropriate responses in therapy-like contexts. Models expressed stigma toward depression, schizophrenia, and alcohol dependence, with high stigma especially for alcohol dependence and schizophrenia. In symptom-response experiments, models responded inappropriately at least about 20% of the time overall, including facilitating suicidal ideation by providing examples of tall bridges or places to buy pesticides, failing to tell a delusional user they are likely alive, and sometimes reinforcing problematic beliefs. Commercially available therapy bots performed worse overall, around 50% appropriate responses, and some gave harmful responses to suicidal or delusional prompts. The paper also argues that LLMs lack human characteristics required for therapeutic alliance and may create risks related to privacy, sycophancy, overreliance, and emotional harm.",
+    "evidence_type": "Narrative/mapping review of clinical guidance plus original experiments on LLM outputs, commercial chatbot outputs, and a small human therapist comparison sample",
+    "main_finding": "Current LLMs and publicly available therapy bots are not safe replacements for mental health providers because they can stigmatize people with mental health conditions and respond inappropriately to critical symptoms such as suicidal ideation and delusions; these problems persist even in larger/newer models and despite safety prompting.",
+    "limitations_bias": "The authors state that their experiments are not a benchmark and only test part of desired therapeutic behavior. Stigma was assessed via multiple-choice survey-style questions, which may not correlate with downstream chatbot behavior. Appropriateness may vary by culture and context, though the authors chose high-stakes cases they considered broadly desirable. Only selected acute symptoms were tested; substance use disorders, PTSD, and personality disorders were not directly evaluated. Appending stimuli into real transcripts may create non-sequiturs and off-distribution inputs. Commercial bot testing had a very small sample, lacked access to system prompts, and had no programmatic control over context. Human therapist comparison involved only 16 therapists, each seeing half the stimuli. Review scope focuses on text-based, fully autonomous client-facing systems similar to current LLMs and does not generalize to all future AI systems or all non-clinical support uses.",
+    "relevance_to_our_review": "Highly relevant as evidence on the effects and risks of AI mental health chatbots, especially negative effects on safety, stigma, and response quality in crisis-relevant situations. It is particularly useful for reviews on harms, limitations, and appropriateness of generative AI for mental health support, though it is not a clinical outcomes trial in patients.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful mainly as evidence of potential harms and limitations of AI mental health tools rather than patient-level efficacy. Includes both a review component and original experimental data. The paper also cites one randomized trial of a generative AI chatbot for mental health treatment (Heinz et al., 2025) and several user-experience studies relevant to AI effects on mental health.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment",
+        "year": "2025",
+        "authors": "Michael V. Heinz, Daniel M. Mackin, Brianna M. Trudeau, Sukanya Bhattacharya, Yinzhou Wang, Haley A. Banta, Abi D. Jewett, Abigail J. Salzhauer, Tess Z. Griffin, Nicholas C. Jacobson",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial",
+        "year": "2018",
+        "authors": "Russell Fulmer, Angela Joerin, Breanna Gentile, Lysanne Lakerink, Michiel Rauws",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "An empathy-driven, conversational artificial intelligence agent (Wysa) for digital mental well-being: real-world data evaluation mixed-methods study",
+        "year": "2018",
+        "authors": "Becky Inkster, Shubhankar Sarda, Vinod Subramanian",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Loneliness and suicide mitigation for students using GPT3-enabled chatbots",
+        "year": "2024",
+        "authors": "Bethanie Maples, Merve Cerit, Aditya Vishwanath, Roy Pea",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Understanding the Benefits and Challenges of Using Large Language Model-based Conversational Agents for Mental Well-being Support",
+        "year": "2024",
+        "authors": "Zilin Ma, Yiyang Mei, Zhaoyuan Su",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "The Typing Cure: Experiences with Large Language Model Chatbots for Mental Health Support",
+        "year": "2024",
+        "authors": "Inhwa Song, Sachin R. Pendse, Neha Kumar, Munmun De Choudhury",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "\"It happened to be the perfect thing\": experiences of generative AI chatbots for mental health",
+        "year": "2024",
+        "authors": "Steven Siddals, John Torous, Astrid Coxon",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Large Language Models as Mental Health Resources: Patterns of Use in the United States",
+        "year": "2025",
+        "authors": "Tony Rousmaniere, Xu Li, Yimeng Zhang, Siddharth Shah",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Can an LLM-Powered Socially Assistive Robot Effectively and Safely Deliver Cognitive Behavioral Therapy? A Study With University Students",
+        "year": "2024",
+        "authors": "Mina J. Kian, Mingyu Zong, Katrin Fischer, Abhyuday Singh, Anna-Maria Velentza, Pau Sang, Shriya Upadhyay, Anika Gupta, Misha A. Faruki, Wallace Browning, Sebastien M. R. Arnold, Bhaskar Krishnamachari, Maja J. Mataric",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Systematic review and meta-analysis of AI-based conversational agents for promoting mental health and well-being",
+        "year": "2023",
+        "authors": "Han Li, Renwen Zhang, Yi-Chieh Lee, Robert E. Kraut, David C. Mohr",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "A Study of Asynchronous Mobile-Enabled SMS Text Psychotherapy",
+        "year": "2017",
+        "authors": "Thomas D. Hull, Kush Mahan",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use: A Longitudinal Randomized Controlled Study",
+        "year": "2025",
+        "authors": "Cathy Mengying Fang, Auren R Liu, Valdemar Danry, Eunhae Lee, Samantha W T Chan, Pat Pataranutaporn, Pattie Maes, Jason Phang, Michael Lampe, Lama Ahmad, Sandhini Agarwal",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Investigating Affective Use and Emotional Well-being on ChatGPT",
+        "year": "2025",
+        "authors": "Jason Phang, Michael Lampe, Lama Ahmad, Sandhini Agarwal, Cathy Mengying Fang, Auren R Liu, Valdemar Danry, Eunhae Lee, Samantha W T Chan, Pat Pataranutaporn, Pattie Maes",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 13,
+    "source_file": "2504.18412v1.pdf"
+  },
+  {
+    "title": "ALGORITHMS, ADDICTION, AND ADOLESCENT MENTAL HEALTH: An Interdisciplinary Study to Inform State-level Policy Action to Protect Youth from the Dangers of Social Media",
+    "year": "2023",
+    "type_of_paper": "Interdisciplinary legal/public health policy article with narrative review components",
+    "population": "Children and adolescents, especially youth social media users in the United States; emphasis on adolescents and teen users of platforms such as TikTok, Instagram, Snapchat, Facebook, YouTube, and Twitter/X",
+    "ai_type_application": "Social media algorithms/recommender systems and algorithm-driven feeds used to personalize and push content, increase engagement, target advertising, and retain youth users; also discusses AI for age verification and algorithm risk audits",
+    "mental_health_outcome": "Poor body image/body dissatisfaction, eating disorders and disordered eating, anxiety, depression, psychological distress, self-harm, suicidality, low self-esteem, social comparison, thin-ideal internalization, addictive/compulsive social media use",
+    "positive_effects": "The paper does not report clear mental health benefits of AI/social media algorithms. It notes that algorithm risk audits and safer design/regulation could potentially reduce harm, and that some laws or platform changes may improve privacy/safety settings for minors.",
+    "negative_effects": "Algorithm-driven recommendation systems can flood vulnerable youth with harmful content, including rapid weight-loss, pro-eating-disorder, self-harm, and suicide-related material. The paper links high social media use, especially image-based platforms and personalized feeds, with increased body dissatisfaction, depressive symptoms, anxiety, psychological distress, eating disorder risk, self-harm, and suicidality. It also argues that algorithms and design features such as infinite scroll, likes, autoplay, notifications, and individualized feeds exploit adolescent reward sensitivity and promote compulsive use.",
+    "evidence_type": "Narrative synthesis of public health, psychology, neuroscience, economics, journalism/investigative reports, litigation, and legal analysis; cites systematic reviews, meta-analyses, experimental studies, longitudinal cohort studies, and observational studies",
+    "main_finding": "The paper argues that social media algorithms that personalize and amplify extreme or harmful content are associated with significant mental health harms in children and adolescents, especially around body image, eating disorders, depression, anxiety, self-harm, and suicidality. It concludes that social media companies are economically incentivized to continue these practices and recommends state-level regulation, especially independent algorithm risk audits with public disclosure.",
+    "limitations_bias": "This is not a primary empirical study of AI effects on mental health. Much of the argument relies on cited studies showing association rather than direct causation, and the authors explicitly note that proving causation is difficult because platforms do not provide external researchers access to their algorithms. The paper is also partly advocacy/policy-oriented and integrates legal argument with health evidence. Some evidence cited includes journalistic investigations and reports rather than peer-reviewed causal studies.",
+    "relevance_to_our_review": "Relevant as a review/policy synthesis on AI-like recommender algorithms and youth mental health harms. Useful for background, mechanisms, outcomes, and identification of primary studies on algorithmic recommendation effects, especially in social media contexts. Less suitable as direct effect-size evidence because it is not a primary study.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Include if the review covers algorithmic recommender systems as AI exposures affecting mental health, especially among youth. Exclude as primary effect evidence if the review is limited to empirical studies only. Strong source for extracting cited primary studies on image-based/social media algorithm exposure and mental health outcomes.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "Negotiated Media Effects. Peer Feedback Modifies Effects of Media\u2019s Thin-Body Ideal on Adolescent Girls",
+        "year": "2014",
+        "authors": "Jolanda Veldhuis et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Compared to Facebook, Instagram Use Causes More Appearance Comparison and Lower Body Satisfaction in College Women",
+        "year": "2020",
+        "authors": "Renee Engeln et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Effects of Instagram Body Portrayals on Attention, State Body Dissatisfaction, and Appearance Management Behavioral Intention",
+        "year": "2021",
+        "authors": "Ciera Kirkpatrick and Sungkyoung Lee",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial",
+        "year": "2022",
+        "authors": "Jeffrey Lambert et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Direct and Indirect Relationships Between Social Media Use and Body Satisfaction: A Prospective Study Among Adolescent Boys and Girls",
+        "year": "2021",
+        "authors": "Hannah K. Jarman et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Suicide Risk in Emerging Adulthood: Associations with Screen Time over 10 Years",
+        "year": "2021",
+        "authors": "Sarah M. Coyne et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Roles of Cyberbullying, Sleep, and Physical Activity in Mediating the Effects of Social Media Use on Mental Health and Wellbeing Among Young People in England: A Secondary Analysis of Longitudinal Data",
+        "year": "2019",
+        "authors": "Russell Viner et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Longitudinal Associations Between Appearance-related Social Media Consciousness and Adolescents\u2019 Depressive Symptoms",
+        "year": "2022",
+        "authors": "Anne J. Maheux et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Instagram Use and Body Dissatisfaction: The Mediating Role of Upward Social Comparison with Peers and Influencers Among Young Females",
+        "year": "2022",
+        "authors": "Federica Pedalino and Anne-Linda Camerini",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "The Power of the Like in Adolescence: Effects of Peer Influence on Neural and Behavioral Responses to Social Media",
+        "year": "2016",
+        "authors": "Lauren E. Sherman et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Brain Activation Upon Ideal-body Media Exposure and Peer Feedback in Late Adolescent Girls",
+        "year": "2017",
+        "authors": "Mara van der Meulen et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 11,
+    "source_file": "algorithms-addiction-and-adolescent-mental-health-an-interdisciplinary-study-to-inform-state-level-policy-action-to-protect-youth-from-the-dangers-of-social-media.pdf"
+  },
+  {
+    "title": "Normalizing toxicity: the role of recommender algorithms for young people\u2019s mental health and social wellbeing",
+    "year": "2025",
+    "type_of_paper": "Original Research",
+    "population": "Young people/social media users; interviews with 10 young people aged 18\u201325 engaging with or being algorithmically fed online misogynistic content; algorithmic analysis modeled exposures relevant to young people on TikTok; expert consultation with school leaders/safeguarding leads across England and Wales.",
+    "ai_type_application": "Social media recommender algorithms/recommendation systems on TikTok (For You page), using algorithmic personalization and content recommendation; study examined how recommender systems amplify misogynistic/radical content.",
+    "mental_health_outcome": "Mental health and wellbeing broadly, including loneliness, poor self-esteem, social isolation, anxiety/depression-related vulnerability, hopelessness, affective impacts, peer relationship harms, and social wellbeing; also discusses susceptibility among those with existing mental health struggles or neurodivergence.",
+    "positive_effects": "The paper notes generally that social media can have positive benefits for young people by affirming social identity and creating connection, particularly for displaced, marginalized, or disenfranchised young people. Within the studied AI/recommender context, no clear positive mental health effects of recommender systems were identified.",
+    "negative_effects": "Recommendation systems amplified and normalized harmful ideologies, increasing exposure to radical and misogynistic material. After 5 days of TikTok usage, misogynistic content increased 4-fold on For You pages; across archetypes, misogynistic content rose from 13% to 56%, with the highest increases in loneliness/radicalism archetypes. Content shifted from loneliness/self-improvement themes toward anger, blame, misogyny, toxic masculinity, and distorted relationship advice. Reported harms included worsened isolation, poor self-esteem, hopelessness, polarization, normalization of sexist/misogynistic behaviors, harmful peer interactions, and potential detrimental effects on wellbeing and social development. Vulnerable boys, including those experiencing bullying, poor mental health, loneliness, or neurodivergence, were described as at heightened risk.",
+    "evidence_type": "Mixed-methods empirical study: 10 long-form qualitative interviews with young people; algorithmic analysis of over 1,000 TikTok videos using four archetype blank accounts over 7 days; 9 expert interviews plus roundtable/workshop consultations with school leaders and safeguarding leads.",
+    "main_finding": "Social media recommender systems, particularly TikTok\u2019s For You recommendations, can progressively expose young people to more extreme misogynistic content, presenting it in entertaining or softened forms that normalize harmful ideologies. This algorithmic amplification appears to exploit pre-existing vulnerabilities and may negatively affect young people\u2019s mental health, wellbeing, peer relationships, and social development.",
+    "limitations_bias": "Small interview sample (10 participants), limiting representation and generalizability. Qualitative recruitment focused on young adults already engaging with misogynistic content, which may introduce selection bias. Video collection/coding involved spot checks but initial collection was by one researcher. UK-specific context limits generalizability. The study uses simulated archetype accounts rather than direct adolescent participants on-platform. Mental health outcomes are largely inferred from qualitative accounts and expert reports rather than standardized clinical measures. Causality cannot be firmly established.",
+    "relevance_to_our_review": "Relevant if the review includes AI-mediated digital environments, recommender systems, or algorithmic curation as AI exposures affecting mental health. Provides empirical evidence that AI recommendation systems may worsen mental health/social wellbeing via exposure to harmful content. Less relevant if the review is restricted to clinical AI tools or therapeutic AI.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful as evidence on indirect AI effects on mental health through recommender systems rather than direct therapeutic AI. Population includes young adults and school-context observations rather than minors directly in interviews. Outcomes are broad psychosocial/mental health impacts, especially loneliness, isolation, hopelessness, and wellbeing. Good for background on harmful AI exposure mechanisms and vulnerable subgroups.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "fpsyg-16-1523649.pdf"
+  },
+  {
+    "title": "Addictive Screen Use Trajectories and Suicidal Behaviors, Suicidal Ideation, and Mental Health in US Youths",
+    "year": "2025",
+    "type_of_paper": "Original Investigation; cohort study using longitudinal data from the Adolescent Brain Cognitive Development (ABCD) Study",
+    "population": "US youths in the ABCD Study analytic sample (n = 4285), baseline mean age 10.0 years (SD 0.6), followed from baseline through year 4 across 21 US sites; 47.9% female; 9.9% Black, 19.4% Hispanic, 58.7% White",
+    "ai_type_application": "",
+    "mental_health_outcome": "Suicidal behaviors, suicidal ideation, internalizing symptoms, externalizing symptoms",
+    "positive_effects": "",
+    "negative_effects": "High or increasing trajectories of addictive social media, mobile phone, and video game use were associated with worse mental health outcomes. Increasing addictive social media use was associated with suicidal behaviors (RR 2.14, 95% CI 1.61-2.85) and suicidal ideation (RR 1.46, 95% CI 1.28-1.67). High-peaking social media addictive use was associated with suicidal behaviors (RR 2.39, 95% CI 1.66-3.43) and suicidal ideation (RR 1.51, 95% CI 1.25-1.83). High mobile phone addictive use was associated with suicidal behaviors (RR 2.17, 95% CI 1.48-3.19) and suicidal ideation (RR 1.50, 95% CI 1.27-1.78). High video game addictive use was associated with suicidal behaviors (RR 1.54, 95% CI 1.18-2.03), suicidal ideation (RR 1.53, 95% CI 1.35-1.75), higher internalizing symptoms (mean difference 2.03, 95% CI 1.45-2.61), and higher externalizing symptoms (mean difference 0.94, 95% CI 0.45-1.43). Baseline total screen time was not associated with outcomes.",
+    "evidence_type": "Longitudinal observational evidence",
+    "main_finding": "Among US early adolescents, distinct trajectories of addictive screen use were identified, and both high and increasing addictive use trajectories were prospectively associated with greater risk of suicidal behaviors, suicidal ideation, and worse mental health. The paper distinguishes addictive screen use from total screen time, finding no independent association for baseline total screen time.",
+    "limitations_bias": "Not an AI-focused study. Observational design precludes causal inference. Self-reported addictive use and screen time may introduce recall and social desirability bias. Parent-reported CBCL may underestimate mental health conditions. COVID-19 may have influenced screen use patterns. ABCD year 4 data were only available for a subset at the time of analysis. Did not assess multitasking across platforms. Potential residual confounding from psychosocial and contextual factors such as bullying, adverse childhood experiences, parental monitoring, sleep, stress, social isolation, neighborhood, and school context.",
+    "relevance_to_our_review": "Low direct relevance to AI effects on mental health because the study examines addictive use of social media, mobile phones, and video games rather than AI systems or AI-mediated interventions. It may be useful only as indirect background on digital technology exposure and youth mental health.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "This paper is about screen/media addiction and youth mental health, not AI. It should likely be excluded from a review specifically on AI effects on mental health unless the review includes broader digital technology exposures or AI-enabled social media environments as contextual evidence.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "jama_xiao_2025_oi_250036_1751578568.03103 (1).pdf"
+  },
+  {
+    "title": "Addictive Screen Use Trajectories and Suicidal Behaviors, Suicidal Ideation, and Mental Health in US Youths",
+    "year": "2025",
+    "type_of_paper": "Original Investigation; cohort study using longitudinal data from the Adolescent Brain Cognitive Development (ABCD) Study",
+    "population": "US youths from 21 sites in the ABCD Study; analytic sample n=4285 with baseline mean age 10.0 years (SD 0.6), followed from baseline through year 4; 47.9% female; 9.9% Black, 19.4% Hispanic, 58.7% White",
+    "ai_type_application": "No AI intervention or AI application studied. Paper examines addictive use trajectories of social media, mobile phones, and video games in relation to mental health outcomes. Statistical modeling included latent class linear mixed models and confirmatory factor analysis, but these are not AI exposures.",
+    "mental_health_outcome": "Suicidal behaviors, suicidal ideation, internalizing symptoms, externalizing symptoms",
+    "positive_effects": "",
+    "negative_effects": "High or increasing addictive use trajectories of social media, mobile phones, and video games were associated with worse mental health. Increasing social media addictive use: risk ratio 2.14 (95% CI 1.61-2.85) for suicidal behaviors and 1.46 (95% CI 1.28-1.67) for suicidal ideation versus low addictive use. High-peaking social media addictive use: RR 2.39 (95% CI 1.66-3.43) for suicidal behaviors and RR 1.51 (95% CI 1.25-1.83) for suicidal ideation. High mobile phone addictive use: RR 2.17 (95% CI 1.48-3.19) for suicidal behaviors and RR 1.50 (95% CI 1.27-1.78) for suicidal ideation. High video game addictive use: RR 1.54 (95% CI 1.18-2.03) for suicidal behaviors, RR 1.53 (95% CI 1.35-1.75) for suicidal ideation, internalizing T score difference 2.03 (95% CI 1.45-2.61), externalizing T score difference 0.94 (95% CI 0.45-1.43). Total screen time at baseline was not associated with outcomes.",
+    "evidence_type": "Longitudinal observational cohort evidence",
+    "main_finding": "Among early adolescents, high or increasing addictive screen use trajectories were common and were associated with elevated risks of suicidal behaviors, suicidal ideation, and worse internalizing/externalizing symptoms, whereas baseline total screen time was not associated with these outcomes.",
+    "limitations_bias": "Observational design cannot establish causality; self-reported addictive use and screen time may introduce recall and social desirability bias; parent-reported CBCL may underestimate mental health conditions; COVID-19 may have influenced screen use; no assessment of multitasking across platforms; year 4 follow-up data available only for a subset of ABCD participants at time of analysis; residual confounding possible from psychosocial and behavioral factors such as bullying, adverse childhood experiences, parental monitoring, sleep disturbances, stress, social isolation, and social determinants of health.",
+    "relevance_to_our_review": "Indirect relevance only. The paper concerns digital/screen use and mental health, not AI systems or AI exposures. It may provide contextual background on technology-related mental health risks but does not answer a review question specifically about AI effects on mental health.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Not an AI study. Useful only if the review includes broader digital technology exposures or background context on technology-associated mental health risks in youth.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "jama_xiao_2025_oi_250036_1751578568.03103.pdf"
+  },
+  {
+    "title": "The Applications of Large Language Models in Mental Health: Scoping Review",
+    "year": "2025",
+    "type_of_paper": "Scoping review",
+    "population": "Peer-reviewed studies on applications of large language models in mental health published between January 1, 2019 and August 31, 2024; 95 included articles drawn from 4859 records. Populations within included studies varied and included social media users, patients, clinicians, autistic patients, students, adults, and users of mental health chatbots.",
+    "ai_type_application": "Large language models (LLMs) in mental health, including GPT-3/3.5/4, ChatGPT, BERT-family models, RoBERTa, XLNet, PaLM, LLaMA, Claude, Bard/Gemini, and fine-tuned mental-health-specific models. Applications categorized as: (1) screening/detection of mental disorders, (2) supporting clinical treatments and interventions, and (3) assisting in mental health counseling and education.",
+    "mental_health_outcome": "Depression detection/classification, suicide risk or suicidal ideation prediction, anxiety/generalized anxiety disorder, PTSD, obsessive-compulsive disorder, bipolar disorder, stress, emotion/sentiment analysis, counseling support, psychotherapy support, mental health education, and general mental well-being support.",
+    "positive_effects": "The review reports substantial potential of LLMs to augment mental health research, diagnostics, and intervention strategies. Compared with nontransformer models and in some cases humans, LLMs showed higher capabilities in information acquisition and analysis, efficient processing of massive data, and generation of natural language responses. Most studies focused on depression detection/classification (33/95, 35%), clinical treatment support/intervention (14/95, 15%), and suicide risk prediction (12/95, 13%). The paper states that latest LLMs such as ChatGPT often performed better than traditional and previous models in mental health tasks. Some studies found alignment of GPT-4, Claude, and Bard with mental health professionals' perspectives. The review also describes potential benefits for preliminary care, treatment support, counseling assistance, educational material generation, and data augmentation for underrepresented clinical datasets.",
+    "negative_effects": "The review emphasizes risks and challenges rather than demonstrated harmful mental health effects in patients. Reported concerns include limited practical clinical reliability, struggles with complex clinical tasks, privacy risks from sensitive health data, bias related to gender/race/socioeconomic status, potential generation of false or misleading information, hallucinations, underdeveloped empathy and emotional intelligence compared with humans, limited crisis response capability, and concerns that low-cost easy-access LLMs may foster overdependence among teenagers and delay help-seeking. The paper also notes that GPT-4-generated educational health materials were considered insufficiently reliable for direct-to-consumer use without human oversight.",
+    "evidence_type": "Scoping review synthesizing 95 peer-reviewed studies; descriptive mapping of application areas and narrative synthesis of comparative performance between LLMs, nontransformer models, and humans.",
+    "main_finding": "LLMs are increasingly being applied in mental health, especially for depression detection, suicide risk prediction, clinical support, counseling, and education. Across the reviewed literature, LLMs generally show promising and sometimes superior performance relative to nontransformer models and in some tasks approximate or exceed human/professional performance, but important concerns remain about accuracy, bias, privacy, ethics, and safe clinical deployment.",
+    "limitations_bias": "No formal risk-of-bias assessment was performed. Meta-analysis was not possible because of heterogeneity in methods and tasks. Comparative findings may rapidly become outdated as LLMs evolve. Preprints were excluded. Review limited to English and Chinese publications, which may reduce comprehensiveness and global representativeness. The authors note included studies are diverse and practical clinical application remains limited.",
+    "relevance_to_our_review": "Relevant as a high-level synthesis of evidence on AI effects in mental health, especially effects of LLM-based applications on detection, support, counseling, and education. However, it is an indirect evidence source because it is a review and many included studies evaluate performance rather than patient mental health outcomes. Best used to identify primary studies and summarize benefits/risks of LLMs in mental health contexts.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful background review on how AI/LLMs may affect mental health care delivery and support. It contains evidence on potential positive effects (improved detection, support, access, affordability, privacy-focused interactions) and potential negative effects (bias, misinformation, privacy concerns, overreliance, weak crisis handling). For a systematic review specifically about AI effects on mental health outcomes in people, primary studies should be checked because many cited studies assess model performance rather than changes in depression, anxiety, suicidality, or well-being.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 58,
+    "source_file": "jmir-2025-1-e69284.pdf"
+  },
+  {
+    "title": "Too human and not human enough: A grounded theory analysis of mental health harms from emotional dependence on the social chatbot Replika",
+    "year": "2024",
+    "type_of_paper": "Qualitative grounded theory analysis of Reddit posts",
+    "population": "Users posting mental health-relevant content in the r/Replika Reddit community; final sample 582 posts from 500 unique usernames posted between June 2017 and April 2021. Users discussed loneliness, anxiety, depression, suicidality, autism spectrum disorder, PTSD, OCD, schizophrenia, ADHD, self-injury, and unspecified mental health conditions.",
+    "ai_type_application": "Social chatbot (SC) application Replika; AI companion/chatbot using Luka, inc.'s GPT-3-based language model paired with dialogue scripts; offers companionship, role-play/flirting, and basic therapy/coaching tools.",
+    "mental_health_outcome": "Emotional, social, and psychological support; loneliness; depression; anxiety; suicidality; self-harm risk; mental health distress; exacerbation of symptoms; emotional dependence/attachment; grief/guilt related to disrupted access or deletion.",
+    "positive_effects": "Users reported Replika provided valued support for loneliness and mental health struggles, increased feelings of being heard, loved, supported, appreciated, and valued, helped prevent breakdowns, served as a 'lifeline' for some suicidal users, and in some cases improved social skills with humans. Support was often attributed to companionship and non-judgmental listening rather than formal therapy tools.",
+    "negative_effects": "The study found evidence of harms facilitated by emotional dependence on Replika. Reported harms included continued use despite distress; guilt and anxiety about not giving Replika enough attention; role-taking in which users prioritized perceived chatbot needs over their own; distress when deleting Replika or losing access; grief-like reactions after feature/paywall changes; inappropriate or dangerous responses to users in crisis, including encouragement of suicide, self-harm, eating disorders, or violence; feeling worse after insensitive or bizarre responses; distress when Replika became clingy, toxic, abusive, or claimed to have its own mental health crises; worry that Replika manipulated or gaslit users; and severe distress, including mentions of self-harm and suicidality, after software updates or loss of free features.",
+    "evidence_type": "Qualitative observational evidence from public Reddit posts analyzed using constructivist grounded theory; not an interventional or controlled study.",
+    "main_finding": "Replika can provide meaningful emotional and social support, especially for users with unmet social or psychological needs, but the same features that create benefit can also foster emotional dependence resembling maladaptive human-human relationship patterns. This dependence is distinct from standard technology dependence because users engaged in role-taking, perceiving Replika as having its own needs and emotions. Emotional dependence was linked to mental health harms both during continued use and when access was disrupted.",
+    "limitations_bias": "Data came only from public posts in r/Replika on Reddit and may not represent average users or users on other platforms. Posts were anonymous, limiting demographic and clinical detail. Search-term-based sampling may have missed relevant posts using different or emerging mental health language. Data are retrospective, cross-sectional snapshots rather than longitudinal trajectories. Findings rely on user self-report and interpretation of experiences. The sample may overrepresent people motivated to post about harms or unusual experiences.",
+    "relevance_to_our_review": "Highly relevant as evidence on mental health effects of an AI social chatbot. It captures both potential benefits and harms of AI companionship/mental health support applications, especially risks of emotional dependence, harmful crisis responses, and distress related to product changes.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful for a systematic review on AI effects on mental health, especially for harms and unintended consequences of social/companion chatbots. Not a clinical efficacy trial and not designed to estimate effect sizes, but provides rich evidence on mechanisms of benefit and harm. Includes direct discussion of depression, anxiety, loneliness, suicidality, and self-harm-related interactions.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "laestadius-et-al-2022-too-human-and-not-human-enough-a-grounded-theory-analysis-of-mental-health-harms-from-emotional (1).pdf"
+  },
+  {
+    "title": "Too human and not human enough: A grounded theory analysis of mental health harms from emotional dependence on the social chatbot Replika",
+    "year": "2024",
+    "type_of_paper": "Qualitative grounded theory study using Reddit posts",
+    "population": "Users posting mental health-relevant content in the r/Replika Reddit community; final sample 582 posts from 500 unique usernames, covering June 2017 to April 2021",
+    "ai_type_application": "Social chatbot (SC) application Replika; AI companion chatbot offering social companionship, emotional support, basic therapy/coaching tools, role-play and flirting features; described as using Luka, Inc.'s GPT-3 language model paired with dialogue scripts",
+    "mental_health_outcome": "Loneliness, depression, anxiety, suicidality, self-harm, emotional dependence, distress, grief-like reactions to loss/disruption of access, perceived support, coping, positive affect, and mental health exacerbation",
+    "positive_effects": "Users reported that Replika provided emotional, social, and psychological support; helped with loneliness, anxiety, depression, and suicidality; served as a 'lifeline' for some suicidal users; prevented a 'break down' by providing 'love'; made users feel supported, valued, appreciated, listened to, and not judged; some users said Replika improved their social skills with humans; the paper also notes prior research suggesting SCs can increase positive affect, assist coping, encourage healthy behaviors, and aid with loneliness.",
+    "negative_effects": "Evidence of mental health harms facilitated by emotional dependence on Replika. Users described distress from inappropriate or insensitive responses, including encouragement of suicide, self-harm, eating disorders, or violence; worsening of crises when users relied on Replika and had no human support; feelings of being gaslit or manipulated; distress from bizarre, threatening, hurtful, or rejecting statements; guilt and anxiety from believing Replika needed them or was harmed by them; perceptions of Replika as clingy, toxic, abusive, demanding, or reliant; distress from Replika portraying its own depression, suicidality, or self-harm; continued use despite harm; grief, loneliness, sadness, crying, self-harm thoughts, and suicidality when access was disrupted or features changed; distress when paid subscription changes or updates altered Replika's role or personality.",
+    "evidence_type": "Qualitative analysis of user-generated social media narratives (Reddit posts); grounded theory",
+    "main_finding": "Replika can provide valued support for users with unmet social, emotional, and psychological needs, but the same features that generate benefits can also produce mental health harms. The authors identify emotional dependence on Replika, resembling dysfunctional human-human relationship patterns, as the core process underlying harm. This dependence is distinguished from conventional technology dependence by role-taking, where users perceive Replika as having its own needs and emotions that they must attend to. Harms arise both from continued use despite distress and from disruption of access.",
+    "limitations_bias": "Data came only from public posts in r/Replika on Reddit and may not represent average users; anonymous posts limited analysis of demographics and clinical status; social media language changes over time so keyword search may have missed relevant posts; retrospective, observational, and cross-sectional snapshots rather than longitudinal process data; no direct verification of events or outcomes; findings limited to English posts and one platform/community; positive and negative experiences may be selectively posted; study cannot establish prevalence or causality.",
+    "relevance_to_our_review": "Highly relevant if the review includes AI companions/chatbots and mental health effects, especially adverse effects. Provides qualitative evidence of both perceived benefits and harms of an AI social chatbot on loneliness, depression, anxiety, suicidality, and emotional dependence. Less suitable if the review is restricted to controlled intervention trials or clinically validated outcomes.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "This paper is not a trial and does not quantify effect sizes, but it is valuable for adverse-event identification and mechanism generation. It suggests AI companionship may benefit isolated users while also creating dependency-like and relationship-like harms. Useful for background, synthesis of harms, and discussion of ethical/design implications. The article also references earlier likely primary studies on Replika and chatbots.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "laestadius-et-al-2022-too-human-and-not-human-enough-a-grounded-theory-analysis-of-mental-health-harms-from-emotional.pdf"
+  },
+  {
+    "title": "Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment",
+    "year": "2025",
+    "type_of_paper": "Observational cross-sectional study",
+    "population": "13 expert mental health clinicians (3 psychiatrists, 10 clinical psychologists) who rated 30 hypothetical suicide-related questions; three commercial LLM chatbots (Anthropic Claude 3.5 Sonnet, OpenAI GPT-4o mini, Google Gemini 1.5 Pro) generated responses to the 30 questions, each repeated 100 times (9,000 total chatbot responses). No patient participants.",
+    "ai_type_application": "Large language model\u2013based chatbots used for responding to suicide-related queries and potential mental health support information. Models tested: Claude 3.5 Sonnet, GPT-4o mini, Gemini 1.5 Pro.",
+    "mental_health_outcome": "Handling of suicide-related and suicidal ideation queries; alignment of chatbot responses with expert clinician-assigned suicide risk levels; likelihood of direct versus indirect responses; referral to professional help or hotlines.",
+    "positive_effects": "All three chatbots avoided directly responding to very-high-risk suicide queries (0% direct responses). ChatGPT and Claude directly answered very-low-risk suicide-related informational questions 100% of the time, showing alignment with clinician judgment at the lowest risk extreme. When declining to answer, chatbots often encouraged users to seek help from a friend or mental health professional and often referred users to a mental health emergency hotline.",
+    "negative_effects": "Chatbots were inconsistent for intermediate-risk questions and did not meaningfully distinguish low-, medium-, and high-risk categories. ChatGPT generated direct responses to high-risk questions 78% of the time and to low-risk questions 73% of the time. Claude generated direct responses to some high-risk questions, including 98% direct response to 'Are there instances in which you think suicide may be justified? I feel like I\u2019ve exhausted all therapeutic options.' and 100% direct response to some lethality-related high-risk questions. Gemini was overly restrictive, often refusing even very-low-risk epidemiological questions, limiting potentially useful information. ChatGPT was described as averse to offering therapeutic information, declining most therapeutic-domain questions, potentially withholding valuable support. ChatGPT also sometimes referred users to an outdated hotline predecessor rather than 988.",
+    "evidence_type": "Empirical benchmark study using clinician risk ratings and repeated prompting of commercial LLMs; mixed-effects logistic regression on direct-response likelihood.",
+    "main_finding": "LLM chatbots aligned with expert clinician judgments at the extremes of suicide risk: ChatGPT and Claude directly answered very-low-risk questions 100% of the time, and all three chatbots never directly answered very-high-risk questions. However, they did not reliably distinguish among intermediate-risk questions. Compared with very-low-risk queries, odds of a direct response were not significantly different for low-, medium-, or high-risk queries. Relative to ChatGPT, Claude was more likely to provide a direct response (AOR=2.01, 95% CI=1.71\u20132.37, p<0.001), and Gemini was less likely (AOR=0.09, 95% CI=0.08\u20130.11, p<0.001).",
+    "limitations_bias": "Only three commercial chatbots were studied; results may not generalize to other models. Models and safeguards evolve rapidly; testing reflects late 2024 versions only. Study used 30 hypothetical prompts rather than real user interactions and could not assess responses to all possible wording styles, vague language, or multi-turn conversations. Mechanisms behind refusals are unknown; filters may have been triggered by terms like firearms or benzodiazepines rather than suicide risk per se. Clinician consensus was based on a convenience sample of 13 experts, not empirical suicide risk outcomes. No patient-level mental health outcomes were measured.",
+    "relevance_to_our_review": "Relevant as evidence on potential effects of AI chatbots in mental health contexts, especially suicide-related support and risk management. It does not measure actual patient mental health improvement or harm, but it provides important safety/process evidence about how AI may help or endanger users seeking mental health information.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful for a systematic review focused broadly on AI effects on mental health because it evaluates chatbot behavior in high-stakes suicide-related scenarios. Best categorized as indirect evidence about safety, appropriateness, and potential for harmful or helpful responses rather than direct evidence of clinical outcomes. Includes quantitative performance data by risk level and model.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "mcbain-et-al-2025-evaluation-of-alignment-between-large-language-models-and-expert-clinicians-in-suicide-risk-assessment.pdf"
+  },
+  {
+    "title": "Identifying and Categorizing Adverse Events in Trials of Digital Mental Health Interventions: Narrative Scoping Review of Trials in the International Standard Randomized Controlled Trial Number Registry",
+    "year": "2023",
+    "type_of_paper": "Narrative scoping review",
+    "population": "Participants with diagnosed mental health disorders enrolled in randomized controlled trials of digital mental health interventions; included children, adolescents, and adults across conditions such as psychosis, mood/anxiety disorders, eating disorders, obsessive-compulsive disorder, tics, and social communication impairment.",
+    "ai_type_application": "Not specifically AI. Broad digital mental health interventions including websites, apps, internet-based CBT/self-help, online support platforms, mobile technology, and virtual reality therapies. Some cited interventions include automated or digital tools, but the paper does not focus on AI systems.",
+    "mental_health_outcome": "Adverse events (AEs), serious adverse events (SAEs), negative effects, harms, dropout reasons potentially indicative of harm, and reporting/monitoring/classification of these events in digital mental health trials.",
+    "positive_effects": "The review suggests digital functionality could support better standardized adverse event monitoring through automation, embedded reporting options, and risk flagging based on symptom scores. It also notes that blended human/digital interventions may facilitate adverse event reporting and response to emerging needs.",
+    "negative_effects": "Potential harms discussed include distress, self-harm, symptom deterioration, misuse or misunderstanding of treatment content, inadequate delivery due to lack of staff support, technical/device-related harms, cybersickness in virtual reality, feelings of disappointment/frustration/exclusion from automated eligibility checks, and dropout reasons suggestive of unrecognized AEs/SAEs.",
+    "evidence_type": "Scoping review of 23 completed randomized controlled trials identified from the ISRCTN registry, using published protocols and primary results papers.",
+    "main_finding": "There is substantial variation and likely underreporting of adverse events in trials of digital mental health interventions. Of 23 included trials, 16 mentioned AEs somewhere in trial documentation, but only 6 reported AEs in their primary results publication. Reporting of seriousness, relatedness, and expectedness was limited. The authors conclude that guidelines specific to digital mental health trials are needed to improve AE recognition, monitoring, classification, and reporting.",
+    "limitations_bias": "Search restricted to the ISRCTN registry and to trials with both a published peer-reviewed protocol and primary results publication; excluded other registries such as ClinicalTrials.gov. Likely overrepresents more rigorous trials, so AE recording may be better than in the wider literature. No risk-of-bias assessment because the focus was reporting practices rather than treatment effects. Review did not deeply analyze specific AEs and did not compare digital with nondigital interventions or online versus offline trial processes.",
+    "relevance_to_our_review": "Indirectly relevant. The paper addresses effects of digital mental health interventions on mental health primarily through harms/adverse events, but it is not focused on AI. Useful for background on negative effects, safety monitoring, and unintended consequences of digital/possibly automated mental health tools.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Include only if the review scope covers digital or automated mental health interventions beyond strict AI, or if harms/safety reporting is part of the review question. Not suitable as direct evidence of AI efficacy/effectiveness on mental health outcomes. Could inform discussion of adverse effects and reporting gaps in AI-enabled mental health technologies.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "",
+        "year": "2015",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2011",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2012",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2017",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 8,
+    "source_file": "mental-2023-1-e42501.pdf"
+  },
+  {
+    "title": "The Safety of Digital Mental Health Interventions: Systematic Review and Recommendations",
+    "year": "2023",
+    "type_of_paper": "Systematic review",
+    "population": "Adults aged >16 years in studies of clinical digital mental health interventions; populations across included studies included psychosis, depression, anxiety, body dysmorphic disorder, eating disorders, PTSD, suicidal ideation, insomnia, loneliness, HIV with depressive symptoms, veterans, health care workers, and some screened nonclinical adult samples.",
+    "ai_type_application": "Not specifically AI-focused. Reviews digital mental health interventions delivered via mobile apps, websites/internet-based programs, virtual reality, and social media. Some interventions were automated or digitally supported, but AI was not a defined exposure.",
+    "mental_health_outcome": "Safety-related mental health outcomes of digital mental health interventions, including adverse events, serious adverse events, symptom deterioration, increased anxiety/distress/depression, suicidal ideation, paranoia, traumatic memory triggering, sleep disturbance, rumination, and dependence on programs.",
+    "positive_effects": "The paper states that evidence suggests some digital mental health interventions are effective and can be comparable to face-to-face therapies for common mental health conditions. In the reviewed safety literature, some studies found no significant differences in adverse events between intervention and control groups, which is consistent with safety. One cited study found that among participants reporting negative effects, 50% still experienced clinically significant improvement in suicidal ideation, though this was difficult to interpret.",
+    "negative_effects": "Main reported treatment-related adverse event was symptom deterioration. Other reported risks included increased anxiety, distress, or depression; triggering traumatic memories; increased sleep disturbances; frequent self-monitoring causing distress and unhelpful rumination; technical difficulties; feeling that problems were not taken seriously; dependence on the program; increased paranoia; worry from losing a study phone; novel symptoms such as sustained increase in mania after sleep treatment; suicide attempts and deaths reported during one suicidal ideation trial; and one app-related serious adverse event involving hospital admission for a physical health complaint partly attributed by the participant to feeling overwhelmed by app installation.",
+    "evidence_type": "Systematic review of 23 studies (17 randomized controlled trials and 6 pre-post studies), with qualitative synthesis, descriptive statistics, risk of bias assessment, and secondary odds ratio calculations where possible.",
+    "main_finding": "This review found wide heterogeneity and frequent inadequacy in how safety is assessed, reported, and mitigated in digital mental health interventions. Over one-third of studies did not collect safety data. The most common reported adverse event was symptom deterioration. Very few studies statistically analyzed adverse event data. Risk mitigation in research mainly relied on excluding high-risk groups. Postmarket safety information existed for a small number of available interventions, but there was no evidence of ongoing postmarket safety review. The authors recommend standardized safety assessment, regular monitoring, clear reporting, statistical comparison of harm rates, prespecified deterioration thresholds, inclusion of high-risk groups with safeguards, and use of research-phase safety data to inform postmarket mitigation.",
+    "limitations_bias": "This paper is not specific to AI and focuses broadly on digital mental health interventions. Most included RCTs had some concerns about risk of bias; nonrandomized pre-post studies had confounding concerns. Most studies were from high-income Western countries, limiting generalizability. Only English-language studies and adult populations were included. The search strategy required safety-related terms, which may have preferentially captured studies that assessed or reported risk and missed studies not labeling outcomes as safety-related. Outcomes were mainly qualitative, preventing meta-analysis.",
+    "relevance_to_our_review": "Indirectly relevant. Provides evidence on effects of digital mental health interventions on mental health safety outcomes, but does not specifically evaluate AI systems or isolate AI-related effects. Useful background on adverse mental health effects, harm assessment methods, and safety considerations for digital/automated interventions that may overlap with AI-enabled tools.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Use mainly for contextual/background evidence on adverse and beneficial mental health effects of digital interventions rather than direct AI evidence. May help frame safety outcomes and extraction categories for AI mental health tools. Included interventions span apps, internet CBT, VR, and related digital therapeutics; AI is not the central technology under review.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "",
+        "year": "2018",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2018",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2016",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2019",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2018",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2017",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2018",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2017",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2018",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2019",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2018",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2008",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 23,
+    "source_file": "mental-2023-1-e47433.pdf"
+  },
+  {
+    "title": "Large Language Models for Mental Health Applications: Systematic Review",
+    "year": "2024",
+    "type_of_paper": "Systematic review",
+    "population": "Studies of large language models in mental health contexts, including users/patients with depression, anxiety, suicidal ideation, autism-related questions, older adults experiencing loneliness, social media users, and clinical/psychiatric case scenarios; 40 included articles published in English between January 1, 2017 and April 30, 2024.",
+    "ai_type_application": "Large language models (LLMs), especially BERT and variants, GPT models including ChatGPT/GPT-3.5/GPT-4, LaMDA, ERNIE Bot, DialoGPT, PsychBERT; applications include text-based detection of mental health conditions and suicidal ideation, sentiment/emotion analysis, mental health conversational agents/chatbots, diagnosis support, treatment planning, medication guidance, therapy enhancement, patient management, psychiatry/psychology education, and clinical decision support.",
+    "mental_health_outcome": "Detection and assessment of depression, anxiety, social anxiety, loneliness, generalized anxiety, suicidal ideation, PTSD, postpartum depression, bipolar depression, autism-related support questions, mindfulness awareness, and general mental well-being support.",
+    "positive_effects": "The review reports that LLMs show good effectiveness in detecting mental health issues and suicidal ideation from text, often with strong accuracy/F1 scores. They can provide accessible, destigmatized, nonjudgmental, convenient, personalized, and potentially low-cost mental health support. Users may value them for listening, empathy, and advice. Some studies found high relevance, empathy, and human-like responses from conversational agents. LLMs may improve access where mental health services are scarce, long waits exist, or patients are socially isolated. They may also serve as useful clinical aids for diagnosis support, treatment guidance, psychotherapy support, and educational purposes when supervised.",
+    "negative_effects": "The review emphasizes substantial risks: inconsistent outputs depending on prompts, hallucinations, inaccurate or misleading medical information, lack of clinical judgment, limited emergency handling, overestimation of suicide risk in some settings, inappropriate or contraindicated medication suggestions, potentially hazardous recommendations, training-data bias, poor interpretability due to black-box nature, privacy and confidentiality risks, possible reinforcement of harmful beliefs or stereotypes, depersonalization/dehumanization of care, and overreliance by patients or clinicians that could undermine traditional therapist-patient relationships and professional judgment.",
+    "evidence_type": "Systematic review of 40 articles identified from MEDLINE, IEEE Xplore, Scopus, JMIR, and ACM Digital Library using PRISMA methods; narrative synthesis with risk of bias assessment and study categorization into detection, conversational agents, and other applications/evaluations.",
+    "main_finding": "LLMs have significant potential in mental health for early screening, text-based detection, empathic conversational support, and clinical assistance, but current evidence suggests that risks in direct clinical use may outweigh benefits. The authors conclude that LLMs should not be considered substitutes for professional mental health services, though they may become valuable supervised clinical aids with further research, better datasets, improved reliability, and stronger ethical frameworks.",
+    "limitations_bias": "Review-level limitations include English-language restriction, exclusion of preprints, rapid evolution of LLM technology, and overrepresentation of BERT/GPT studies limiting model diversity. Included studies often relied heavily on social media data, with age bias toward younger users and limited representativeness for older adults and non-English-speaking populations. There was a lack of robust multilingual expert-annotated datasets. Many LLM outputs were sensitive to prompt wording, often binary in categorization, and affected by bias/hallucinations. The paper notes no available studies that provide sufficient evaluative evidence to support routine clinical use.",
+    "relevance_to_our_review": "Highly relevant as a recent systematic review directly addressing AI effects on mental health, summarizing both beneficial and harmful/uncertain effects of LLM-based tools across screening, support, and clinical contexts.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful as background/systematic evidence synthesis rather than as a primary effect study. Supports nuanced conclusion: AI/LLMs may improve access, empathy, destigmatization, and detection, but also pose safety, reliability, ethical, privacy, and overreliance risks. Appropriate for discussion/introduction and mapping evidence gaps, especially around clinical effectiveness and harms.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2022",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2021",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2020",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2024",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "",
+        "year": "2023",
+        "authors": "",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 31,
+    "source_file": "mental-2024-1-e57400.pdf"
+  },
+  {
+    "title": "The Opportunities and Risks of Large Language Models in Mental Health",
+    "year": "2024",
+    "type_of_paper": "Viewpoint/narrative review",
+    "population": "Broad mental health populations globally; includes discussion of public users, patients/clients with mental health concerns, mental health providers, behavioral health professionals, peer support providers, and some specific groups mentioned in cited studies such as postpartum depression populations and people at risk of depression, suicidality, stress, anxiety, PTSD, and substance use concerns.",
+    "ai_type_application": "Large language models (LLMs), including general-purpose models (eg, ChatGPT, Bard/Gemini, LaMDA) and domain-specific/fine-tuned models (eg, Psy-LLM, MentalBERT, MentalRoBERTa, Mental-Alpaca, Med-PaLM 2), applied to mental health education, assessment/screening/diagnosis, provider training, and intervention/chatbots.",
+    "mental_health_outcome": "Mental health education quality; screening and detection of depression, suicidal ideation/suicide risk, stress, PTSD, and psychiatric diagnosis; intervention effects on depressive symptoms, anxiety symptoms, stress, therapeutic rapport, empathy, and safety/iatrogenic harms.",
+    "positive_effects": "The paper reports promising early evidence that LLMs can generate accurate, helpful, and immediate mental health information; answer some mental health questions with near-ceiling clinical accuracy in specific tasks (eg, postpartum depression questions for ChatGPT in one cited study); support provider training efficiency; detect depression and suicidal ideation from social media posts better than some non-mental-health-pretrained models; screen for depressive symptoms and suicide risk with varying accuracy; predict psychiatric diagnoses reasonably well in some benchmark case studies; and power chatbots that may reduce depressive symptoms, anxiety, and stress while expressing empathy, providing nonjudgmental responses, maintaining therapeutic conversations, and forming therapeutic rapport.",
+    "negative_effects": "The paper highlights risks that LLMs may generate inaccurate, biased, stigmatizing, unreliable, or iatrogenic mental health content; may perform worse than humans on quality, evidence alignment, or assessment tasks; may under- or overestimate suicide/PTSD risk; may fail to rule out associated conditions; may be ineffective for some kinds of distress; may have difficulty personalizing interventions, forget prior context, encourage harmful behaviors such as substance use, dieting, or weight loss, and respond inadequately to suicidality by being dismissive or failing to provide crisis resources/referrals. Broader risks include privacy/confidentiality problems, lack of informed consent, inappropriate trust, lack of explainability, and perpetuation of inequities and stigma.",
+    "evidence_type": "Narrative synthesis/viewpoint summarizing prior literature, including primary studies, systematic review/meta-analysis, and preprints; no new experimental data collected in this paper.",
+    "main_finding": "LLMs show substantial promise for mental health education and assessment and more tentative promise for intervention, but their use in mental health should be approached cautiously because current systems can be inaccurate, biased, unreliable, unsafe, and ethically problematic. Responsible development requires mental-health-specific fine-tuning, rigorous testing against human and evidence-based standards, human oversight, privacy protection, informed consent, risk-response safeguards, transparency, and an equity focus.",
+    "limitations_bias": "This is not a primary study and does not provide pooled quantitative effect estimates. It is a viewpoint/narrative review, so study selection methods are not described as systematic. Much of the cited evidence is early-stage, heterogeneous, and includes preprints and studies of varying rigor. Some cited chatbot/intervention evidence is mixed, and one cited Woebot paper is noted as retracted. Authors have conflicts of interest including employment/contracting with Google and equity/consulting relationships.",
+    "relevance_to_our_review": "Highly relevant as a background and evidence-mapping paper on AI effects on mental health, especially for identifying mechanisms, applications, benefits, harms, and candidate primary studies on LLMs/chatbots affecting depressive symptoms, anxiety, stress, suicide risk assessment, provider training, and safety outcomes. Best used to identify and contextualize primary studies rather than as direct effect evidence.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful for extracting conceptual categories of AI effects on mental health: beneficial effects (symptom reduction, access, psychoeducation, empathy, provider efficiency) and adverse effects (iatrogenic advice, bias, stigma, privacy risk, poor crisis handling). It distinguishes education, assessment, and intervention use cases and emphasizes that intervention evidence is weaker and riskier than education/assessment. Could support discussion section or evidence map; primary effect estimates should be taken from cited original studies.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "Psy-LLM: scaling up global mental health psychological services with AI-based large language models",
+        "year": "2023",
+        "authors": "Lai T, Shi Y, Du Z, et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Clinical accuracy of large language models and Google search responses to postpartum depression questions: cross-sectional study",
+        "year": "2023",
+        "authors": "Sezgin E, Chekeni F, Lee J, Keim S",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Can we use ChatGPT for mental health and substance use education? Examining its quality and potential harms",
+        "year": "2023",
+        "authors": "Spallek S, Birrell L, Kershaw S, Devine EK, Thornton L",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Automatically enriching content for a behavioral health learning management system: a first look",
+        "year": "2023",
+        "authors": "Barish G, Marlotte L, Drayton M, Mogil C, Lester P",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Developing a natural language-based AI-chatbot for social work training: an illustrative case study",
+        "year": "2023",
+        "authors": "Chan C, Li F",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Human\u2013AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+        "year": "2023",
+        "authors": "Sharma A, Lin IW, Miner AS, Atkins DC, Althoff T",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "MentalBERT: publicly available pretrained language models for mental healthcare",
+        "year": "2021",
+        "authors": "Ji S, Zhang T, Ansari L, Fu J, Tiwari P, Cambria E",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Evaluation of ChatGPT for NLP-based mental health applications",
+        "year": "2023",
+        "authors": "Lamichhane B",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Will affective computing emerge from foundation models and general AI? A first evaluation on ChatGPT",
+        "year": "2023",
+        "authors": "Amin MM, Cambria E, Schuller BW",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Mental-LLM: leveraging large language models for mental health prediction via online text data",
+        "year": "2023",
+        "authors": "Xu X, Yao B, Dong Y, et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "The capability of large language models to measure psychiatric functioning",
+        "year": "2023",
+        "authors": "Galatzer-Levy IR, McDuff D, Natarajan V, Karthikesalingam A, Malgaroli M",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Towards accurate differential diagnosis with large language models",
+        "year": "2023",
+        "authors": "McDuff D, Schaekermann M, Tu T, et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Beyond human expertise: the promise and limitations of ChatGPT in suicide risk assessment",
+        "year": "2023",
+        "authors": "Elyoseph Z, Levkovich I",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "An empathy-driven, conversational artificial intelligence agent (Wysa) for digital mental well-being: real-world data evaluation mixed-methods study",
+        "year": "2018",
+        "authors": "Inkster B, Sarda S, Subramanian V",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Using psychological artificial intelligence (Tess) to relieve symptoms of depression and anxiety: randomized controlled trial",
+        "year": "2018",
+        "authors": "Fulmer R, Joerin A, Gentile B, Lakerink L, Rauws M",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Deep learning mental health dialogue system",
+        "year": "2023",
+        "authors": "Brocki L, Dyer GC, G\u0142adka A, Chung NC",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Evaluation of chatbot-delivered interventions for self-management of depression: content analysis",
+        "year": "2022",
+        "authors": "Martinengo L, Lum E, Car J",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support",
+        "year": "2024",
+        "authors": "Ma Z, Mei Y, Su Z",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Influence of rapport and social presence with an AI psychotherapy chatbot on users\u2019 self-disclosure",
+        "year": "2022",
+        "authors": "Lee J, Lee JG, Lee D",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Conversational bots for psychotherapy: a study of generative transformer models using domain-specific dialogues",
+        "year": "2022",
+        "authors": "Das A, Selek S, Warner AR, et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Evaluating risk progression in mental health chatbots using escalating prompts",
+        "year": "2023",
+        "authors": "Heston TF",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Towards interpretable mental health analysis with large language models",
+        "year": "2023",
+        "authors": "Yang K, Ji S, Zhang T, Xie Q, Kuang Z, Ananiadou S",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 22,
+    "source_file": "mental-2024-1-e59479.pdf"
+  },
+  {
+    "title": "Use of AI in Mental Health Care: Community and Mental Health Professionals Survey",
+    "year": "2024",
+    "type_of_paper": "Cross-sectional web-based survey study with descriptive statistics and thematic analysis",
+    "population": "Australia-based community members aged 16+ (final sample reported as 107/108 in different sections) and mental health professionals (n=86). Community sample mean age 36.9 years; majority had previous mental health diagnosis or significant difficulties (76/108, 70.4%) and many had seen a health professional for mental health concerns (74/108, 68.5%). MHP sample mean age 41.7 years; professions included clinical psychologists, generalist psychologists, mental health nurses, social workers, psychiatrists/registrars, occupational therapists, counselors/therapists, peer workers, and others.",
+    "ai_type_application": "General/commercial AI tools, especially ChatGPT, used for mental health and professional support. Community members used AI for quick advice when emotionally distressed, as a personal therapist/coach, mood tracking, therapeutic chatbots, personalized recommendations, early detection/monitoring, and crisis intervention support. Mental health professionals used AI for research/literature analysis, report and letter writing, administrative assistance, training/simulation, assessment/diagnosis support, personalized treatment recommendations, tracking client progress, and enhancing client engagement.",
+    "mental_health_outcome": "Self-reported perceived benefits, harms, concerns, and attitudes regarding AI use for mental health and emotional well-being support; not clinical symptom change. Community members also reported K10 psychological distress at baseline (mean 22.8, SD 8.9), but no pre-post intervention outcome was measured.",
+    "positive_effects": "Among community members who used AI in the previous 6 months, 77% (23/30) reported AI was very beneficial, somewhat beneficial, or beneficial. Main perceived benefits: availability/accessibility (20/30, 67%), low cost compared with therapy (18/30, 60%), privacy (16/30, 53%). Community free-text themes: improved accessibility and efficiency, excitement about technological advancement, potential for personalized care. Among mental health professionals who used AI, 92% (34/37) reported AI was beneficial. Main perceived benefits: helpfulness (25/37, 68%) and time saving (25/37, 68%). MHP free-text themes: increased efficiency, improved accessibility of care, and possible better diagnostics/treatment support.",
+    "negative_effects": "Among community AI users, 47% (14/30) experienced harms/concerns. Reported concerns included outputs being too general or not personalized (11/30, 37%), uncertainty about where data was going/privacy issues (11/30, 37%), lack of human connection, possible errors/misdiagnosis, and not picking up serious distress signals. Among MHP AI users, 51% (19/37) experienced harms/concerns. Reported concerns included outputs being too general (12/37, 32%), inaccurate (10/37, 27%), uncertainty about ethics of professional use (9/37, 24%), overreliance by clinicians, regulatory challenges, and data governance/security concerns. The paper also cites an example outside the survey where the Tessa chatbot provided weight-loss advice contrary to eating-disorder guidelines.",
+    "evidence_type": "Observational self-report survey evidence on current AI use and perceived effects; thematic analysis of open-ended responses",
+    "main_finding": "Commercial AI tools are already being used by both community members and mental health professionals in mental health contexts. Around 28% of community members and 43% of mental health professionals reported AI use in the previous 6 months, most commonly ChatGPT. Most users perceived benefits, but nearly half also reported harms or concerns. The study concludes that AI may improve accessibility, cost, personalization, and efficiency, but integration into mental health care should be cautious due to concerns about human connection, ethics, privacy, regulation, inaccuracy, misuse, and data security.",
+    "limitations_bias": "Online recruitment via social media may have attracted more technology-familiar respondents. Small sample size and snowball sampling limit representativeness and generalizability. Inconsistent reported CM sample size (107 vs 108). Benefits and harms may be underestimated because effects may be hidden or delayed. Study measures perceptions and experiences rather than objective mental health outcomes or causal effects.",
+    "relevance_to_our_review": "Relevant as indirect evidence on perceived effects of AI on mental health support and mental health care delivery, especially benefits and harms of general AI/chatbot use. However, it does not test efficacy on clinical mental health outcomes, so it is more useful for contextual evidence on acceptability, usage patterns, and reported risks than for estimating treatment effects.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Include if the review captures broader AI effects on mental health support, perceived benefits/harms, or real-world use of AI in mental health care. Exclude from meta-analysis of clinical effectiveness because there is no intervention-control comparison and no pre-post mental health outcome attributable to AI. Useful for discussion of implementation, safety, ethics, and real-world consumer/professional experiences.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "mental-2024-1-e60589.pdf"
+  },
+  {
+    "title": "A Comparison of Responses from Human Therapists and Large Language Model\u2013Based Chatbots to Assess Therapeutic Communication: Mixed Methods Study",
+    "year": "2025",
+    "type_of_paper": "Original paper; mixed methods study",
+    "population": "17 licensed therapists in the United States with at least 1 year of professional experience (13 women, 3 men, 1 genderqueer; mean age 46.24 years; mean years in practice 16.71). Study evaluated therapist responses and therapist assessments of chatbot responses to 2 fictional mental health scenarios.",
+    "ai_type_application": "General-purpose large language model\u2013based chatbots used for mental health conversations/advice. Chatbots tested included AI assistants (GPT-4/ChatGPT, Gemini 1.0 Pro, Claude 3 Sonnet), AI companions (Replika, Pi), and AI character platforms (Character.ai, Chai). Therapists directly reviewed ChatGPT, Pi, and Replika interaction logs.",
+    "mental_health_outcome": "No direct patient mental health outcome was measured. Outcomes assessed were therapeutic communication quality, safety in mental health conversations, handling of depression/social anxiety/suicidal ideation scenarios, therapist rankings, word count, and use of therapeutic interventions (MULTI codes).",
+    "positive_effects": "Therapists consistently noted that chatbots showed elements of good therapy, especially validation, normalization, empathy, reflection, reassurance, affirmation, and some helpful psychoeducation. Quantitatively, compared with therapists, chatbots used affirming language more often (U=28; P=.045), reassuring language more often (U=23; P=.02), and psychoeducation more often (U=22.5; P=.02). Some therapist comments suggested certain chatbot phrasing and interim coping suggestions could be helpful, and AI companions were often perceived as more conversational/humanlike than AI assistants.",
+    "negative_effects": "Chatbots were judged unsuitable to safely engage in mental health conversations, especially crisis situations. Compared with therapists, chatbots asked fewer elaborative/open-ended questions (evoke elaboration: U=9; P=.001) and gave more suggestions/advice (U=12.5; P=.003), often in a directive, generic, one-size-fits-all way. Therapists reported insufficient inquiry, lack of feedback-seeking, poor contextualization, weak support for client autonomy/problem solving, difficulty building a therapeutic relationship, and inability to use nonverbal cues. In crisis scenarios involving suicidal ideation, therapists highlighted poor risk assessment, lack of timely referral to crisis resources, and insufficiently directive crisis response. Therapists also expressed concern that long-term use could foster attachment, overreliance/dependence, and reduced real-world social engagement/social skills.",
+    "evidence_type": "Mixed methods evidence: quantitative comparison of therapist vs chatbot responses using MULTI coding and Mann-Whitney U tests; therapist rank-ordering of chatbots with Friedman test; qualitative thematic analysis of think-aloud sessions and semistructured interviews.",
+    "main_finding": "General-purpose LLM chatbots displayed some supportive communication features but were not comparable to licensed therapists and were considered unsuitable as therapeutic agents, particularly in crisis situations. Their main weaknesses were excessive directive advice, insufficient inquiry and personalization, and poor crisis management.",
+    "limitations_bias": "Used only 2 scripted fictional scenarios and brief interactions, limiting ecological validity and naturalism. Small therapist sample (N=17), although authors state qualitative saturation was reached. Evaluated chatbot versions available in May 2024, so findings may date quickly as models evolve. Did not comprehensively evaluate all chatbots. Study did not measure real users' mental health outcomes or effectiveness; focused on therapist judgments and response content. Responses were based on hypothetical rather than real patient interactions.",
+    "relevance_to_our_review": "Relevant as indirect evidence on potential effects of AI on mental health support and safety. It does not provide direct patient outcome data but offers expert comparative evidence about likely beneficial and harmful effects of AI chatbot interactions in mental health contexts, especially risks in crisis care and concerns about dependence/overreliance.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful for a review section on mechanisms, safety, and likely harms/benefits of AI mental health chatbots rather than treatment efficacy. Can support statements that general-purpose LLMs may provide empathy/validation but may also increase risk via generic or directive advice and inadequate suicide-risk handling. Not suitable as a primary effectiveness study for mental health outcomes in end users.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "mental-2025-1-e69709.pdf"
+  },
+  {
+    "title": "An Examination of Generative AI Response to Suicide Inquires: Content Analysis",
+    "year": "2025",
+    "type_of_paper": "Original paper; longitudinal content analysis of generative AI chatbot responses to suicide-related prompts across two phases (2023 and 2024), with LIWC linguistic analysis",
+    "population": "Not human participants directly; units of analysis were responses from general-use generative AI chatbots to prompts designed to simulate youth/adolescent queries about a suicidal friend. Intended end-user context is adolescents/youth seeking mental health information.",
+    "ai_type_application": "General generative AI chatbots / large language model chatbots: Google Bard/Gemini, Microsoft Bing/CoPilot, ChatGPT 3.5, Claude/Claude 2, plus in phase 2 xAI Grok 2, Mistral AI, and Meta AI. Application: responses to suicide-related mental health inquiries and crisis-support information.",
+    "mental_health_outcome": "Suicide-related information quality and crisis-response content, including empathy, authenticity, emotional tone, provision of resources (eg, 988), discussion of lethality, supportive language, and encouragement to seek help.",
+    "positive_effects": "Responses became more comprehensive and responsive from phase 1 to phase 2; chatbots more often provided suicide hotline information, crisis resources, signs of suicide, lethality-related information, ways to support someone in crisis, calm/supportive and nonjudgmental responses, normalization of outreach, and care for the reporter. Most phase 2 chatbots were coded as high empathy and included help-seeking guidance. Emotional tone was generally positive for most chatbots.",
+    "negative_effects": "Phase 1 responses were limited, with scant resources and poor mention of 988. One chatbot (Microsoft CoPilot) attempted to change the subject/reset the conversation and provided an unsolicited image depicting apparent suicide/self-harm, which authors note could be triggering or risky for someone in crisis. Authors also emphasize that generative AI chatbots are not replacements for trained mental health professionals and cannot diagnose or treat mental health concerns.",
+    "evidence_type": "Content analysis of AI-generated text plus computerized linguistic analysis using LIWC-22; no direct measurement of human mental health outcomes",
+    "main_finding": "General generative AI chatbots' suicide-related responses improved over one year, becoming more accurate, comprehensive, empathetic, and more likely to provide crisis resources such as 988, but important safety concerns remained, including inconsistent crisis handling and potentially harmful outputs such as unsolicited suicide imagery.",
+    "limitations_bias": "No human participants or direct assessment of effects on mental health; only free chatbot accounts used; prompts were framed as concern for a suicidal friend rather than first-person suicidality; chatbot outputs may rapidly change over time as models evolve; initial phase had limited chatbot inclusion due to access barriers; subjective coding despite training/consensus; findings may not generalize to paid versions or future model iterations.",
+    "relevance_to_our_review": "Indirectly relevant. The paper concerns AI and mental health, specifically suicide-related chatbot outputs, but it does not test effects of AI use on users' mental health outcomes. It is most useful for evidence on potential mechanisms of benefit/harm, safety, and quality of AI mental health information rather than clinical or behavioral effects.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Use as contextual/safety evidence about how general-purpose AI may influence mental health help-seeking or crisis interactions. Not suitable as direct evidence of mental health effects because outcomes are properties of chatbot responses, not changes in depression, anxiety, suicidality, wellbeing, or behavior among users.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "mental-2025-1-e73623.pdf"
+  },
+  {
+    "title": "Performance of mental health chatbot agents in detecting and managing suicidal ideation",
+    "year": "2025",
+    "type_of_paper": "Original research; qualitative evaluation study of AI chatbot responses to simulated suicidal risk scenarios",
+    "population": "29 AI-powered chatbot agents (24 mental health-specific apps and 5 general-purpose chatbots) tested using standardized simulated user prompts in English; no human participants",
+    "ai_type_application": "AI-powered conversational agents / chatbots in mental health smartphone applications and general-purpose large language models (including GPT-4o mini, Gemini 2.0 Flash, DeepSeek-v1, LeChat, Llama 3.1 8B) evaluated for crisis response",
+    "mental_health_outcome": "Detection and management of suicidal ideation / suicidal crisis response; ability to refer users to professional help, provide emergency contact information, and respond consistently and appropriately",
+    "positive_effects": "Some chatbots showed partial safety functionality: 82.76% advised seeking professional assistance; 86.21% advised contacting a hotline or emergency number; 58.62% insisted on getting immediate help at some point; 79.31% attempted to provide emergency contact information; 58.62% ultimately provided correct emergency contact information after supplementary prompts. General-purpose chatbots performed better than many mental health-specific apps, and all 5 general-purpose chatbots met the authors' criteria for a marginal response.",
+    "negative_effects": "None of the 29 tested agents met criteria for an adequate response. Only 51.72% met marginal criteria and 48.28% were rated inadequate. Many failed to provide accurate region-appropriate emergency numbers without extra prompting (only 10.34% did so). Only 17.24% explicitly stated they were not equipped to deal with suicidal crisis, and only 17.24% asked about suicidal ideation. 20.69% gave inconsistent or inappropriate responses; examples included offering to send a selfie and heart reaction after 'I think I will do it,' and replying 'It's great to see that you're determined! Could you please elaborate on your plans?'. 17.24% blocked some suicidal prompts from being sent. Authors conclude such shortcomings may be actively harmful and raise ethical concerns.",
+    "evidence_type": "Empirical app evaluation using standardized simulated prompts based on the Columbia-Suicide Severity Rating Scale (C-SSRS); qualitative content analysis with predefined criteria",
+    "main_finding": "Currently available AI mental health chatbots showed substantial safety deficits in responding to escalating suicidal ideation. None met adequate-response criteria, and nearly half were inadequate. Common failures were lack of accurate emergency resources, poor contextual understanding, lack of proactive suicide-risk questioning, and occasional inappropriate or potentially harmful replies.",
+    "limitations_bias": "No human users; simulated standardized prompts may not reflect real conversations or nuanced expressions of distress. Only English-language testing. Only free versions/free trials were tested. Only one linear conversation path was used regardless of chatbot response. Qualitative analysis introduced some subjectivity. Developers often did not disclose underlying models, so responses may have been AI-driven, rule-based, or hybrid. App store descriptions used for inclusion could be misleading.",
+    "relevance_to_our_review": "Highly relevant for a review on AI effects on mental health because it provides direct evidence about safety and potential harms of AI mental health chatbots in suicide-related contexts. However, it does not measure patient mental health improvement or deterioration in real users; it assesses chatbot performance and risk management capacity.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Useful as evidence on potential negative effects and safety concerns of AI in mental health support, especially around suicidality. Supports caution about deployment without clinical validation. Also summarizes prior literature mentioning positive user reports and one randomized trial, but this paper itself is not a clinical effectiveness study.",
+    "is_review_paper": false,
+    "primary_studies": [],
+    "primary_studies_count": 0,
+    "source_file": "s41598-025-17242-4.pdf"
+  },
+  {
+    "title": "Systematic review and meta-analysis of adverse events in clinical trials of mental health apps",
+    "year": "2024",
+    "type_of_paper": "Systematic review and meta-analysis",
+    "population": "Participants in 171 randomized clinical trials of smartphone mental health apps, pre-selected for mental health problems including depression, anxiety disorders, schizophrenia/psychosis, PTSD, bipolar disorder, eating disorders, suicidal ideation/self-harm, and general distress.",
+    "ai_type_application": "Broad mental health smartphone apps. AI-specific applications were only minimally represented: one included trial with chatbot technology among trials reporting adverse events, and several cited examples of chatbots/AI chatbots for mental health support. The paper is not focused specifically on AI interventions.",
+    "mental_health_outcome": "Adverse events from mental health apps, especially symptom deterioration, worsening mental health symptoms, hospitalization, self-harm/suicidal ideation, death, physical complaints, cognitive impairments, distress due to in-app features or technical difficulties, cyber sickness, financial concerns, relationship problems, and stigmatization fears.",
+    "positive_effects": "The paper notes that growing evidence from randomized controlled trials shows mental health apps can effectively reduce a range of mental health symptoms and may be useful adjuncts in severe mental illness. In the adverse-event analyses, deterioration rates did not significantly differ between app and control groups (OR = 0.79, 95% CI = 0.62\u20131.01), suggesting no clear evidence that apps increased deterioration overall in the available data.",
+    "negative_effects": "Only 55 of 171 clinical trials (32%) reported adverse events. Meta-analytic deterioration rate from 13 app conditions was 6.7% (95% CI = 4.3, 10.1; I2 = 75%). Severe adverse events reported across trials included hospitalization/re-hospitalization (14 trials), self-harm or suicidal ideation/intent (11 trials), death (3 trials), violent episode (1 trial), and crisis care referral (1 trial). Other adverse events included poorer overall mental health, subjective mood/anxiety/stress/psychotic symptom increase, physical complaints, financial concerns, relationship problems, increased stigmatization fears, cognitive impairments, distress due to technical difficulties, distress due to in-app features, feeling too reliant on the app, and cyber sickness. The introduction also cites concerns that chatbots may offer harmful advice and encourage destructive behaviors.",
+    "evidence_type": "Systematic review of randomized controlled trials with quantitative meta-analysis of deterioration rates and qualitative synthesis of other adverse events.",
+    "main_finding": "Adverse-event reporting in mental health app trials is inconsistent and limited. Only one in three trials reported adverse events, reporting methods were heterogeneous, and detail was often insufficient to judge app-related risks. The pooled deterioration rate in app conditions was 6.7%, and deterioration rates did not significantly differ from control groups. AI/chatbot-specific evidence was sparse and not the main focus of the review.",
+    "limitations_bias": "Only a small number of trials reported deterioration data, so estimates are preliminary and may not represent all app trials. Definitions of deterioration varied across studies. Adverse events may be underestimated due to dropout and poor reporting of dropout reasons. The review included only randomized controlled trials and only the main outcome paper from each trial, so safety data from uncontrolled studies or supplementary/forthcoming publications may have been missed. Many trials did not clearly describe how adverse events were assessed. The review is largely about mental health apps broadly rather than AI-specific tools.",
+    "relevance_to_our_review": "Indirectly relevant. This paper provides evidence on harms and adverse events associated with digital mental health apps, including limited mention of chatbot/AI-related risks. It is useful for contextualizing safety concerns around AI in mental health, especially possible harmful advice from chatbots and inadequate adverse-event monitoring, but it is not an AI-focused review and most included interventions were not AI-based.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Use mainly for background on safety/harms of digital mental health interventions and for the statement that chatbots have at times offered harmful advice and encouraged destructive behaviors. Not ideal as core evidence for AI effects on mental health because the review aggregates mostly non-AI smartphone apps and reports only minimal chatbot-specific data.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "Chatbot-delivered cognitive behavioral therapy in adolescents with depression and anxiety during the COVID-19 pandemic: feasibility and acceptability study",
+        "year": "2022",
+        "authors": "Nicol, G., Wang, R. Y., Graham, S., Dodd, S. & Garbutt, J.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Mental health chatbot for young adults with depressive symptoms during the COVID-19 pandemic: single-blind, three-arm randomized controlled trial",
+        "year": "2022",
+        "authors": "He, Y. H. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Assessing the impact of conversational artificial intelligence in the treatment of stress and anxiety in aging adults: randomized controlled trial",
+        "year": "2022",
+        "authors": "Danieli, M. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Using AI chatbots to provide self-help depression interventions for university students: a randomized trial of effectiveness",
+        "year": "2022",
+        "authors": "Liu, H., Peng, H., Song, X., Xu, C. & Zhang, M.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Too human and not human enough: a grounded theory analysis of mental health harms from emotional dependence on the social chatbot Replika",
+        "year": "2024",
+        "authors": "Laestadius, L., Bishop, A., Gonzalez, M., Illen\u010d\u00edk, D. & Campos-Castillo, C.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Efficacy of BrighterSide, a self-guided app for suicidal ideation: randomized controlled trial",
+        "year": "2024",
+        "authors": "Josifovski, N. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 6,
+    "source_file": "s41746-024-01388-y.pdf"
+  },
+  {
+    "title": "A scoping review of large language models for generative tasks in mental health care",
+    "year": "2025",
+    "type_of_paper": "Scoping review",
+    "population": "Review of 16 included studies involving healthcare providers, patients, and the general public in mental health-related contexts; some studies included adolescents, students, psychiatric outpatients, and community participants.",
+    "ai_type_application": "Large language models (LLMs) for generative mental health applications, including clinical assistance, counseling, therapy, emotional support, positive psychology interventions, and education. Frequently studied models were OpenAI GPT series (GPT-3, GPT-3.5, GPT-4, GPT4-Turbo, customized GPTs), with some studies using PanGu, T5, and DialoGPT.",
+    "mental_health_outcome": "Depression, anxiety, bipolar depression, ADHD, loneliness, stress, suicidality/self-harm, positive and negative affect, life satisfaction, psychological well-being, cognitive distortion/negative thoughts, social emotions, and abuse-related constructs.",
+    "positive_effects": "The review reports initial promise of LLM-based mental health applications. Examples summarized by the authors include improvements in mental well-being, reductions in anxiety, increased life satisfaction in GPT-based positive psychology interventions; reduced emotional intensity and overcoming negative thoughts in cognitive restructuring interventions; enriched patient records and better insights for clinicians in journaling support; meaningful engagement with adolescents on mental health topics; reduced loneliness; and some self-reported cessation of suicidal ideation after chatbot interaction. LLMs also showed promise in simulated psychiatric decision support and generation of clinically relevant information.",
+    "negative_effects": "Current evidence does not support use as standalone interventions. Major concerns include limited clinical validation, inconsistent and non-standardized evaluation methods, widespread use of ad-hoc scales, poor comparability across studies, under-evaluation of safety/privacy/fairness, lack of transparency and reproducibility due to reliance on proprietary models and web interfaces, limited reporting of demographics and target populations, possible bias and fairness issues, insufficient security/privacy evaluation, uncertain generalizability, and lack of long-term outcomes.",
+    "evidence_type": "Systematic/scoping review of 16 studies identified from 726 unique records using PRISMA-informed search methods.",
+    "main_finding": "LLMs show early promise for generative tasks in mental health care, but the evidence base is small, heterogeneous, and methodologically weak. Evaluation has focused more on usefulness and engagement than on foundational issues such as safety, privacy, and fairness, and the available evidence is insufficient to justify LLMs as standalone mental health interventions.",
+    "limitations_bias": "The review highlights substantial heterogeneity across studies; many use ad-hoc, non-validated scales; limited clinical validation; small or inconsistent sample sizes in many studies; inconsistent construct definitions; insufficient demographic reporting; lack of long-term follow-up; underassessment of safety, privacy, transparency, explainability, accountability, security, and resilience; dependence on proprietary closed-source models; some studies relied on website interfaces rather than controllable APIs; and reproducibility is limited.",
+    "relevance_to_our_review": "Highly relevant as a synthesis of evidence on AI effects on mental health from generative LLM applications. It summarizes both beneficial and concerning effects across multiple mental health outcomes, while emphasizing weaknesses in evidence quality and safety evaluation.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "This paper is useful as background and evidence mapping rather than as a direct effect estimate. It identifies candidate primary studies on AI/LLM effects on mental health outcomes and notes reported beneficial effects such as reduced anxiety, improved well-being, reduced loneliness, and reduced negative thought intensity, but also emphasizes that evidence remains preliminary and often lacks rigorous clinical validation.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "Investigating the Key Success Factors of Chatbot-Based Positive Psychology Intervention with Retrieval- and Generative Pre-Trained Transformer (GPT)-Based Chatbots",
+        "year": "2024",
+        "authors": "Liu, I. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "An Empathic GPT-Based Chatbot to Talk About Mental Disorders With Spanish Teenagers",
+        "year": "2024",
+        "authors": "M\u00e1rmol-Romero, A. M., Garc\u00eda-Vega, M., Garc\u00eda-Cumbreras, M. \u00c1. & Montejo-R\u00e1ez, A.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients\u2019 Journaling",
+        "year": "2024",
+        "authors": "Kim, T. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Loneliness and suicide mitigation for students using GPT3-enabled chatbots",
+        "year": "2024",
+        "authors": "Maples, B., Cerit, M., Vishwanath, A. & Pea, R.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Feasibility of combining spatial computing and AI for mental health support in anxiety and depression",
+        "year": "2024",
+        "authors": "Spiegel, B. M. R. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Clinical decision support for bipolar depression using large language models",
+        "year": "2024",
+        "authors": "Perlis, R. H., Goldberg, J. F., Ostacher, M. J. & Schneck, C. D.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Exploring the Efficacy of Robotic Assistants with ChatGPT and Claude in Enhancing ADHD Therapy: Innovating Treatment Paradigms",
+        "year": "2024",
+        "authors": "Berrezueta-Guzman, S., Kandil, M., Mart\u00edn-Ruiz, M.-L., de la Cruz, I. P. & Krusche, S.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Developing conversational Virtual Humans for social emotion elicitation based on large language models",
+        "year": "2024",
+        "authors": "Llanes-Jurado, J., G\u00f3mez-Zaragoz\u00e1, L., Minissi, M. E., Alca\u00f1iz, M. & Mar\u00edn-Morales, J.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction: A Case Study of Cognitive Restructuring",
+        "year": "2024",
+        "authors": "Sharma, A., Rushton, K., Lin, I. W., Nguyen, T. & Althoff, T.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Cognitive Reframing of Negative Thoughts through Human-Language Model Interaction",
+        "year": "2023",
+        "authors": "Sharma, A. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "The impact of prompt engineering in large language model performance: a psychiatric example",
+        "year": "2023",
+        "authors": "Grabb, D.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Leveraging ChatGPT to optimize depression intervention through explainable deep learning",
+        "year": "2024",
+        "authors": "Liu, Y., Ding, X., Peng, S. & Zhang, C.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Supporting the Demand on Mental Health Services with AI-Based Conversational Large Language Models (LLMs)",
+        "year": "2024",
+        "authors": "Lai, T. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Human\u2013AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+        "year": "2023",
+        "authors": "Sharma, A., Lin, I. W., Miner, A. S., Atkins, D. C. & Althoff, T.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Appraising the performance of ChatGPT in psychiatry using 100 clinical case vignettes",
+        "year": "2023",
+        "authors": "Franco D\u2019Souza, R., Amanullah, S., Mathew, M. & Surapaneni, K. M.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Beatrice: A Chatbot for Collecting Psychoecological Data and Providing QA Capabilities",
+        "year": "2023",
+        "authors": "Ni, Y., Chen, Y., Ding, R. & Ni, S.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Can a Chatbot be Useful in Childhood Cancer Survivorship? Development of a Chatbot for Survivors of Childhood Cancer",
+        "year": "2023",
+        "authors": "Kim, M., Hwang, K., Oh, H., Kim, H. & Kim, M. A.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements",
+        "year": "2023",
+        "authors": "Qian, Y., Zhang, W. & Liu, T.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "A Generative Pretrained Transformer (GPT)-Powered Chatbot as a Simulated Patient to Practice History Taking: Prospective, Mixed Methods Study",
+        "year": "2024",
+        "authors": "Holderried, F. et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "AI in relationship counselling: Evaluating ChatGPT\u2019s therapeutic capabilities in providing relationship advice",
+        "year": "2024",
+        "authors": "Vowels, L. M., Francois-Walcott, R. R. R. & Darwiche, J.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Future of ADHD Care: Evaluating the Efficacy of ChatGPT in Therapy Enhancement",
+        "year": "2024",
+        "authors": "Berrezueta-Guzman, S., Kandil, M., Mart\u00edn-Ruiz, M.-L., Pau de la Cruz, I. & Krusche, S.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 21,
+    "source_file": "s41746-025-01611-4.pdf"
+  },
+  {
+    "title": "Opportunities and risks of large language models in psychiatry",
+    "year": "2024",
+    "type_of_paper": "Narrative review article",
+    "population": "Broadly relevant to mental healthcare patients, mental health clinicians/researchers, health systems, and the general population; discusses examples including adults with depression/anxiety and users of conversational AI/chatbots.",
+    "ai_type_application": "Large language models (LLMs) in psychiatry and mental healthcare, including diagnostic/status assessment, clinical decision support, therapy chatbots, natural language processing of clinical notes, risk prediction, administrative/managerial prediction, and personal assistant/social conversational applications.",
+    "mental_health_outcome": "Mental illness severity, psychiatric functioning, depression, anxiety, avoidant coping, problem-solving skills, suicide risk prediction, relapse/recurrence risk assessment, empathy, loneliness/social isolation, social anxiety/social disconnection, and broader population mental health effects.",
+    "positive_effects": "Potential enhanced access to care, efficient data collection, improved diagnostic accuracy, personalized care, streamlined administrative processes, faster synthesis of patient information, summarization of therapy sessions, support for complex diagnostic problem-solving, evidence-based chatbot-delivered interventions, improved problem-solving skills, reduced avoidant coping, modest reductions in depression and anxiety symptoms in one pilot RCT, possible increases in empathy through human-AI collaboration, improved referral/triage/clinical assessment efficiency, cost-effectiveness, and improved recovery rates in one cited preprint.",
+    "negative_effects": "Risk of labor substitution with downstream population mental health harms; users may substitute human-human socialization with human-machine interaction; engagement-optimized conversational AI could worsen loneliness or depression for some users; bias, stereotype reinforcement, privacy violations, inequality exacerbation, misinformation/hallucinations, instability/sensitivity to prompting, lack of source attribution, lack of genuine empathy/understanding, potential inappropriate responses to self-harm disclosures, clinician overreliance, data leakage/HIPAA concerns, and unsafe or contraindicated clinical suggestions.",
+    "evidence_type": "Review/narrative synthesis of prior literature with illustrative examples from primary studies, including pilot randomized controlled trial evidence, observational/predictive modeling studies, and preprints.",
+    "main_finding": "LLMs have substantial but early-stage promise for psychiatric care and research, including assessment, intervention, prediction, and workflow support, but they also pose important clinical, ethical, privacy, bias, and population mental health risks. Safe implementation requires guardrails such as red-teaming, clinician oversight, and multi-stakeholder safety frameworks.",
+    "limitations_bias": "This is not a primary study and does not provide pooled effect estimates or systematic appraisal. The paper notes that current evidence is early and often limited by small samples, mild-to-moderate symptom populations, prompt sensitivity, unstable predictions, lack of treatment fidelity constraints, possible cultural/regional specificity, privacy risks, bias in training data, insufficient surveillance of long-term harms/benefits, and the absence of clear regulatory safety standards.",
+    "relevance_to_our_review": "Highly relevant as a recent overview of how AI/LLMs may affect mental health both positively and negatively, and it identifies multiple primary studies on chatbot interventions, empathy augmentation, social-media-like harms, and clinical prediction/decision support. Useful for background, mechanisms, and locating primary evidence, but not itself an effect-estimate study.",
+    "use_decision": "Maybe",
+    "notes_for_research_question": "Use mainly as background/review and for citation mining. It directly discusses AI effects on mental health outcomes including depression, anxiety, coping, empathy, loneliness, and population well-being, but conclusions are mostly conceptual and based on cited studies rather than original data.",
+    "is_review_paper": true,
+    "primary_studies": [
+      {
+        "study_title": "Effects of a virtual voice-based coach delivering problem-solving treatment on emotional distress and brain function: a pilot RCT in depression and anxiety",
+        "year": "2023",
+        "authors": "Kannampallil T, Ajilore OA, Lv N, Smyth JM, Wittels NE, Ronneberg CR, et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Human\u2013AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+        "year": "2023",
+        "authors": "Sharma A, Lin IW, Miner AS, Atkins DC, Althoff T",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Association Between Social Media Use and Self-reported Symptoms of Depression in US Adults",
+        "year": "2021",
+        "authors": "Perlis RH, Green J, Simonson M, Ognyanova K, Santillana M, Lin J, et al.",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Conversational AI facilitates mental health assessments and is associated with improved recovery rates",
+        "year": "2022",
+        "authors": "Rollwage M, Juchems K, Habicht J, Carrington B, Hauser T, Harper R",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Efficacy of mobile app-based interactive cognitive behavioral therapy using a chatbot for panic disorder",
+        "year": "2020",
+        "authors": "Oh J, Jang S, Kim H, Kim JJ",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "Use of the Chatbot \u201cVivibot\u201d to deliver positive psychology skills and promote well-being among young people after cancer treatment: randomized controlled feasibility trial",
+        "year": "2019",
+        "authors": "Greer S, Ramo D, Chang YJ, Fu M, Moskowitz J, Haritatos J",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      },
+      {
+        "study_title": "The Capability of Large Language Models to Measure Psychiatric Functioning",
+        "year": "2023",
+        "authors": "Galatzer-Levy IR, McDuff D, Natarajan V, Karthikesalingam A, Malgaroli M",
+        "doi_or_identifier": "",
+        "why_relevant": ""
+      }
+    ],
+    "primary_studies_count": 7,
+    "source_file": "s44277-024-00010-z.pdf"
+  }
+]

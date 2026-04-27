@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-04-27T10:59:39.145019+00:00",
+  "finished_at": "2026-04-27T11:02:12.460178+00:00",
+  "model": "gpt-5",
+  "papers_dir": "papers_single_jmir",
+  "output_dir": "outputs_jmir_only",
+  "total_files_found": 1,
+  "processed": 1,
+  "success": 1,
+  "failed": 0,
+  "per_file_summaries_written": 1,
+  "primary_studies_rows_written": 28,
+  "usage": {
+    "input_tokens": 36315,
+    "output_tokens": 7381,
+    "total_tokens": 43696
+  },
+  "errors": []
+}

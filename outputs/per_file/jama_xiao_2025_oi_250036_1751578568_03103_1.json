@@ -1,0 +1,20 @@
+{
+  "title": "Addictive Screen Use Trajectories and Suicidal Behaviors, Suicidal Ideation, and Mental Health in US Youths",
+  "year": "2025",
+  "type_of_paper": "Original Investigation; cohort study using longitudinal data from the Adolescent Brain Cognitive Development (ABCD) Study",
+  "population": "US youths in the ABCD Study analytic sample (n = 4285), baseline mean age 10.0 years (SD 0.6), followed from baseline through year 4 across 21 US sites; 47.9% female; 9.9% Black, 19.4% Hispanic, 58.7% White",
+  "ai_type_application": "",
+  "mental_health_outcome": "Suicidal behaviors, suicidal ideation, internalizing symptoms, externalizing symptoms",
+  "positive_effects": "",
+  "negative_effects": "High or increasing trajectories of addictive social media, mobile phone, and video game use were associated with worse mental health outcomes. Increasing addictive social media use was associated with suicidal behaviors (RR 2.14, 95% CI 1.61-2.85) and suicidal ideation (RR 1.46, 95% CI 1.28-1.67). High-peaking social media addictive use was associated with suicidal behaviors (RR 2.39, 95% CI 1.66-3.43) and suicidal ideation (RR 1.51, 95% CI 1.25-1.83). High mobile phone addictive use was associated with suicidal behaviors (RR 2.17, 95% CI 1.48-3.19) and suicidal ideation (RR 1.50, 95% CI 1.27-1.78). High video game addictive use was associated with suicidal behaviors (RR 1.54, 95% CI 1.18-2.03), suicidal ideation (RR 1.53, 95% CI 1.35-1.75), higher internalizing symptoms (mean difference 2.03, 95% CI 1.45-2.61), and higher externalizing symptoms (mean difference 0.94, 95% CI 0.45-1.43). Baseline total screen time was not associated with outcomes.",
+  "evidence_type": "Longitudinal observational evidence",
+  "main_finding": "Among US early adolescents, distinct trajectories of addictive screen use were identified, and both high and increasing addictive use trajectories were prospectively associated with greater risk of suicidal behaviors, suicidal ideation, and worse mental health. The paper distinguishes addictive screen use from total screen time, finding no independent association for baseline total screen time.",
+  "limitations_bias": "Not an AI-focused study. Observational design precludes causal inference. Self-reported addictive use and screen time may introduce recall and social desirability bias. Parent-reported CBCL may underestimate mental health conditions. COVID-19 may have influenced screen use patterns. ABCD year 4 data were only available for a subset at the time of analysis. Did not assess multitasking across platforms. Potential residual confounding from psychosocial and contextual factors such as bullying, adverse childhood experiences, parental monitoring, sleep, stress, social isolation, neighborhood, and school context.",
+  "relevance_to_our_review": "Low direct relevance to AI effects on mental health because the study examines addictive use of social media, mobile phones, and video games rather than AI systems or AI-mediated interventions. It may be useful only as indirect background on digital technology exposure and youth mental health.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "This paper is about screen/media addiction and youth mental health, not AI. It should likely be excluded from a review specifically on AI effects on mental health unless the review includes broader digital technology exposures or AI-enabled social media environments as contextual evidence.",
+  "is_review_paper": false,
+  "primary_studies": [],
+  "primary_studies_count": 0,
+  "source_file": "jama_xiao_2025_oi_250036_1751578568.03103 (1).pdf"
+}

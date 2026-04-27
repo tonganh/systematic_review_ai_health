@@ -1,0 +1,182 @@
+{
+  "title": "The Safety of Digital Mental Health Interventions: Systematic Review and Recommendations",
+  "year": "2023",
+  "type_of_paper": "Systematic review",
+  "population": "Adults aged >16 years in studies of clinical digital mental health interventions; populations across included studies included psychosis, depression, anxiety, body dysmorphic disorder, eating disorders, PTSD, suicidal ideation, insomnia, loneliness, HIV with depressive symptoms, veterans, health care workers, and some screened nonclinical adult samples.",
+  "ai_type_application": "Not specifically AI-focused. Reviews digital mental health interventions delivered via mobile apps, websites/internet-based programs, virtual reality, and social media. Some interventions were automated or digitally supported, but AI was not a defined exposure.",
+  "mental_health_outcome": "Safety-related mental health outcomes of digital mental health interventions, including adverse events, serious adverse events, symptom deterioration, increased anxiety/distress/depression, suicidal ideation, paranoia, traumatic memory triggering, sleep disturbance, rumination, and dependence on programs.",
+  "positive_effects": "The paper states that evidence suggests some digital mental health interventions are effective and can be comparable to face-to-face therapies for common mental health conditions. In the reviewed safety literature, some studies found no significant differences in adverse events between intervention and control groups, which is consistent with safety. One cited study found that among participants reporting negative effects, 50% still experienced clinically significant improvement in suicidal ideation, though this was difficult to interpret.",
+  "negative_effects": "Main reported treatment-related adverse event was symptom deterioration. Other reported risks included increased anxiety, distress, or depression; triggering traumatic memories; increased sleep disturbances; frequent self-monitoring causing distress and unhelpful rumination; technical difficulties; feeling that problems were not taken seriously; dependence on the program; increased paranoia; worry from losing a study phone; novel symptoms such as sustained increase in mania after sleep treatment; suicide attempts and deaths reported during one suicidal ideation trial; and one app-related serious adverse event involving hospital admission for a physical health complaint partly attributed by the participant to feeling overwhelmed by app installation.",
+  "evidence_type": "Systematic review of 23 studies (17 randomized controlled trials and 6 pre-post studies), with qualitative synthesis, descriptive statistics, risk of bias assessment, and secondary odds ratio calculations where possible.",
+  "main_finding": "This review found wide heterogeneity and frequent inadequacy in how safety is assessed, reported, and mitigated in digital mental health interventions. Over one-third of studies did not collect safety data. The most common reported adverse event was symptom deterioration. Very few studies statistically analyzed adverse event data. Risk mitigation in research mainly relied on excluding high-risk groups. Postmarket safety information existed for a small number of available interventions, but there was no evidence of ongoing postmarket safety review. The authors recommend standardized safety assessment, regular monitoring, clear reporting, statistical comparison of harm rates, prespecified deterioration thresholds, inclusion of high-risk groups with safeguards, and use of research-phase safety data to inform postmarket mitigation.",
+  "limitations_bias": "This paper is not specific to AI and focuses broadly on digital mental health interventions. Most included RCTs had some concerns about risk of bias; nonrandomized pre-post studies had confounding concerns. Most studies were from high-income Western countries, limiting generalizability. Only English-language studies and adult populations were included. The search strategy required safety-related terms, which may have preferentially captured studies that assessed or reported risk and missed studies not labeling outcomes as safety-related. Outcomes were mainly qualitative, preventing meta-analysis.",
+  "relevance_to_our_review": "Indirectly relevant. Provides evidence on effects of digital mental health interventions on mental health safety outcomes, but does not specifically evaluate AI systems or isolate AI-related effects. Useful background on adverse mental health effects, harm assessment methods, and safety considerations for digital/automated interventions that may overlap with AI-enabled tools.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Use mainly for contextual/background evidence on adverse and beneficial mental health effects of digital interventions rather than direct AI evidence. May help frame safety outcomes and extraction categories for AI mental health tools. Included interventions span apps, internet CBT, VR, and related digital therapeutics; AI is not the central technology under review.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "",
+      "year": "2018",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2018",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2016",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2019",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2018",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2017",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2018",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2017",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2023",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2018",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2020",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2019",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2018",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2008",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2022",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "",
+      "year": "2021",
+      "authors": "",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 23,
+  "source_file": "mental-2023-1-e47433.pdf"
+}

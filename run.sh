@@ -1,0 +1,1 @@
+conda run -n anhtn_dam python run_extraction.py --papers-dir papers --output-dir outputs --model gpt-5.4 --max-retries 1

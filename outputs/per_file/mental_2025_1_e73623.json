@@ -1,0 +1,20 @@
+{
+  "title": "An Examination of Generative AI Response to Suicide Inquires: Content Analysis",
+  "year": "2025",
+  "type_of_paper": "Original paper; longitudinal content analysis of generative AI chatbot responses to suicide-related prompts across two phases (2023 and 2024), with LIWC linguistic analysis",
+  "population": "Not human participants directly; units of analysis were responses from general-use generative AI chatbots to prompts designed to simulate youth/adolescent queries about a suicidal friend. Intended end-user context is adolescents/youth seeking mental health information.",
+  "ai_type_application": "General generative AI chatbots / large language model chatbots: Google Bard/Gemini, Microsoft Bing/CoPilot, ChatGPT 3.5, Claude/Claude 2, plus in phase 2 xAI Grok 2, Mistral AI, and Meta AI. Application: responses to suicide-related mental health inquiries and crisis-support information.",
+  "mental_health_outcome": "Suicide-related information quality and crisis-response content, including empathy, authenticity, emotional tone, provision of resources (eg, 988), discussion of lethality, supportive language, and encouragement to seek help.",
+  "positive_effects": "Responses became more comprehensive and responsive from phase 1 to phase 2; chatbots more often provided suicide hotline information, crisis resources, signs of suicide, lethality-related information, ways to support someone in crisis, calm/supportive and nonjudgmental responses, normalization of outreach, and care for the reporter. Most phase 2 chatbots were coded as high empathy and included help-seeking guidance. Emotional tone was generally positive for most chatbots.",
+  "negative_effects": "Phase 1 responses were limited, with scant resources and poor mention of 988. One chatbot (Microsoft CoPilot) attempted to change the subject/reset the conversation and provided an unsolicited image depicting apparent suicide/self-harm, which authors note could be triggering or risky for someone in crisis. Authors also emphasize that generative AI chatbots are not replacements for trained mental health professionals and cannot diagnose or treat mental health concerns.",
+  "evidence_type": "Content analysis of AI-generated text plus computerized linguistic analysis using LIWC-22; no direct measurement of human mental health outcomes",
+  "main_finding": "General generative AI chatbots' suicide-related responses improved over one year, becoming more accurate, comprehensive, empathetic, and more likely to provide crisis resources such as 988, but important safety concerns remained, including inconsistent crisis handling and potentially harmful outputs such as unsolicited suicide imagery.",
+  "limitations_bias": "No human participants or direct assessment of effects on mental health; only free chatbot accounts used; prompts were framed as concern for a suicidal friend rather than first-person suicidality; chatbot outputs may rapidly change over time as models evolve; initial phase had limited chatbot inclusion due to access barriers; subjective coding despite training/consensus; findings may not generalize to paid versions or future model iterations.",
+  "relevance_to_our_review": "Indirectly relevant. The paper concerns AI and mental health, specifically suicide-related chatbot outputs, but it does not test effects of AI use on users' mental health outcomes. It is most useful for evidence on potential mechanisms of benefit/harm, safety, and quality of AI mental health information rather than clinical or behavioral effects.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Use as contextual/safety evidence about how general-purpose AI may influence mental health help-seeking or crisis interactions. Not suitable as direct evidence of mental health effects because outcomes are properties of chatbot responses, not changes in depression, anxiety, suicidality, wellbeing, or behavior among users.",
+  "is_review_paper": false,
+  "primary_studies": [],
+  "primary_studies_count": 0,
+  "source_file": "mental-2025-1-e73623.pdf"
+}

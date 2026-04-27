@@ -1,0 +1,70 @@
+{
+  "title": "Opportunities and risks of large language models in psychiatry",
+  "year": "2024",
+  "type_of_paper": "Narrative review article",
+  "population": "Broadly relevant to mental healthcare patients, mental health clinicians/researchers, health systems, and the general population; discusses examples including adults with depression/anxiety and users of conversational AI/chatbots.",
+  "ai_type_application": "Large language models (LLMs) in psychiatry and mental healthcare, including diagnostic/status assessment, clinical decision support, therapy chatbots, natural language processing of clinical notes, risk prediction, administrative/managerial prediction, and personal assistant/social conversational applications.",
+  "mental_health_outcome": "Mental illness severity, psychiatric functioning, depression, anxiety, avoidant coping, problem-solving skills, suicide risk prediction, relapse/recurrence risk assessment, empathy, loneliness/social isolation, social anxiety/social disconnection, and broader population mental health effects.",
+  "positive_effects": "Potential enhanced access to care, efficient data collection, improved diagnostic accuracy, personalized care, streamlined administrative processes, faster synthesis of patient information, summarization of therapy sessions, support for complex diagnostic problem-solving, evidence-based chatbot-delivered interventions, improved problem-solving skills, reduced avoidant coping, modest reductions in depression and anxiety symptoms in one pilot RCT, possible increases in empathy through human-AI collaboration, improved referral/triage/clinical assessment efficiency, cost-effectiveness, and improved recovery rates in one cited preprint.",
+  "negative_effects": "Risk of labor substitution with downstream population mental health harms; users may substitute human-human socialization with human-machine interaction; engagement-optimized conversational AI could worsen loneliness or depression for some users; bias, stereotype reinforcement, privacy violations, inequality exacerbation, misinformation/hallucinations, instability/sensitivity to prompting, lack of source attribution, lack of genuine empathy/understanding, potential inappropriate responses to self-harm disclosures, clinician overreliance, data leakage/HIPAA concerns, and unsafe or contraindicated clinical suggestions.",
+  "evidence_type": "Review/narrative synthesis of prior literature with illustrative examples from primary studies, including pilot randomized controlled trial evidence, observational/predictive modeling studies, and preprints.",
+  "main_finding": "LLMs have substantial but early-stage promise for psychiatric care and research, including assessment, intervention, prediction, and workflow support, but they also pose important clinical, ethical, privacy, bias, and population mental health risks. Safe implementation requires guardrails such as red-teaming, clinician oversight, and multi-stakeholder safety frameworks.",
+  "limitations_bias": "This is not a primary study and does not provide pooled effect estimates or systematic appraisal. The paper notes that current evidence is early and often limited by small samples, mild-to-moderate symptom populations, prompt sensitivity, unstable predictions, lack of treatment fidelity constraints, possible cultural/regional specificity, privacy risks, bias in training data, insufficient surveillance of long-term harms/benefits, and the absence of clear regulatory safety standards.",
+  "relevance_to_our_review": "Highly relevant as a recent overview of how AI/LLMs may affect mental health both positively and negatively, and it identifies multiple primary studies on chatbot interventions, empathy augmentation, social-media-like harms, and clinical prediction/decision support. Useful for background, mechanisms, and locating primary evidence, but not itself an effect-estimate study.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Use mainly as background/review and for citation mining. It directly discusses AI effects on mental health outcomes including depression, anxiety, coping, empathy, loneliness, and population well-being, but conclusions are mostly conceptual and based on cited studies rather than original data.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Effects of a virtual voice-based coach delivering problem-solving treatment on emotional distress and brain function: a pilot RCT in depression and anxiety",
+      "year": "2023",
+      "authors": "Kannampallil T, Ajilore OA, Lv N, Smyth JM, Wittels NE, Ronneberg CR, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Human\u2013AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+      "year": "2023",
+      "authors": "Sharma A, Lin IW, Miner AS, Atkins DC, Althoff T",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Association Between Social Media Use and Self-reported Symptoms of Depression in US Adults",
+      "year": "2021",
+      "authors": "Perlis RH, Green J, Simonson M, Ognyanova K, Santillana M, Lin J, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Conversational AI facilitates mental health assessments and is associated with improved recovery rates",
+      "year": "2022",
+      "authors": "Rollwage M, Juchems K, Habicht J, Carrington B, Hauser T, Harper R",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Efficacy of mobile app-based interactive cognitive behavioral therapy using a chatbot for panic disorder",
+      "year": "2020",
+      "authors": "Oh J, Jang S, Kim H, Kim JJ",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Use of the Chatbot \u201cVivibot\u201d to deliver positive psychology skills and promote well-being among young people after cancer treatment: randomized controlled feasibility trial",
+      "year": "2019",
+      "authors": "Greer S, Ramo D, Chang YJ, Fu M, Moskowitz J, Haritatos J",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "The Capability of Large Language Models to Measure Psychiatric Functioning",
+      "year": "2023",
+      "authors": "Galatzer-Levy IR, McDuff D, Natarajan V, Karthikesalingam A, Malgaroli M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 7,
+  "source_file": "s44277-024-00010-z.pdf"
+}
