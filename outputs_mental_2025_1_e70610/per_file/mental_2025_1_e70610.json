@@ -1,0 +1,511 @@
+{
+  "title": "The Application and Ethical Implication of Generative AI in Mental Health: Systematic Review",
+  "year": "2025",
+  "type_of_paper": "Systematic review",
+  "population": "Mental health service contexts globally; reviewed 79 peer-reviewed original studies published from October 1, 2019, to September 30, 2024. Included studies covered general population, vulnerable/underserved groups (eg, psychiatric outpatients, LGBTQ individuals, sexual harassment survivors, children with ADHD, older adults), clinicians, and mental health professionals.",
+  "ai_type_application": "Generative AI, primarily large language models (LLMs) and GPT-based systems, used in three domains: (1) mental health diagnosis and assessment, (2) therapeutic tools such as chatbots/conversational agents, and (3) clinician support including decision support, documentation, therapy support, psychoeducation, training and simulation. Models mentioned include GPT-3/3.5/4/4o, ChatGPT, Gemini, PaLM 2, LLaMA, Mistral, Falcon, T5/Flan-T5, Alpaca, Wizard, and RAG/fine-tuned/hybrid variants.",
+  "mental_health_outcome": "Depression, suicidality/suicide risk, anxiety, stress, emotion recognition/affective states, obsessive-compulsive disorder, schizophrenia, bipolar disorder, PTSD, ADHD-related mental health support, resilience, mindfulness, relationship distress, problematic smartphone use, preoperative anxiety, and general emotional support/well-being.",
+  "positive_effects": "GenAI showed promise in augmenting mental health care by enhancing diagnostic accuracy, increasing accessibility to support, and reducing clinicians' administrative burden. In diagnosis/assessment, studies reported high precision for suicide risk prediction (up to 0.96) and promising depression detection performance (eg, 0.902 using semistructured diaries). Multimodal approaches improved reliability over text-only methods. As therapeutic tools, many studies reported positive user experiences such as affective relief, perceived empathy, self-reflection, and measurable benefits like reduced anxiety and reduced problematic smartphone use. For clinician support, GenAI showed usefulness for treatment planning, case formulation, prognosis assessment, summarization, cognitive restructuring support, psychoeducation, and training/simulation. Overall 17/20 therapeutic studies reported positive outcomes.",
+  "negative_effects": "Ethical and safety concerns were consistently reported. Risks included privacy and data security concerns, bias and unfairness across demographic groups, reduced cross-cultural adaptability, hallucinated or inaccurate medical/mental health content, inconsistency across prompts/runs, poor crisis detection/management, emotional abandonment when conversations were terminated, overtrust by users, repetitive or generic responses, and insufficient safety mechanisms. Some models underestimated suicide risk, failed to flag explicit self-harm prompts, generated harmful substance-use advice, incorrect hotline information, nonexistent drugs, or inappropriate content. Real-world deployment and safety assurance were limited.",
+  "evidence_type": "Evidence synthesis from 79 included peer-reviewed original studies identified via systematic review using PRISMA 2020. Reporting quality assessed with MI-CLAIM-GEN. The review provides narrative synthesis rather than meta-analysis due to heterogeneity.",
+  "main_finding": "GenAI shows substantial promise across diagnosis/assessment, therapeutic support, and clinician support in mental health, but current evidence is largely early-stage, often based on proof-of-concept or simulated settings, with limited real-world deployment and major unresolved ethical, fairness, safety, and governance concerns. The authors propose the GenAI4MH ethical framework centered on data privacy and security, information integrity and fairness, user safety, and ethical governance and oversight.",
+  "limitations_bias": "The review notes heterogeneity of study designs, datasets, and evaluation metrics, preventing quantitative synthesis/meta-analysis. Most included studies (70/79, 89%) focused on proof-of-concept or simulated interactions, with only 9/79 (11%) involving real-world deployment or longitudinal outcomes. Research was dominated by text-based language models. Social media datasets were common and may be demographically skewed toward younger, digitally active, predominantly English-speaking users, limiting generalizability and raising bias concerns. Reporting quality was moderate overall; reproducibility, harm assessment, representativeness of training data, and postdeployment evaluation were often underreported.",
+  "relevance_to_our_review": "Highly relevant as a recent systematic review directly synthesizing evidence on the effects of generative AI on mental health outcomes, including both beneficial effects and harms/ethical risks across diagnosis, intervention, and clinician support use cases.",
+  "use_decision": "Maybe",
+  "notes_for_research_question": "Useful umbrella source for mapping how AI affects mental health: includes positive effects such as improved detection, emotional support, anxiety reduction, behavioral improvement, and clinician efficiency, alongside negative effects including bias, hallucinations, privacy concerns, crisis-management failures, and overtrust. Because it is a review paper rather than a primary effects study, it is best used for background, citation chaining, and identifying primary studies on mental health outcomes.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Advancing mental health diagnostics: GPT-based method for depression detection",
+      "year": "2023",
+      "authors": "Danner M, Hadzic B, Gerhardt S, Ludwig S, Uslu I, Shao P",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Appraising the performance of ChatGPT in psychiatry using 100 clinical case vignettes",
+      "year": "2023",
+      "authors": "D'Souza RF, Amanullah S, Mathew M, Surapaneni KM",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support",
+      "year": "2023",
+      "authors": "Ma Z, Mei Y, Su Z",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Using large language models to understand suicidality in a social media-based taxonomy of mental health disorders: linguistic analysis of reddit posts",
+      "year": "2024",
+      "authors": "Bauer B, Norel R, Leow A, Rached ZA, Wen B, Cecchi G",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "WMGPT: towards 24/7 online prime counseling with ChatGPT",
+      "year": "2023",
+      "authors": "Najarro LA, Lee Y, Toshnazarov KE, Jang Y, Kim H, Noh Y",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "CALLM: enhancing clinical interview analysis through data augmentation with large language models",
+      "year": "2024",
+      "authors": "Wu Y, Mao K, Zhang Y, Chen J",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Beyond human expertise: the promise and limitations of ChatGPT in suicide risk assessment",
+      "year": "2023",
+      "authors": "Elyoseph Z, Levkovich I",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Large language models versus expert clinicians in crisis prediction among telemental health patients: comparative study",
+      "year": "2024",
+      "authors": "Lee C, Mohebbi M, O'Callaghan E, Winsberg M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Suicide risk assessments through the eyes of ChatGPT-3.5 versus ChatGPT-4: vignette study",
+      "year": "2023",
+      "authors": "Levkovich I, Elyoseph Z",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "The impact of history of depression and access to weapons on suicide risk assessment: a comparison of ChatGPT-3.5 and ChatGPT-4",
+      "year": "2024",
+      "authors": "Shinan-Altman S, Elyoseph Z, Levkovich I",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "ChatGPT for mental health applications: a study on biases",
+      "year": "2023",
+      "authors": "Soun RS, Nair A",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Mental-LLM: leveraging large language models for mental health prediction via online text data",
+      "year": "2024",
+      "authors": "Xu X, Yao B, Dong Y, Gabriel S, Yu H, Hendler J, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Identifying rare circumstances preceding female firearm suicides: validating a large language model approach",
+      "year": "2023",
+      "authors": "Zhou W, Prater LC, Goldstein EV, Mooney SJ",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Using large language models to detect depression from user-generated diary text data as a novel approach in digital mental health screening: instrument validation study",
+      "year": "2024",
+      "authors": "Shin D, Kim H, Lee S, Cho Y, Jung W",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "GPTFX: a novel GPT-3 based framework for mental health detection and explanations",
+      "year": "2023",
+      "authors": "Mazumdar H, Chakraborty C, Sathvik M, Mukhopadhyay S, Panigrahi PK",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Depression detection on Malay dialects using GPT-3",
+      "year": "2022",
+      "authors": "Hayati MF, Ali MA, Rosli AN",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Classifying anxiety and depression through LLMs virtual interactions: a case study with ChatGPT",
+      "year": "2023",
+      "authors": "Tao Y, Yang M, Shen H, Yang Z, Weng Z, Hu B",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Exploring large-scale language models to evaluate EEG-based multimodal data for mental health",
+      "year": "2024",
+      "authors": "Hu Y, Zhang S, Dang T, Jia H, Salim F, Hu W, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "From classification to clinical insights: towards analyzing and reasoning about mobile and behavioral health data with large language models",
+      "year": "2024",
+      "authors": "Englhardt Z, Ma C, Morris ME, Chang C, Xu X, Qin L, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Zero-shot explainable mental health analysis on social media by incorporating mental scales",
+      "year": "2024",
+      "authors": "Li W, Zhu Y, Lin X, Li M, Jiang Z, Zeng Z",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Leveraging LLMs to predict affective states via smartphone sensor features",
+      "year": "2024",
+      "authors": "Zhang T, Teng S, Jia H, D'Alfonso S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Beatrice: a chatbot for collecting psychoecological data and providing QA capabilities",
+      "year": "2023",
+      "authors": "Ni Y, Chen Y, Ding R, Ni S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Large language models outperform mental and medical health care professionals in identifying obsessive-compulsive disorder",
+      "year": "2024",
+      "authors": "Kim J, Leonte KG, Chen ML, Torous JB, Linos E, Pinto A, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Assessing dimensions of thought disorder with large language models: the tradeoff of accuracy and consistency",
+      "year": "2024",
+      "authors": "Pugh SL, Chandler C, Cohen AS, Diaz-Asper C, Elvev\u00e5g B, Foltz PW",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Predictive analytics in mental health leveraging LLM embeddings and machine learning models for social media analysis",
+      "year": "2024",
+      "authors": "Radwan A, Amarneh M, Alawneh H, Ashqar HI, AlSobeh A",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Intent aware data augmentation by leveraging generative AI for stress detection in social media texts",
+      "year": "2024",
+      "authors": "Saleem M, Kim J",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Diagnostic accuracy of large language models in psychiatry",
+      "year": "2024",
+      "authors": "Gargari OK, Fatehi F, Mohammadi I, Firouzabadi SR, Shafiee A, Habibi G",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Testing domain knowledge and risk of bias of a large-scale general artificial intelligence model in mental health",
+      "year": "2023",
+      "authors": "Heinz MV, Bhattacharya S, Trudeau B, Quist R, Song SH, Lee CM, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Zero-shot strike: testing the generalisation capabilities of out-of-the-box LLM models for depression detection",
+      "year": "2024",
+      "authors": "Ohse J, Had\u017ei\u0107 B, Mohammed P, Peperkorn N, Danner M, Yorita A, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "MentaLLaMA: interpretable mental health analysis on social media with large language models",
+      "year": "2024",
+      "authors": "Yang K, Zhang T, Kuang Z, Xie Q, Huang J, Ananiadou S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Prompting healthcare-oriented LLMs for evidence highlighting in posts with suicide risk",
+      "year": "2024",
+      "authors": "Zhu J, Xu A, Tan M, Yang M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Revolutionizing mental health care through LangChain: a journey with a large language model",
+      "year": "2024",
+      "authors": "Singh A, Ehtesham A, Mahmud S, Kim JH",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Depression detection in clinical interviews with LLM-empowered structural element graph",
+      "year": "2024",
+      "authors": "Chen Z, Deng J, Zhou J, Wu J, Qian T, Huang M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Language sentiment predicts changes in depressive symptoms",
+      "year": "2024",
+      "authors": "Hur JK, Heffner J, Feng GW, Joormann J, Rutledge RB",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Assessing the effectiveness of ChatGPT in delivering mental health support: a qualitative study",
+      "year": "2024",
+      "authors": "Alanezi F",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Evaluating the experience of LGBTQ+ people using large language model based chatbots for mental health support",
+      "year": "2024",
+      "authors": "Ma Z, Mei Y, Long Y, Su Z, Gajos KZ",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "RAG-based LLM chatbot using Llama-2",
+      "year": "2024",
+      "authors": "Vakayil S, Juliet DS, Vakayil S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Future of ADHD care: evaluating the efficacy of ChatGPT in therapy enhancement",
+      "year": "2024",
+      "authors": "Berrezueta-Guzman S, Kandil M, Mart\u00edn-Ruiz ML, Pau de la Cruz I, Krusche S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Towards designing a ChatGPT conversational companion for elderly people",
+      "year": "2023",
+      "authors": "Alessa A, Al-Khalifa H",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "MindShift: leveraging large language models for mental-states-based problematic smartphone use intervention",
+      "year": "2024",
+      "authors": "Wu R, Yu C, Pan X, Liu Y, Zhang N, Fu Y, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Comparison of conventional anesthesia nurse education and an artificial intelligence chatbot (ChatGPT) intervention on preoperative anxiety: a randomized controlled trial",
+      "year": "2024",
+      "authors": "Yahagi M, Hiruta R, Miyauchi C, Tanaka S, Taguchi A, Yaguchi Y",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "AI in relationship counselling: evaluating ChatGPT's therapeutic capabilities in providing relationship advice",
+      "year": "2024",
+      "authors": "Vowels LM, Francois-Walcott RR, Darwiche J",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Deep learning mental health dialogue system",
+      "year": "2023",
+      "authors": "Brocki L, Dyer GC, G'adka A, Chung NC",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Facilitating self-guided mental health interventions through human-language model interaction: a case study of cognitive restructuring",
+      "year": "2024",
+      "authors": "Sharma A, Rushton K, Lin IW, Nguyen T, Althoff T",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Physiology-driven empathic large language models (EmLLMs) for mental health support",
+      "year": "2024",
+      "authors": "Dongre P",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Exploring the use of large language models for improving the awareness of mindfulness",
+      "year": "2023",
+      "authors": "Kumar H, Wang Y, Shi J, Musabirov I, Farb N, Williams J",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Safety of large language models in addressing depression",
+      "year": "2023",
+      "authors": "Heston TF",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Generative transformer chatbots for mental health support: a study on depression and anxiety",
+      "year": "2023",
+      "authors": "Bird JJ, Lotfi A",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Chatbots and mental health: insights into the safety of generative AI",
+      "year": "2023",
+      "authors": "De Freitas J, U\u011furalp AK, O\u011fuz-U\u011furalp Z, Puntoni S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "ChatGPT is not ready yet for use in providing mental health assessment and interventions",
+      "year": "2023",
+      "authors": "Dergaa I, Fekih-Romdhane F, Hallit S, Loch AA, Glenn JM, Fessi MS, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Identifying depression and its determinants upon initiating treatment: ChatGPT versus primary care physicians",
+      "year": "2023",
+      "authors": "Levkovich I, Elyoseph Z",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Clinical decision support for bipolar depression using large language models",
+      "year": "2024",
+      "authors": "Perlis RH, Goldberg JF, Ostacher MJ, Schneck CD",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Assessing the potential of ChatGPT for psychodynamic formulations in psychiatry: an exploratory study",
+      "year": "2024",
+      "authors": "Hwang G, Lee DY, Seol S, Jung J, Choi Y, Her ES, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Feasibility assessment of using ChatGPT for training case conceptualization skills in psychological counseling",
+      "year": "2024",
+      "authors": "Hsieh LH, Liao WC, Liu EY",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "The plasticity of ChatGPT's mentalizing abilities: personalization for personality structures",
+      "year": "2023",
+      "authors": "Hadar-Shoval D, Elyoseph Z, Lvovsky M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Comparing the perspectives of generative AI, mental health experts, and the general public on schizophrenia recovery: case vignette study",
+      "year": "2024",
+      "authors": "Elyoseph Z, Levkovich I",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Assessing prognosis in depression: comparing perspectives of AI models, mental health professionals and the general public",
+      "year": "2024",
+      "authors": "Elyoseph Z, Levkovich I, Shinan-Altman S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Exploring the efficacy of large language models in summarizing mental health counseling sessions: benchmark study",
+      "year": "2024",
+      "authors": "Adhikary PK, Srivastava A, Kumar S, Singh SM, Manuja P, Gopinath JK, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Caregiver's evaluation of LLM-generated treatment goals for patients with severe mental illnesses",
+      "year": "2024",
+      "authors": "James LJ, Genga L, Montagne B, Hagenaars M, Van G",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "MindfulDiary: harnessing large language model to support psychiatric patients' journaling",
+      "year": "2024",
+      "authors": "Kim T, Bae S, Kim HA, Lee SW, Hong H, Yang C, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Harnessing AI to optimize thought records and facilitate cognitive restructuring in smartphone CBT: an exploratory study",
+      "year": "2023",
+      "authors": "Furukawa TA, Iwata S, Horikoshi M, Sakata M, Toyomoto R, Luo Y, et al.",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Can large language models replace therapists? Evaluating performance at simple cognitive behavioral therapy tasks",
+      "year": "2024",
+      "authors": "Hodson N, Williamson S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "\"You tell me\": a dataset of GPT-4-based behaviour change support conversations",
+      "year": "2024",
+      "authors": "Meyer S, Elsweiler D",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Assessing the use of ChatGPT as a psychoeducational tool for mental health practice",
+      "year": "2024",
+      "authors": "Maurya RK, Montesinos S, Bogomaz M, DeDiego AC",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "A piece of theatre: investigating how teachers design LLM chatbots to assist adolescent cyberbullying education",
+      "year": "2024",
+      "authors": "Hedderich MA, Bazarova NN, Zou W, Shim R, Ma X, Yang Q",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Grow with your AI buddy: designing an LLMs-based conversational agent for the measurement and cultivation of children's mental resilience",
+      "year": "2024",
+      "authors": "Hu Z, Hou H, Ni S",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Evaluating generative AI responses to real-world drug-related questions",
+      "year": "2024",
+      "authors": "Giorgi S, Isman K, Liu T, Fried Z, Sedoc J, Curtis B",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Leveraging ChatGPT to optimize depression intervention through explainable deep learning",
+      "year": "2024",
+      "authors": "Liu Y, Ding X, Peng S, Zhang C",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Old dog, new tricks? Exploring the potential functionalities of ChatGPT in supporting educational methods in social psychiatry",
+      "year": "2023",
+      "authors": "Smith A, Hachen S, Schleifer R, Bhugra D, Buadze A, Liebrenz M",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    },
+    {
+      "study_title": "Knowledge-enhanced pre-training large language model for depression diagnosis and treatment",
+      "year": "2023",
+      "authors": "Wang X, Liu K, Wang C",
+      "doi_or_identifier": "",
+      "why_relevant": ""
+    }
+  ],
+  "primary_studies_count": 70,
+  "source_file": "mental-2025-1-e70610.pdf"
+}

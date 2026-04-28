@@ -105,6 +105,10 @@ def normalize_primary_study(entry: Any) -> dict[str, Any]:
         return normalized
     for key in PRIMARY_STUDY_TEMPLATE:
         normalized[key] = _normalize_text(entry.get(key, ""))
+    if not normalized["doi_or_identifier"]:
+        normalized["doi_or_identifier"] = "Not reported in source review"
+    if not normalized["why_relevant"]:
+        normalized["why_relevant"] = "Cited as primary evidence in the source review"
     return normalized
 
 

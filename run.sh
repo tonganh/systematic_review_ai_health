@@ -1,1 +1,3 @@
-conda run -n anhtn_dam python run_extraction.py --papers-dir papers --output-dir outputs --model gpt-5.4 --max-retries 1
+# conda run -n anhtn_dam python run_extraction.py --papers-dir papers --output-dir outputs --model gpt-5.4 --max-retries 1
+conda run -n anhtn_dam python -c "from pathlib import Path; import shutil; d=Path('papers_single_mental_2025_1_e70610'); d.mkdir(exist_ok=True); shutil.copy2(Path('papers/mental-2025-1-e70610.pdf'), d / 'mental-2025-1-e70610.pdf')"
+conda run -n anhtn_dam python run_extraction.py --papers-dir papers_single_mental_2025_1_e70610 --output-dir outputs_mental_2025_1_e70610 --model gpt-5.4 --max-retries 2

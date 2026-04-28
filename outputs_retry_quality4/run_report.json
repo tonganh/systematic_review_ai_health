@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-04-28T00:26:39.082596+00:00",
+  "finished_at": "2026-04-28T00:31:01.974230+00:00",
+  "model": "gpt-5.4",
+  "papers_dir": "papers_retry_quality4",
+  "output_dir": "outputs_retry_quality4",
+  "total_files_found": 4,
+  "processed": 4,
+  "success": 4,
+  "failed": 0,
+  "per_file_summaries_written": 4,
+  "primary_studies_rows_written": 158,
+  "usage": {
+    "input_tokens": 119844,
+    "output_tokens": 23107,
+    "total_tokens": 142951
+  },
+  "errors": []
+}

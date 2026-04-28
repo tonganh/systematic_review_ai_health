@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-04-27T23:58:43.528588+00:00",
+  "finished_at": "2026-04-28T00:00:32.957097+00:00",
+  "model": "gpt-5.4",
+  "papers_dir": "papers_single_mental_2025_1_e70610",
+  "output_dir": "outputs_mental_2025_1_e70610",
+  "total_files_found": 1,
+  "processed": 1,
+  "success": 1,
+  "failed": 0,
+  "per_file_summaries_written": 1,
+  "primary_studies_rows_written": 70,
+  "usage": {
+    "input_tokens": 40727,
+    "output_tokens": 8795,
+    "total_tokens": 49522
+  },
+  "errors": []
+}
