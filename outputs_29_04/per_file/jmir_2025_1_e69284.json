@@ -1,0 +1,111 @@
+{
+  "title": "The Applications of Large Language Models in Mental Health: Scoping Review",
+  "year": "2025",
+  "journal_or_conference": "Journal of Medical Internet Research",
+  "type_of_paper": "Scoping review",
+  "study_design": "Scoping review of peer-reviewed studies on large language models in mental health",
+  "population": "Peer-reviewed studies examining applications of large language models in mental health; underlying populations across included studies included social media users, patients, clinicians, counseling transcripts, and educational settings",
+  "sample_size": "95 included articles",
+  "country_or_setting": "Global; studies from multiple countries, with the United States most represented, followed by China and Canada; databases searched included English- and Chinese-language sources",
+  "ai_type_application": "Large language models for mental health applications including screening or detection of mental disorders, support for clinical treatment and interventions, mental health counseling, chatbots, education, and clinical data augmentation",
+  "ai_exposure_intervention": "Exposure to or use of LLMs such as GPT-3/4, ChatGPT, BERT-family models, RoBERTa, PaLM, LLaMA, and fine-tuned mental-health-specific LLMs applied to mental health tasks",
+  "comparator_control_group": "Comparisons in included studies involved humans/mental health professionals, nontransformer models, and different LLMs; no single comparator at review level",
+  "mental_health_outcome": "Mental disorder detection/classification and related mental health tasks, especially depression detection/classification, suicide risk prediction, anxiety, PTSD, OCD, stress, emotion assessment, treatment support, counseling assistance, and educational resource generation",
+  "outcome_measurement_tool": "Various metrics across included studies, most commonly F1-score, precision, accuracy, and recall; some studies also used AUC, sensitivity, specificity, BLEU, BERTScore, perplexity, Distinct-N, GRADE, and clinician evaluations",
+  "positive_effects": "The review reports that LLMs show substantial potential to augment mental health research, diagnostics, intervention strategies, preliminary support, data augmentation, educational material generation, and counseling/chatbot applications. Compared with nontransformer models and sometimes humans, LLMs were described as having stronger information acquisition and analysis capabilities, efficient natural language generation, and promising performance in tasks such as depression detection and suicide risk prediction.",
+  "negative_effects_harms": "The review highlights risks including privacy concerns, bias, generation of false or misleading information, hallucinations, possible harmful or inappropriate medical advice, limited empathy and emotional intelligence relative to humans, poor crisis handling, overreliance by teenagers or other users, and potential exacerbation of health disparities. It also notes that LLMs remain insufficiently reliable for direct-to-consumer use without human oversight.",
+  "adverse_events_reported": "Not clear",
+  "evidence_type": "Review evidence synthesizing 95 peer-reviewed studies; narrative/scoping synthesis without meta-analysis",
+  "main_finding": "Applications of LLMs in mental health were grouped into three areas: screening/detection of mental disorders, support for clinical treatment/interventions, and counseling/education. Most studies focused on depression detection/classification, clinical treatment support, and suicide risk prediction. The authors conclude that LLMs have substantial potential in mental health but require further development, ethical safeguards, privacy protections, bias mitigation, and human oversight.",
+  "effect_size_key_result": "Descriptive results: 67/95 (71%) studies on screening or detection of mental disorders; 31/95 (33%) on supporting clinical treatments and interventions; 11/95 (12%) on counseling and education. Most studies focused on depression detection/classification (33/95, 35%), clinical treatment support/intervention (14/95, 15%), and suicide risk prediction (12/95, 13%). No pooled effect size reported.",
+  "study_claims_causality": "No",
+  "evidence_supports_causality": "Not applicable",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": ""
+  },
+  "limitations_bias": "No risk-of-bias assessment was performed. Meta-analysis was not possible because of diverse methods and tasks. Findings may become outdated quickly due to rapid LLM development. Preprints were excluded. The review was limited to English and Chinese publications, which may reduce comprehensiveness and global representativeness. Performance comparisons should be interpreted cautiously.",
+  "relevance_to_our_review": "Relevant as background and evidence mapping on AI applications in mental health, including potential benefits and harms of LLMs. However, it does not primarily evaluate causal effects of AI interventions on users' mental health outcomes.",
+  "use_decision": "Maybe",
+  "reason_for_decision": "Useful contextual review for identifying primary studies and summarizing potential positive and negative effects of AI in mental health, but not itself a primary causal study of AI effects on mental health outcomes.",
+  "notes_for_research_question": "This paper is most useful for locating primary studies on LLM-based mental health interventions, chatbots, counseling, and screening tools. It emphasizes both potential benefits and important harms/ethical issues. Because it is a scoping review, it should not be treated as direct evidence of effect.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "A hybrid response generation model for an empathetic conversational agent",
+      "year": "2022",
+      "authors": "Beredo JL, Ong EC",
+      "doi_or_identifier": "10.1109/IALP57159.2022.9961311",
+      "why_relevant": "Primary study on an empathetic conversational agent relevant to AI-supported mental well-being and counseling."
+    },
+    {
+      "study_title": "An empathic GPT-based chatbot to talk about mental disorders with Spanish teenagers",
+      "year": "2024",
+      "authors": "M\u00e1rmol-Romero AM, Garc\u00eda-Vega M, Garc\u00eda-Cumbreras M\u00c1, Montejo-R\u00e1ez A",
+      "doi_or_identifier": "10.1080/10447318.2024.2344355",
+      "why_relevant": "Primary study of a GPT-based chatbot for discussing mental disorders with teenagers; directly relevant to AI effects on mental health support."
+    },
+    {
+      "study_title": "Safety of large language models in addressing depression",
+      "year": "2023",
+      "authors": "Heston T",
+      "doi_or_identifier": "10.7759/cureus.50729",
+      "why_relevant": "Primary study specifically addressing safety and potential harms of LLM responses to depression-related content."
+    },
+    {
+      "study_title": "Loneliness and suicide mitigation for students using GPT3-enabled chatbots",
+      "year": "2024",
+      "authors": "Maples B, Cerit M, Vishwanath A, Pea R",
+      "doi_or_identifier": "10.1038/s44184-023-00047-6",
+      "why_relevant": "Primary study examining GPT-3-enabled chatbots in relation to loneliness and suicide mitigation among students."
+    },
+    {
+      "study_title": "Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support",
+      "year": "2023",
+      "authors": "Ma Z, Mei Y, Su Z",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Primary study focused on benefits and challenges of LLM conversational agents for mental well-being support."
+    },
+    {
+      "study_title": "Exploring the use of large language models for improving the awareness of mindfulness",
+      "year": "2023",
+      "authors": "Kumar H, Wang Y, Shi J, Musabirov I, Farb NA, Williams JJ",
+      "doi_or_identifier": "10.1145/3544549.3585614",
+      "why_relevant": "Primary study on LLM use to improve mindfulness awareness, relevant to mental well-being outcomes."
+    },
+    {
+      "study_title": "Can we use ChatGPT for mental health and substance use education? Examining its quality and potential harms",
+      "year": "2023",
+      "authors": "Spallek S, Birrell L, Kershaw S, Devine EK, Thornton L",
+      "doi_or_identifier": "10.2196/51243",
+      "why_relevant": "Primary study examining mental health education content quality and potential harms from ChatGPT."
+    },
+    {
+      "study_title": "Can large language models replace therapists? Evaluating performance at simple cognitive behavioral therapy tasks",
+      "year": "2024",
+      "authors": "Hodson N, Williamson S",
+      "doi_or_identifier": "10.2196/52500",
+      "why_relevant": "Primary study evaluating LLM performance on CBT tasks relevant to therapeutic mental health support."
+    },
+    {
+      "study_title": "Exploring the efficacy of robotic assistants with ChatGPT and Claude in enhancing ADHD therapy: innovating treatment paradigms",
+      "year": "2024",
+      "authors": "Berrezueta-Guzman S, Kandil M, Martin-Ruiz ML, de la Cruz IP, Krusche S",
+      "doi_or_identifier": "10.1109/IE61493.2024.10599903",
+      "why_relevant": "Primary study on LLM-assisted therapy support for ADHD."
+    },
+    {
+      "study_title": "Developing conversational virtual Humans for social emotion elicitation based on large language models",
+      "year": "2024",
+      "authors": "Llanes-Jurado J, G\u00f3mez-Zaragoz\u00e1 L, Minissi ME, Alca\u00f1iz M, Mar\u00edn-Morales J",
+      "doi_or_identifier": "10.1016/j.eswa.2024.123261",
+      "why_relevant": "Primary study on LLM-based conversational virtual humans and emotion elicitation, relevant to affective and mental health outcomes."
+    }
+  ],
+  "primary_studies_count": 10,
+  "source_file": "jmir-2025-1-e69284.pdf"
+}

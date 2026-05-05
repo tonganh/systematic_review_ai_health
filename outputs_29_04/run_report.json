@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-04-29T09:52:14.163202+00:00",
+  "finished_at": "2026-04-29T10:07:42.621500+00:00",
+  "model": "gpt-5.4",
+  "papers_dir": "/mnt/disk1/aiotlab/anhtn/systematic_review/papers_29_04",
+  "output_dir": "/mnt/disk1/aiotlab/anhtn/systematic_review/outputs_29_04",
+  "total_files_found": 26,
+  "processed": 26,
+  "success": 26,
+  "failed": 0,
+  "per_file_summaries_written": 26,
+  "primary_studies_rows_written": 189,
+  "usage": {
+    "input_tokens": 724005,
+    "output_tokens": 51223,
+    "total_tokens": 775228
+  },
+  "errors": []
+}

@@ -1,0 +1,139 @@
+{
+  "title": "The Application and Ethical Implication of Generative AI in Mental Health: Systematic Review",
+  "year": "2025",
+  "journal_or_conference": "JMIR Mental Health",
+  "type_of_paper": "Systematic review",
+  "study_design": "Systematic review following PRISMA 2020; literature search across PubMed, ACM Digital Library, Scopus, Embase, PsycInfo, and Google Scholar for peer-reviewed studies published from October 1, 2019, to September 30, 2024",
+  "population": "Peer-reviewed original research studies on generative AI applications in mental health, covering diagnosis and assessment, therapeutic tools, and clinician support; included studies involved general populations, vulnerable groups, patients, clinicians, social media users, and simulated clinical cases",
+  "sample_size": "79 studies included",
+  "country_or_setting": "Global/multinational literature across mental health care, digital health, social media, and clinical/educational settings",
+  "ai_type_application": "Generative AI, primarily large language models and conversational agents/chatbots used for mental health diagnosis and assessment, therapeutic support, and clinician assistance",
+  "ai_exposure_intervention": "Exposure to or implementation of GenAI systems such as GPT-series, LLaMA, Gemini, Falcon, Mistral, Flan-T5 and related prompt-engineered, fine-tuned, hybrid, or retrieval-augmented models for mental health tasks",
+  "comparator_control_group": "Varied across included studies; comparators included traditional machine learning models, pretrained language models such as BERT, human clinicians/experts, primary care physicians, or no explicit comparator",
+  "mental_health_outcome": "Depression, suicide risk/suicidality, anxiety, stress, emotion recognition/regulation, obsessive-compulsive disorder, schizophrenia, bipolar disorder, PTSD, mental resilience, mindfulness, problematic smartphone use, preoperative anxiety, relationship distress, and general emotional support outcomes",
+  "outcome_measurement_tool": "Varied by included study; included accuracy, precision, balanced accuracy, correlations with expert ratings, psychometric instruments such as State-Trait Anxiety Inventory and Self-Efficacy Scale, user satisfaction/engagement metrics, qualitative interviews, expert review, perplexity, BLEU, top-k accuracy, and reporting quality assessed in this review using MI-CLAIM-GEN",
+  "positive_effects": "GenAI showed promise in enhancing diagnostic accuracy, especially for suicide risk and depression detection; multimodal approaches improved detection reliability; therapeutic chatbots were often associated with emotional relief, perceived empathy, self-reflection, reduced anxiety, reduced problematic smartphone use, and increased intervention acceptance; clinician-support applications may reduce administrative burden, assist treatment planning, case formulation, psychoeducation, training, and documentation",
+  "negative_effects_harms": "Ethical and practical risks included privacy and data security concerns, algorithmic bias and fairness issues, reduced performance across dialectal/cultural contexts, hallucinations and medically inaccurate content, incorrect suicide-related documentation, inconsistent responses, insufficient crisis detection and intervention, overtrust in AI, abrupt termination of high-risk conversations, generic or repetitive advice, limited personalization, and lack of governance/oversight",
+  "adverse_events_reported": "Not clear",
+  "evidence_type": "Systematic review of 79 peer-reviewed original studies with mixed evidence including experimental studies, randomized controlled trials, quasi-experiments, simulated evaluations, retrospective analyses, qualitative studies, and technical benchmark studies",
+  "main_finding": "Generative AI shows substantial potential as a complementary tool in mental health diagnosis, therapeutic support, and clinician assistance, but current evidence is dominated by proof-of-concept and simulated studies, with limited real-world deployment and major ethical concerns around privacy, fairness, safety, and governance",
+  "effect_size_key_result": "Among reviewed studies, GPT-4 achieved precision up to 0.96 for suicidal risk prediction in some studies; depression detection accuracy reached 0.902 using semistructured diaries in one study; multimodal prompting for passive sensing depression classification achieved up to 61.1% accuracy; a 5-week field study reported 7% to 10% reduction in smartphone use and up to 22.5% improvement in intervention acceptance; overall reporting transparency averaged 45.39% yes on MI-CLAIM-GEN items",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Weak",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": ""
+  },
+  "limitations_bias": "Heterogeneity in study designs, datasets, and evaluation metrics prevented meta-analysis; most included studies focused on proof-of-concept or simulated interactions rather than real-world or longitudinal deployment; evidence largely centered on text-based language models; reliance on social media data may bias samples toward younger, digitally active, English-speaking users; reporting quality was moderate with poor reproducibility, limited harm assessment, limited real-world evaluation, and underreporting of data representativeness and resources",
+  "relevance_to_our_review": "Highly relevant as a broad synthesis of how AI, specifically generative AI, affects mental health through diagnostic, therapeutic, and clinician-support applications, including both beneficial and harmful effects",
+  "use_decision": "Include",
+  "reason_for_decision": "Directly addresses AI effects on mental health across multiple application domains and synthesizes positive outcomes, harms, and ethical implications from 79 studies",
+  "notes_for_research_question": "Useful umbrella source for identifying both beneficial and adverse mental health effects of generative AI. However, because it is a review and not a single primary causal study, causal inference is limited and real-world outcome evidence remains weak. Includes strong discussion of risks such as bias, hallucination, crisis-management failures, and privacy harms.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Advancing mental health diagnostics: GPT-based method for depression detection",
+      "year": "2023",
+      "authors": "Danner M, Hadzic B, Gerhardt S, Ludwig S, Uslu I, Shao P",
+      "doi_or_identifier": "10.1109/SICE58861.2023.10354236",
+      "why_relevant": "Primary study on GenAI for depression detection, relevant to AI effects on mental health diagnosis"
+    },
+    {
+      "study_title": "Appraising the performance of ChatGPT in psychiatry using 100 clinical case vignettes",
+      "year": "2023",
+      "authors": "D'Souza RF, Amanullah S, Mathew M, Surapaneni KM",
+      "doi_or_identifier": "10.1016/j.ajp.2023.103770",
+      "why_relevant": "Assesses ChatGPT performance in psychiatric case evaluation, relevant to clinician support and mental health assessment"
+    },
+    {
+      "study_title": "Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support",
+      "year": "2023",
+      "authors": "Ma Z, Mei Y, Su Z",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Primary study on user-perceived benefits and challenges of LLM conversational agents for mental well-being"
+    },
+    {
+      "study_title": "Using large language models to understand suicidality in a social media-based taxonomy of mental health disorders: linguistic analysis of reddit posts",
+      "year": "2024",
+      "authors": "Bauer B, Norel R, Leow A, Rached ZA, Wen B, Cecchi G",
+      "doi_or_identifier": "10.2196/57234",
+      "why_relevant": "Primary study on suicidality detection/understanding using LLMs"
+    },
+    {
+      "study_title": "Using large language models to detect depression from user-generated diary text data as a novel approach in digital mental health screening: instrument validation study",
+      "year": "2024",
+      "authors": "Shin D, Kim H, Lee S, Cho Y, Jung W",
+      "doi_or_identifier": "10.2196/54617",
+      "why_relevant": "Primary study on depression screening with LLMs and key diagnostic performance results"
+    },
+    {
+      "study_title": "Mental-LLM: leveraging large language models for mental health prediction via online text data",
+      "year": "2024",
+      "authors": "Xu X, Yao B, Dong Y, Gabriel S, Yu H, Hendler J, et al.",
+      "doi_or_identifier": "10.1145/3643540",
+      "why_relevant": "Primary study on mental health prediction with LLMs, including fairness and performance considerations"
+    },
+    {
+      "study_title": "Large language models outperform mental and medical health care professionals in identifying obsessive-compulsive disorder",
+      "year": "2024",
+      "authors": "Kim J, Leonte KG, Chen ML, Torous JB, Linos E, Pinto A, et al.",
+      "doi_or_identifier": "10.1038/s41746-024-01181-x",
+      "why_relevant": "Primary diagnostic comparison of LLMs versus professionals in mental health identification"
+    },
+    {
+      "study_title": "Comparison of conventional anesthesia nurse education and an artificial intelligence chatbot (ChatGPT) intervention on preoperative anxiety: a randomized controlled trial",
+      "year": "2024",
+      "authors": "Yahagi M, Hiruta R, Miyauchi C, Tanaka S, Taguchi A, Yaguchi Y",
+      "doi_or_identifier": "10.1016/j.jopan.2023.12.005",
+      "why_relevant": "Randomized trial of AI chatbot intervention affecting anxiety"
+    },
+    {
+      "study_title": "MindShift: leveraging large language models for mental-states-based problematic smartphone use intervention",
+      "year": "2024",
+      "authors": "Wu R, Yu C, Pan X, Liu Y, Zhang N, Fu Y, et al.",
+      "doi_or_identifier": "10.1145/3613904.3642790",
+      "why_relevant": "Field intervention study on behavioral and mental-state outcomes using LLM support"
+    },
+    {
+      "study_title": "Facilitating self-guided mental health interventions through human-language model interaction: a case study of cognitive restructuring",
+      "year": "2024",
+      "authors": "Sharma A, Rushton K, Lin IW, Nguyen T, Althoff T",
+      "doi_or_identifier": "10.1145/3613904.3642761",
+      "why_relevant": "Primary study on therapeutic use of LLMs for mental health intervention"
+    },
+    {
+      "study_title": "Safety of large language models in addressing depression",
+      "year": "2023",
+      "authors": "Heston TF",
+      "doi_or_identifier": "10.7759/cureus.50729",
+      "why_relevant": "Directly relevant to harms and safety risks of LLM outputs in mental health"
+    },
+    {
+      "study_title": "Chatbots and mental health: insights into the safety of generative AI",
+      "year": "2023",
+      "authors": "De Freitas J, U\u011furalp AK, O\u011fuz\u2010U\u011furalp Z, Puntoni S",
+      "doi_or_identifier": "10.1002/jcpy.1393",
+      "why_relevant": "Primary study on safety and harmful responses of generative AI chatbots in mental health contexts"
+    },
+    {
+      "study_title": "ChatGPT is not ready yet for use in providing mental health assessment and interventions",
+      "year": "2023",
+      "authors": "Dergaa I, Fekih-Romdhane F, Hallit S, Loch AA, Glenn JM, Fessi MS, et al.",
+      "doi_or_identifier": "10.3389/fpsyt.2023.1277756",
+      "why_relevant": "Primary evaluation highlighting limitations and risks of ChatGPT for mental health assessment/intervention"
+    },
+    {
+      "study_title": "Exploring the efficacy of large language models in summarizing mental health counseling sessions: benchmark study",
+      "year": "2024",
+      "authors": "Adhikary PK, Srivastava A, Kumar S, Singh SM, Manuja P, Gopinath JK, et al.",
+      "doi_or_identifier": "10.2196/57306",
+      "why_relevant": "Primary clinician-support study with noted hallucination/documentation risks"
+    }
+  ],
+  "primary_studies_count": 14,
+  "source_file": "mental-2025-1-e70610.pdf"
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Benefits and harms associated with the use of AI-related algorithmic decision-making systems by healthcare professionals: a systematic review",
+  "year": "2025",
+  "journal_or_conference": "The Lancet Regional Health - Europe",
+  "type_of_paper": "Systematic review",
+  "study_design": "Systematic review of preregistered interventional and observational studies; included 18 randomized controlled trials and 1 prospective cohort study",
+  "population": "Human patients receiving healthcare in studies evaluating AI-related algorithmic decision-making systems used by healthcare professionals; includes mental health patients in psychiatry studies with depression, anxiety, and chronic pain-related psychological treatment contexts",
+  "sample_size": "19 studies total; median 243 patients per study (IQR 124-828)",
+  "country_or_setting": "Studies from USA, UK, Europe, China, Korea, France, Netherlands, Germany, Ireland, Sweden; settings included hospitals, outpatient care, nursing home, and mixed settings",
+  "ai_type_application": "AI-related algorithmic decision-making systems for healthcare professionals, including treatment personalization and surveillance systems; mental health-relevant applications include stratified care for depression, AI platform for behavioral interventions, and AI-supported cognitive behavioral therapy for chronic pain",
+  "ai_exposure_intervention": "Healthcare professional use of AI-related decision support systems developed with and/or utilizing machine learning; in mental health-relevant studies this included treatment personalization for depression/anxiety and AI-supported delivery/personalization of behavioral or CBT interventions",
+  "comparator_control_group": "Standard care or usual care without the AI-related ADM system",
+  "mental_health_outcome": "Depression symptoms, anxiety symptoms, pain-related disability, pain intensity, health-related quality of life, and patient satisfaction",
+  "outcome_measurement_tool": "",
+  "positive_effects": "The review reports that benefits were consistently revealed in psychiatry studies. Delgadillo et al. found better depression treatment outcomes in non-complex cases in the intervention group (45.1% vs. 52.3%, p = 0.03, as reported in the paper). Sadeh-Sharvit et al. indicated greater improvement in depression with the AI platform (34% improvement, d = 0.82, 95% CI: -0.08 to 1.66) versus control (20% improvement, d = 0.34, 95% CI: -0.52 to 1.17). Sadeh-Sharvit et al. also indicated larger anxiety reduction in the intervention group (29% reduction, d = 0.78, 95% CI: -0.11 to 1.62) versus control (8% reduction, d = 0.14, 95% CI: -0.70 to 0.97). Piette et al. found AI-supported CBT was as effective as standard therapy, with meaningful improvements after six months in responders for pain-related disability (37% vs. 19%, p = 0.01) and pain intensity (29% vs. 17%, p = 0.03).",
+  "negative_effects_harms": "Harms were frequently underreported across the review. No study reported an increase in adverse events as a result of the interventions. In psychiatry studies, no significant differences in anxiety outcomes were found in Delgadillo et al. and Piette et al.",
+  "adverse_events_reported": "Not clear",
+  "evidence_type": "Systematic review of RCTs and one cohort study",
+  "main_finding": "Evidence for AI effects on mental health-related outcomes is limited but suggests potential benefit, especially in psychiatry. The review states that two out of two studies showed positive effects on depression outcomes and pain, while anxiety findings were mixed. Overall evidence is constrained by small numbers of studies, heterogeneous interventions, underreporting of harms, and variable risk of bias.",
+  "effect_size_key_result": "Depression symptoms in non-complex cases: 45.1% vs. 52.3%, p = 0.03 (as reported). AI platform for depression: 34% improvement, d = 0.82, 95% CI -0.08 to 1.66 vs. 20% improvement, d = 0.34, 95% CI -0.52 to 1.17. Anxiety: 29% reduction, d = 0.78, 95% CI -0.11 to 1.62 vs. 8% reduction, d = 0.14, 95% CI -0.70 to 0.97. Pain-related disability among responders: 37% vs. 19%, p = 0.01. Pain intensity among responders: 29% vs. 17%, p = 0.03.",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Moderate",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": "As a systematic review, included mainly randomized trials comparing AI-supported care with standard care; no pooled confounder adjustment summary reported for the mental health studies."
+  },
+  "limitations_bias": "Only 19 studies met inclusion criteria across all specialties, with few mental health studies. Risk of bias varied: among 18 RCTs, 4 low risk, 7 some concerns, 7 high risk; the cohort study had serious risk of bias. Harms were often underreported. Reporting transparency varied substantially. Heterogeneity in outcomes, interventions, settings, and study designs prevented meta-analysis. Many studies lacked detailed reporting on user training, implementation conditions, external validation, and long-term outcomes.",
+  "relevance_to_our_review": "Highly relevant as a review paper summarizing AI effects on mental health-related outcomes, especially depression, anxiety, and AI-supported behavioral/psychological treatment delivered or guided by healthcare professionals.",
+  "use_decision": "Include",
+  "reason_for_decision": "This is a systematic review directly relevant to AI effects on mental health outcomes, identifying psychiatry primary studies on depression, anxiety, and pain-related psychological outcomes.",
+  "notes_for_research_question": "The paper is not limited to mental health, but it includes multiple psychiatry studies and extracts patient-relevant outcomes rather than only model performance. Useful for identifying primary mental health RCTs and for contextualizing the limited but promising evidence base for clinician-facing AI in mental healthcare.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Stratified care vs stepped care for depression: a cluster randomized clinical trial",
+      "year": "2022",
+      "authors": "Delgadillo J, Ali S, Fleck K, et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Primary psychiatry trial of an AI-related treatment personalization system evaluating depression and anxiety outcomes."
+    },
+    {
+      "study_title": "Patient-centered pain care using artificial intelligence and mobile health tools: a randomized comparative effectiveness trial",
+      "year": "2022",
+      "authors": "Piette JD, Newman S, Krein SL, et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Primary trial relevant to mental health-related outcomes, including pain-related disability, depression symptoms, and health-related quality of life using AI-supported CBT/pain care."
+    },
+    {
+      "study_title": "Effects of an artificial intelligence platform for behavioral interventions on depression and anxiety symptoms: randomized clinical trial",
+      "year": "2023",
+      "authors": "Sadeh-Sharvit S, Camp TD, Horton SE, et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Directly relevant primary psychiatry study assessing AI platform effects on depression and anxiety symptoms."
+    }
+  ],
+  "primary_studies_count": 3,
+  "source_file": "1-s2.0-S2666776224003144-main.pdf"
+}

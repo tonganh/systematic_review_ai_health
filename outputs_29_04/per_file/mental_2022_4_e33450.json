@@ -1,0 +1,146 @@
+{
+  "title": "Problematic Social Media Use in Adolescents and Young Adults: Systematic Review and Meta-analysis",
+  "year": "2022",
+  "journal_or_conference": "JMIR Mental Health",
+  "type_of_paper": "Systematic review and meta-analysis",
+  "study_design": "Systematic review of cross-sectional studies with random-effects meta-analysis and metaregression",
+  "population": "Adolescents and young adults aged 12 to 30 years",
+  "sample_size": "9269",
+  "country_or_setting": "Studies from United States, China, Spain, Turkey, India, Hong Kong, Lithuania, and Germany",
+  "ai_type_application": "",
+  "ai_exposure_intervention": "",
+  "comparator_control_group": "No comparator intervention; associations between problematic social media use and mental health outcomes were examined",
+  "mental_health_outcome": "Depressive symptoms, anxiety symptoms, and stress",
+  "outcome_measurement_tool": "Validated self-report instruments; Center of Epidemiologic Studies Depression Scale was commonly used for depression, and Depression Anxiety Stress Scale was commonly used for anxiety. Stress also measured with validated questionnaires, specific instruments varied by study.",
+  "positive_effects": "",
+  "negative_effects_harms": "Problematic social media use was associated with higher depressive symptoms, higher anxiety symptoms, and greater stress",
+  "adverse_events_reported": "No",
+  "evidence_type": "Meta-analysis of observational cross-sectional studies",
+  "main_finding": "Problematic social media use in adolescents and young adults was moderately and significantly associated with worse mental health outcomes, with correlations observed for depression, anxiety, and stress. Age, gender, and year of publication did not significantly moderate these associations.",
+  "effect_size_key_result": "Depression: r=0.273 (95% CI 0.215-0.332, P<.001); Anxiety: r=0.348 (95% CI 0.270-0.426, P<.001); Stress: r=0.313 (95% CI 0.203-0.423, P<.001)",
+  "study_claims_causality": "No",
+  "evidence_supports_causality": "Weak",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "Exposure specifically defined as problematic social media use measured with validated addiction-like/problematic use scales",
+    "demographics": "Age, gender, and year of publication examined as metaregression covariates",
+    "other_confounders": ""
+  },
+  "limitations_bias": "Only cross-sectional correlational studies were included, so causality cannot be inferred. High heterogeneity was present across studies. Number of studies per outcome was limited. Possible publication bias was suggested in some analyses though Egger tests were non-significant. Most measures were self-report. Clinical psychiatric diagnoses of participants were generally not reported. Study power was somewhat limited.",
+  "relevance_to_our_review": "Low direct relevance for a review of AI effects on mental health because the exposure is problematic social media use, not an AI system or AI-based intervention. It may offer indirect background on digital technology and mental health risks.",
+  "use_decision": "Exclude",
+  "reason_for_decision": "This paper does not study AI exposure, AI tools, or AI interventions; it examines problematic social media use and mental health.",
+  "notes_for_research_question": "Useful only as contextual background on non-AI digital technology effects on mental health among youth. Not appropriate as core evidence for AI effects on mental health.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Can\u2019t stop scrolling!: pathological use of social networking sites in emerging adulthood",
+      "year": "2017",
+      "authors": "Holmgren HG, Coyne SM",
+      "doi_or_identifier": "10.1080/16066359.2017.1294164",
+      "why_relevant": "Primary study included in the meta-analysis reporting an association between problematic social media use and depression-related outcomes in emerging adults."
+    },
+    {
+      "study_title": "Social networking sites addiction and adolescent depression: A moderated mediation model of rumination and self-esteem",
+      "year": "2018",
+      "authors": "Wang P, Wang X, Wu Y, Xie X, Wang X, Zhao F, et al.",
+      "doi_or_identifier": "10.1016/j.paid.2018.02.008",
+      "why_relevant": "Primary study included in the review examining problematic social media use and depressive symptoms in adolescents."
+    },
+    {
+      "study_title": "Mindfulness, Compulsive Mobile Social Media Use, and Derived Stress: The Mediating Roles of Self-Esteem and Social Anxiety",
+      "year": "2019",
+      "authors": "Apaolaza V, Hartmann P, D'Souza C, Gilsanz A",
+      "doi_or_identifier": "10.1089/cyber.2018.0681",
+      "why_relevant": "Primary study included in the review examining problematic social media use and stress."
+    },
+    {
+      "study_title": "The relationship between perceived stress and problematic social networking site use among Chinese college students",
+      "year": "2019",
+      "authors": "Hou X, Wang H, Hu T, Gentile DA, Gaskin J, Wang J",
+      "doi_or_identifier": "10.1556/2006.8.2019.26",
+      "why_relevant": "Primary study included in the review examining associations of problematic social media use with depression, anxiety, and stress."
+    },
+    {
+      "study_title": "Trait emotional intelligence and problematic online behaviors among adolescents: The mediating role of mindfulness, rumination, and depression",
+      "year": "2019",
+      "authors": "Kircaburun K, Griffiths MD, Billieux J",
+      "doi_or_identifier": "10.1016/j.paid.2018.11.024",
+      "why_relevant": "Primary study included in the review examining problematic social media use and depression-related outcomes."
+    },
+    {
+      "study_title": "Excessive Social Media use and its Association with Depression and Rumination in an Indian Young Adult Population: A Mediation Model",
+      "year": "2019",
+      "authors": "Mitra R, Rangaswamy DM",
+      "doi_or_identifier": "10.32381/jpr.2019.14.01.24",
+      "why_relevant": "Primary study included in the review examining problematic social media use and depression."
+    },
+    {
+      "study_title": "The Moderating Role of State Attachment Anxiety and Avoidance Between Social Anxiety and Social Networking Sites Addiction",
+      "year": "2020",
+      "authors": "Chen Y, Li R, Zhang P, Liu X",
+      "doi_or_identifier": "10.1177/0033294118823178",
+      "why_relevant": "Primary study included in the review examining problematic social media use and anxiety."
+    },
+    {
+      "study_title": "Analysis of Factors Related to Social Network Service Addiction Among Korean High School Students",
+      "year": "2020",
+      "authors": "Kim M, Oh J, Huh B",
+      "doi_or_identifier": "10.1097/JAN.0000000000000350",
+      "why_relevant": "Primary study included in the review examining problematic social media use and anxiety/stress-related outcomes."
+    },
+    {
+      "study_title": "Bored and online: Reasons for using social media, problematic social networking site use, and behavioral outcomes across the transition from adolescence to emerging adulthood",
+      "year": "2020",
+      "authors": "Stockdale LA, Coyne SM",
+      "doi_or_identifier": "10.1016/j.adolescence.2020.01.010",
+      "why_relevant": "Primary study included in the review examining problematic social media use and depression/stress."
+    },
+    {
+      "study_title": "Relationships between Severity of Internet Gaming Disorder, Severity of Problematic Social Media Use, Sleep Quality and Psychological Distress",
+      "year": "2020",
+      "authors": "Wong HY, Mo HY, Potenza MN, Chan MNM, Lau WM, Chui TK, et al.",
+      "doi_or_identifier": "10.3390/ijerph17061879",
+      "why_relevant": "Primary study included in the review reporting problematic social media use associations with depression, anxiety, and stress."
+    },
+    {
+      "study_title": "Modeling of variables related to problematic internet usage and problematic social media usage in adolescents",
+      "year": "2020",
+      "authors": "Y\u0131ld\u0131z Durak H",
+      "doi_or_identifier": "10.1007/s12144-018-9840-8",
+      "why_relevant": "Primary study included in the review examining problematic social media use and stress/anxiety-related outcomes."
+    },
+    {
+      "study_title": "The patterns of problematic social media use (SMU) and their relationship with online flow, life satisfaction, depression, anxiety and stress symptoms in Lithuania and in Germany",
+      "year": "2021",
+      "authors": "Brailovskaia J, Truskauskaite-Kuneviciene I, Kazlauskas E, Margraf J",
+      "doi_or_identifier": "10.1007/s12144-021-01711-w",
+      "why_relevant": "Primary study included in the review with two samples reporting associations between problematic social media use and depression, anxiety, and stress."
+    },
+    {
+      "study_title": "Understanding Adolescent Cyberbullies: Exploring Social Media Addiction and Psychological Factors",
+      "year": "2021",
+      "authors": "Giordano AL, Prosek EA, Watson JC",
+      "doi_or_identifier": "10.1080/23727810.2020.1835420",
+      "why_relevant": "Primary study included in metaregression analyses examining problematic social media use and combined depression/anxiety outcomes."
+    },
+    {
+      "study_title": "Family Socioeconomic Status and Social Media Addiction in Female College Students: The Mediating Role of Impulsiveness and Inhibitory Control",
+      "year": "2021",
+      "authors": "He Z, Li M, Ma X, Liu C",
+      "doi_or_identifier": "10.1080/00221325.2020.1853027",
+      "why_relevant": "Primary study included in the review examining problematic social media use and stress."
+    },
+    {
+      "study_title": "Evaluation of factors affecting social media addiction in adolescents during the COVID-19 pandemic",
+      "year": "2021",
+      "authors": "K\u0131l\u0131n\u00e7el S, Muratda\u011f\u0131 G",
+      "doi_or_identifier": "10.4328/acam.20541",
+      "why_relevant": "Primary study included in the review examining problematic social media use and anxiety/stress-related outcomes."
+    }
+  ],
+  "primary_studies_count": 15,
+  "source_file": "mental-2022-4-e33450.pdf"
+}

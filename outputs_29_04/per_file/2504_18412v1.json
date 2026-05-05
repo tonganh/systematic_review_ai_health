@@ -1,0 +1,111 @@
+{
+  "title": "Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers",
+  "year": "2025",
+  "journal_or_conference": "arXiv",
+  "type_of_paper": "Review plus experimental evaluation paper",
+  "study_design": "Mapping review of 10 clinical guidelines/manuals combined with experimental evaluations of LLMs, commercially available therapy bots, and a small therapist comparison sample",
+  "population": "Large language models (gpt-4o, Llama 3.1 405B/70B/8B, Llama 2 70B), commercially available therapy bots, and human therapists; stimuli modeled mental health scenarios including depression, alcohol dependence, schizophrenia, suicidal ideation, delusions, hallucinations, mania, and obsessive-compulsive behavior",
+  "sample_size": "Stigma experiment: 72 unique vignettes x 14 questions = 1008 prompts per model; appropriateness experiment: 10 symptom stimuli per model; human therapists n=16; commercial bots n=5",
+  "country_or_setting": "Primarily U.S. and U.K. clinical-guideline context; experiments conducted on AI systems and commercial therapy bots; therapy transcript context from Alexander Street Press",
+  "ai_type_application": "Large language models and LLM-powered therapy/wellness chatbots used as autonomous therapist substitutes in mental health settings",
+  "ai_exposure_intervention": "Exposure to LLM-generated therapeutic responses and therapy-bot outputs in simulated mental health scenarios; evaluation of stigma and appropriateness of responses to mental health symptoms",
+  "comparator_control_group": "Comparisons across models, commercially available therapy bots, a control vignette ('daily troubles'), and human therapists (n=16) for appropriateness task; also comparison with 2018 U.S. general population stigma survey data discussed descriptively",
+  "mental_health_outcome": "Potential mental health effects inferred from chatbot behavior, including supportive/helpful responses versus harmful responses such as stigma, enabling suicidal ideation, colluding with delusions, reinforcing hallucinations, and enabling mania; no direct patient mental health outcomes measured in this paper",
+  "outcome_measurement_tool": "Custom evaluation framework derived from mapping review of clinical guidelines; adapted National Stigma Studies / General Social Survey vignette questions from Pescosolido et al.; clinically designed symptom stimuli with verification prompts; GPT-4o classification of appropriateness validated against human raters (Fleiss' kappa 0.96)",
+  "positive_effects": "A strong 'steel-man' system prompt improved model performance overall in the appropriateness task; conditioning on existing therapy transcripts slightly improved performance; some models performed relatively better on mania and hallucination items; paper also notes possible supportive roles for LLMs in mental health administration, training, intake, and navigation, though these were not the main tested outcomes",
+  "negative_effects_harms": "Models expressed stigma toward people with mental health conditions, especially alcohol dependence and schizophrenia. Models responded inappropriately to acute mental health symptoms, including giving examples of tall bridges after a suicidal-ideation prompt, failing to tell a delusional client they were likely alive, and other unsafe or clinically inappropriate responses. Commercial therapy bots also performed poorly, with some giving potentially dangerous information. The paper argues these behaviors could cause emotional harm, facilitate self-harm, reinforce psychosis-related beliefs, and degrade quality of care.",
+  "adverse_events_reported": "Yes",
+  "evidence_type": "Experimental simulation study with mapping review and comparative model evaluation",
+  "main_finding": "Current LLMs and commercially available therapy bots are not safe replacements for mental health providers because they show stigma and often respond inappropriately to critical mental health scenarios, despite safety prompting and newer/larger models.",
+  "effect_size_key_result": "In stigma task, gpt-4o showed stigma 38% of the time overall and Llama 3.1 405B 75% of the time overall. In appropriateness task, models responded inappropriately 20% or more of the time on average; human therapists responded appropriately 93% of the time. Commercial therapy bots answered only around 50% of questions appropriately overall, and Noni around 40%.",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Weak",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "Vignettes varied gender, race, age, and education level of the person described",
+    "other_confounders": "Temperature fixed at zero; same prompts used across models; steel-man system prompt applied in main analyses; some analyses conditioned on matched therapy transcripts"
+  },
+  "limitations_bias": "No direct measurement of patient mental health outcomes; largely simulation-based and uses prompts/vignettes rather than real clinical deployment outcomes. Survey-style stigma questions may not correlate with downstream behavior. Multiple-choice format may affect responses. Appropriateness judgments were based on narrow verification prompts and partly automated by GPT-4o, though validated. Transcript-appended stimuli may create non-sequiturs and move models off-distribution. Commercial bot testing had small sample size and limited control over hidden system prompts. Human comparison sample was small (n=16).",
+  "relevance_to_our_review": "Highly relevant for adverse effects of AI on mental health because it evaluates potentially harmful outputs of LLM mental health chatbots and discusses risks such as stigma, unsafe crisis responses, and reinforcement of delusions or suicidality. However, it does not measure downstream mental health outcomes in human users.",
+  "use_decision": "Include",
+  "reason_for_decision": "Include as evidence on potential harmful effects and safety risks of AI mental health tools, especially LLM therapy bots, even though outcomes are simulated rather than patient-level clinical outcomes.",
+  "notes_for_research_question": "This paper is more about safety and harmful response quality than about measured changes in symptoms or well-being. It includes one cited RCT (Therabot) and several user-experience studies relevant to AI effects on mental health. Useful for background on mechanisms of harm and for identifying primary empirical studies.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment",
+      "year": "2025",
+      "authors": "Michael V. Heinz, Daniel M. Mackin, Brianna M. Trudeau, Sukanya Bhattacharya, Yinzhou Wang, Haley A. Banta, Abi D. Jewett, Abigail J. Salzhauer, Tess Z. Griffin, and Nicholas C. Jacobson",
+      "doi_or_identifier": "10.1056/AIoa2400802",
+      "why_relevant": "Randomized controlled trial of Therabot reporting reductions in common mental health conditions versus waitlist control; directly relevant to AI effects on mental health"
+    },
+    {
+      "study_title": "Large Language Models as Mental Health Resources: Patterns of Use in the United States",
+      "year": "2025",
+      "authors": "Tony Rousmaniere, Xu Li, Yimeng Zhang, and Siddharth Shah",
+      "doi_or_identifier": "10.31234/osf.io/q8m7g_v1",
+      "why_relevant": "Survey of U.S. adults with diagnosed mental health conditions on use of LLMs for mental health support, including perceived helpfulness and dismissive or offensive experiences"
+    },
+    {
+      "study_title": "Loneliness and suicide mitigation for students using GPT3-enabled chatbots",
+      "year": "2024",
+      "authors": "Bethanie Maples, Merve Cerit, Aditya Vishwanath, and Roy Pea",
+      "doi_or_identifier": "10.1038/s44184-023-00047-6",
+      "why_relevant": "Reports on students using GPT-3-enabled chatbots, including claims about loneliness and suicide mitigation"
+    },
+    {
+      "study_title": "Understanding the Benefits and Challenges of Using Large Language Model-based Conversational Agents for Mental Well-being Support",
+      "year": "2024",
+      "authors": "Zilin Ma, Yiyang Mei, and Zhaoyuan Su",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Analyzes user-reported benefits and harms of LLM conversational agents for mental well-being support, including harmful content and over-reliance"
+    },
+    {
+      "study_title": "The Typing Cure: Experiences with Large Language Model Chatbots for Mental Health Support",
+      "year": "2024",
+      "authors": "Inhwa Song, Sachin R. Pendse, Neha Kumar, and Munmun De Choudhury",
+      "doi_or_identifier": "10.48550/arXiv.2401.14362",
+      "why_relevant": "Qualitative study of user experiences with LLM chatbots for mental health support, including perceived unconditional positive regard and overuse concerns"
+    },
+    {
+      "study_title": "\u201cIt happened to be the perfect thing\u201d: experiences of generative AI chatbots for mental health",
+      "year": "2024",
+      "authors": "Steven Siddals, John Torous, and Astrid Coxon",
+      "doi_or_identifier": "10.1038/s44184-024-00097-4",
+      "why_relevant": "Qualitative interviews on mental health uses of generative AI chatbots, including both positive experiences and limitations"
+    },
+    {
+      "study_title": "Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial",
+      "year": "2018",
+      "authors": "Russell Fulmer, Angela Joerin, Breanna Gentile, Lysanne Lakerink, and Michiel Rauws",
+      "doi_or_identifier": "10.2196/mental.9782",
+      "why_relevant": "Randomized controlled trial of a conversational AI agent for depression and anxiety symptoms; directly relevant to AI effects on mental health"
+    },
+    {
+      "study_title": "An empathy-driven, conversational artificial intelligence agent (Wysa) for digital mental well-being: real-world data evaluation mixed-methods study",
+      "year": "2018",
+      "authors": "Becky Inkster, Shubhankar Sarda, and Vinod Subramanian",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Empirical evaluation of an AI mental well-being chatbot in real-world use"
+    },
+    {
+      "study_title": "A Study of Asynchronous Mobile-Enabled SMS Text Psychotherapy",
+      "year": "2017",
+      "authors": "Thomas D. Hull and Kush Mahan",
+      "doi_or_identifier": "10.1089/tmj.2016.0114",
+      "why_relevant": "Human-delivered text psychotherapy study used as context for text-based mental health interventions and outcomes"
+    },
+    {
+      "study_title": "Systematic review and meta-analysis of AI-based conversational agents for promoting mental health and well-being",
+      "year": "2023",
+      "authors": "Han Li, Renwen Zhang, Yi-Chieh Lee, Robert E. Kraut, and David C. Mohr",
+      "doi_or_identifier": "10.1038/s41746-023-00979-5",
+      "why_relevant": "Synthesizes empirical evidence on AI conversational agents and mental health/well-being outcomes"
+    }
+  ],
+  "primary_studies_count": 10,
+  "source_file": "2504.18412v1.pdf"
+}

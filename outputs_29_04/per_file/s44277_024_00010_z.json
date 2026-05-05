@@ -1,0 +1,111 @@
+{
+  "title": "Opportunities and risks of large language models in psychiatry",
+  "year": "2024",
+  "journal_or_conference": "NPP \u2013 Digital Psychiatry and Neuroscience",
+  "type_of_paper": "Review article",
+  "study_design": "Narrative review/commentary on opportunities and risks of large language models in psychiatry and mental health",
+  "population": "Not a single study sample; discusses patients, clinicians, healthcare systems, and general population mental health",
+  "sample_size": "",
+  "country_or_setting": "General/global; examples include US healthcare and social media studies, NYU Langone Health System, and clinical mental health settings",
+  "ai_type_application": "Large language models (LLMs); therapy chatbots; clinical decision support; natural language processing of clinical notes; predictive analytics; personal assistants",
+  "ai_exposure_intervention": "Use or deployment of LLMs in psychiatric care, mental health support, clinical documentation, prediction, decision support, and conversational applications",
+  "comparator_control_group": "Not applicable for the review itself; some cited primary studies include waitlist controls, clinician comparison, or unaugmented vs augmented LLMs",
+  "mental_health_outcome": "Depression, anxiety, emotional distress, avoidant coping, empathy, loneliness/social connection, psychiatric functioning, suicide risk, broader population mental health and well-being",
+  "outcome_measurement_tool": "Not applicable for the review itself; cited studies mention clinical and behavioral assessments, functional neuroimaging, psychiatric functioning assessments, health records-based prediction, and self-reported depression symptoms",
+  "positive_effects": "Potential improved access to care, personalized support, efficient data collection, diagnostic support, treatment planning, monitoring, administrative streamlining, clinical note generation, therapy chatbot delivery of evidence-based interventions, improved problem-solving skills and reduced depression/anxiety in some pilot work, potential enhancement of empathy, support for research question generation",
+  "negative_effects_harms": "Potential labor substitution with downstream mental health harms, privacy/data leakage concerns, bias and stereotype reinforcement, misinformation/hallucinations, inappropriate or unstable outputs, misinterpretation of nuanced symptoms, overreliance by clinicians, mismatch of values, reduced human-to-human socialization, possible worsening distress in vulnerable users, inequitable access to fine-tuned systems, limited transparency, cultural/regional limitations",
+  "adverse_events_reported": "Not clear",
+  "evidence_type": "Narrative review drawing on cited empirical studies, examples, and conceptual/regulatory frameworks",
+  "main_finding": "LLMs may offer important benefits for psychiatric care and mental health research, but current evidence also identifies substantial ethical, clinical, social, and safety risks; responsible guardrails, red-teaming, oversight, and evaluation frameworks are needed before broad deployment.",
+  "effect_size_key_result": "Review does not provide a pooled effect size. It cites examples such as GPT-4 identifying an optimal next-step antidepressant about 3/4 of the time, contraindicated or suboptimal options appearing in nearly half of vignettes in one study, augmented bipolar-depression prompting doubling expert-aligned choices with contraindicated/less preferred options in about 1 in 10 vignettes, and a pilot RCT reporting modest reductions in depression and anxiety symptoms with LUMEN versus waitlist.",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Weak",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": ""
+  },
+  "limitations_bias": "This is not a systematic review or meta-analysis; no formal risk-of-bias assessment reported; evidence base is early and heterogeneous; many claims are conceptual or based on small pilot studies and illustrative examples; cited LLM studies may have unstable prompting sensitivity and limited generalizability; regulation and long-term surveillance remain underdeveloped.",
+  "relevance_to_our_review": "Relevant as background/context on AI effects on mental health and psychiatry, including both beneficial and harmful pathways, but not primary causal evidence on mental health outcomes.",
+  "use_decision": "Maybe",
+  "reason_for_decision": "Useful contextual review for identifying mechanisms, risks, and candidate primary studies, but not itself a primary study estimating AI effects on mental health.",
+  "notes_for_research_question": "The paper is highly relevant for framing pathways by which AI/LLMs could affect mental health: direct therapeutic effects, clinician support, social substitution, labor-market impacts, bias/privacy harms, and system-level consequences. It also highlights the need to distinguish personal-use AI effects from clinical AI deployment effects.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Effects of a virtual voice-based coach delivering problem-solving treatment on emotional distress and brain function: a pilot RCT in depression and anxiety",
+      "year": "2023",
+      "authors": "Kannampallil T, Ajilore OA, Lv N, Smyth JM, Wittels NE, Ronneberg CR, et al.",
+      "doi_or_identifier": "10.1038/s41398-023-02462-x",
+      "why_relevant": "Pilot randomized controlled trial of an AI-enabled therapy coach (LUMEN) reporting changes in emotional distress, depression/anxiety symptoms, coping, and brain function."
+    },
+    {
+      "study_title": "Association Between Social Media Use and Self-reported Symptoms of Depression in US Adults",
+      "year": "2021",
+      "authors": "Perlis RH, Green J, Simonson M, Ognyanova K, Santillana M, Lin J, et al.",
+      "doi_or_identifier": "10.1001/jamanetworkopen.2021.36113",
+      "why_relevant": "Cited as evidence that greater social media use can worsen or onset depression in some adults, used analogically for potential AI chat risks to mental health."
+    },
+    {
+      "study_title": "Human\u2013AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+      "year": "2023",
+      "authors": "Sharma A, Lin IW, Miner AS, Atkins DC, Althoff T.",
+      "doi_or_identifier": "10.1038/s42256-022-00593-2",
+      "why_relevant": "Primary evidence that AI-assisted interactions may improve empathy in mental health support contexts."
+    },
+    {
+      "study_title": "The Capability of Large Language Models to Measure Psychiatric Functioning",
+      "year": "2023",
+      "authors": "Galatzer-Levy IR, McDuff D, Natarajan V, Karthikesalingam A, Malgaroli M.",
+      "doi_or_identifier": "10.48550/arXiv.2308.01834",
+      "why_relevant": "Assesses whether an LLM can estimate psychiatric functioning comparably to human clinical assessors."
+    },
+    {
+      "study_title": "Conversational AI facilitates mental health assessments and is associated with improved recovery rates",
+      "year": "2022",
+      "authors": "Rollwage M, Juchems K, Habicht J, Carrington B, Hauser T, Harper R.",
+      "doi_or_identifier": "10.1101/2022.11.03.22281887",
+      "why_relevant": "Reports mental health service outcomes associated with conversational AI used for referral, triage, and assessment."
+    },
+    {
+      "study_title": "Complex modeling with detailed temporal predictors does not improve health records-based suicide risk prediction",
+      "year": "2023",
+      "authors": "Shortreed SM, Walker RL, Johnson E, Wellman R, Cruz M, Ziebell R, et al.",
+      "doi_or_identifier": "10.1038/s41746-023-00772-4",
+      "why_relevant": "Relevant to AI-based prediction of suicide risk, a key mental health outcome."
+    },
+    {
+      "study_title": "Efficacy of mobile app-based interactive cognitive behavioral therapy using a chatbot for panic disorder",
+      "year": "2020",
+      "authors": "Oh J, Jang S, Kim H, Kim JJ.",
+      "doi_or_identifier": "10.1016/j.ijmedinf.2020.104171",
+      "why_relevant": "Primary intervention study of a chatbot delivering CBT for a mental health disorder."
+    },
+    {
+      "study_title": "Use of the Chatbot \u201cVivibot\u201d to deliver positive psychology skills and promote well-being among young people after cancer treatment: randomized controlled feasibility trial",
+      "year": "2019",
+      "authors": "Greer S, Ramo D, Chang YJ, Fu M, Moskowitz J, Haritatos J.",
+      "doi_or_identifier": "10.2196/15018",
+      "why_relevant": "AI chatbot intervention study measuring well-being-related outcomes."
+    },
+    {
+      "study_title": "Application of GPT-4 to select next-step antidepressant treatment in major depression",
+      "year": "2023",
+      "authors": "Perlis RH",
+      "doi_or_identifier": "10.1101/2023.04.14.23288595",
+      "why_relevant": "Evaluates LLM clinical decision support for depression treatment, relevant to psychiatric care quality and potential downstream mental health effects."
+    },
+    {
+      "study_title": "Clinical decision support for bipolar depression using large language models",
+      "year": "2024",
+      "authors": "Perlis RH, Goldberg JF, Ostacher MJ, Schneck CD.",
+      "doi_or_identifier": "10.1038/s41386-024-01841-2",
+      "why_relevant": "Assesses LLM-guided treatment selection in bipolar depression, relevant to psychiatric treatment support."
+    }
+  ],
+  "primary_studies_count": 10,
+  "source_file": "s44277-024-00010-z.pdf"
+}

@@ -7,21 +7,41 @@ from typing import Any
 
 from openpyxl import Workbook
 
+from .schema import paper_record_for_export
+
 PAPER_COLUMNS = [
     "source_file",
     "title",
     "year",
+    "journal_or_conference",
     "type_of_paper",
+    "study_design",
     "population",
+    "sample_size",
+    "country_or_setting",
     "ai_type_application",
+    "ai_exposure_intervention",
+    "comparator_control_group",
     "mental_health_outcome",
+    "outcome_measurement_tool",
     "positive_effects",
-    "negative_effects",
+    "negative_effects_harms",
+    "adverse_events_reported",
     "evidence_type",
     "main_finding",
+    "effect_size_key_result",
+    "study_claims_causality",
+    "evidence_supports_causality",
+    "confounder_baseline_mental_health_condition",
+    "confounder_medical_condition",
+    "confounder_family_social_factors",
+    "confounder_addiction_problematic_use",
+    "confounder_demographics",
+    "confounder_other_confounders",
     "limitations_bias",
     "relevance_to_our_review",
     "use_decision",
+    "reason_for_decision",
     "notes_for_research_question",
     "is_review_paper",
     "primary_studies_count",
@@ -67,7 +87,8 @@ def export_to_excel(
     primary_studies_json: Path,
     output_excel: Path,
 ) -> Path:
-    paper_rows = _load_json_array(extractions_json)
+    paper_rows_raw = _load_json_array(extractions_json)
+    paper_rows = [paper_record_for_export(rec) for rec in paper_rows_raw]
     primary_rows = _load_json_array(primary_studies_json)
 
     workbook = Workbook()
@@ -102,4 +123,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

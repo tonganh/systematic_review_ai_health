@@ -1,0 +1,69 @@
+{
+  "title": "Systematic review and meta-analysis of adverse events in clinical trials of mental health apps",
+  "year": "2024",
+  "journal_or_conference": "npj Digital Medicine",
+  "type_of_paper": "Systematic review and meta-analysis",
+  "study_design": "Systematic review of randomized controlled trials of mental health smartphone apps, with meta-analysis of deterioration/adverse event rates",
+  "population": "Participants pre-selected for mental health problems, including depression, anxiety disorders, schizophrenia/psychosis, PTSD, bipolar disorder, eating disorders, suicidal ideation/self-harm, and general psychiatric distress",
+  "sample_size": "171 trials identified; 55 trials reported adverse events; meta-analysis of deterioration in app conditions included 13 app conditions and 1,672 participants; app vs control comparison included 9 comparisons",
+  "country_or_setting": "Multiple countries and settings; databases searched were Medline, PsycINFO, Web of Science, and ProQuest",
+  "ai_type_application": "Primarily mental health smartphone apps; limited AI-related content only. Some included apps had chatbot technology, but this review was not focused specifically on AI. One chatbot app was noted among included app conditions.",
+  "ai_exposure_intervention": "Use of mental health smartphone apps as stand-alone or adjunctive interventions; one included app condition contained chatbot technology and some apps used symptom monitoring/feedback features",
+  "comparator_control_group": "Inactive controls, care as usual, placebo apps, waitlist, information resources, face-to-face or group treatment, and other control conditions",
+  "mental_health_outcome": "Adverse events, symptom deterioration, worsening mental health symptoms, hospitalization, suicidality/self-harm, app-induced distress, physical complaints, cognitive impairments, cyber sickness",
+  "outcome_measurement_tool": "Validated symptom scales for deterioration (e.g., PHQ-9, PHQ-8, GAD-7, PCL-5, social anxiety scales), clinical interviews, open-ended questions, self-created items, objective indicators such as hospitalization, and in a few studies validated adverse-effect measures such as the Inventory for Assessing Negative Effects of Psychotherapy and the Negative Effects Questionnaire",
+  "positive_effects": "The review notes growing evidence that mental health apps can effectively reduce a range of mental health symptoms, but this paper primarily examined harms rather than benefits. It found no significant difference in deterioration rates between app and control groups.",
+  "negative_effects_harms": "Only 32% of trials reported adverse events. Weighted average deterioration rate in app conditions was 6.7% (95% CI 4.3 to 10.1; I2=75%). Severe adverse events reported in some trials included hospitalization, suicidality/self-harm, death, violent episode, and crisis care referral, though often not attributed to app use. Other harms included poorer mental health, subjective symptom increase, physical complaints, financial concerns, relationship problems, increased stigmatization fears, cognitive impairments, distress due to technical difficulties or in-app features, feeling too reliant on the app, and cyber sickness.",
+  "adverse_events_reported": "Yes",
+  "evidence_type": "Systematic review and meta-analysis of randomized controlled trials",
+  "main_finding": "Few clinical trials of mental health apps report adverse events, and those that do often provide insufficient detail to properly judge risks related to app use. Deterioration rates in app groups were not significantly different from controls.",
+  "effect_size_key_result": "Meta-analytic deterioration rate from 13 app conditions was 6.7% (95% CI 4.3, 10.1; I2=75%). App vs control deterioration comparison: OR=0.79 (95% CI 0.62 to 1.01; I2=0%; p=0.062).",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Weak",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "RCT inclusion required samples pre-selected for mental health problems; some subgroup comparisons by target disorder",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": "Between-group control came from randomized designs in included trials; review compared trial characteristics such as app features, control type, eligibility method, researcher contact, and risk of bias"
+  },
+  "limitations_bias": "Only a small number of trials reported deterioration data; deterioration definitions varied across studies; adverse event reporting was heterogeneous and often lacked detail; early dropout may have masked harms; only RCTs and main outcome papers were included; supplementary safety publications may have been missed; many included trials had higher risk of bias.",
+  "relevance_to_our_review": "Relevant as background/context on harms of digital mental health apps and discussion of chatbot-related risks, but not focused specifically on AI effects on mental health. It provides limited direct evidence on AI applications.",
+  "use_decision": "Maybe",
+  "reason_for_decision": "Include as contextual evidence on harms/adverse events in digital mental health apps and limited chatbot-related risk, but not as a core AI-specific effectiveness study.",
+  "notes_for_research_question": "This is a review paper, not a primary AI study. It mentions concerns about chatbots offering harmful advice and includes at least one chatbot-based trial among broader app studies, but the central focus is adverse events in mental health apps generally rather than AI-specific exposure. Useful for safety framing and identifying AI/chatbot-related primary studies.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Chatbot-delivered cognitive behavioral therapy in adolescents with depression and anxiety during the COVID-19 pandemic: feasibility and acceptability study",
+      "year": "2022",
+      "authors": "Nicol, Wang, Graham, Dodd, Garbutt",
+      "doi_or_identifier": "JMIR Form. Res. 6 (2022)",
+      "why_relevant": "Primary study in the review involving a chatbot-delivered CBT mental health app relevant to AI/chatbot effects on mental health."
+    },
+    {
+      "study_title": "Mental health chatbot for young adults with depressive symptoms during the COVID-19 pandemic: single-blind, three-arm randomized controlled trial",
+      "year": "2022",
+      "authors": "He, Yin-Hu et al.",
+      "doi_or_identifier": "J. Med. Internet Res. 24, e40719",
+      "why_relevant": "AI/chatbot-based mental health intervention trial cited in the review references and directly relevant to AI effects on mental health."
+    },
+    {
+      "study_title": "Efficacy of mobile application-delivered acceptance and commitment therapy for posttraumatic stress disorder in China: a randomized controlled trial",
+      "year": "2023",
+      "authors": "Zhao, C. X. et al.",
+      "doi_or_identifier": "Behav. Res. Ther. 171, 104440",
+      "why_relevant": "Included primary app trial on mental health outcomes and deterioration, relevant to digital intervention harms though not clearly AI-specific."
+    },
+    {
+      "study_title": "Efficacy of BrighterSide, a self-guided app for suicidal ideation: randomized controlled trial",
+      "year": "2024",
+      "authors": "Josifovski, N. et al.",
+      "doi_or_identifier": "JMIR Ment. Health 11, e55528",
+      "why_relevant": "Included primary mental health app trial with adverse event reporting; relevant to digital mental health safety."
+    }
+  ],
+  "primary_studies_count": 4,
+  "source_file": "s41746-024-01388-y.pdf"
+}

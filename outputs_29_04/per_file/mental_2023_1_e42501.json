@@ -1,0 +1,97 @@
+{
+  "title": "Identifying and Categorizing Adverse Events in Trials of Digital Mental Health Interventions: Narrative Scoping Review of Trials in the International Standard Randomized Controlled Trial Number Registry",
+  "year": "2023",
+  "journal_or_conference": "JMIR Mental Health",
+  "type_of_paper": "Narrative scoping review",
+  "study_design": "Scoping review of completed randomized controlled trials registered in the ISRCTN registry, comparing published protocols and primary results publications for adverse event reporting",
+  "population": "Participants with diagnosed mental health disorders enrolled in randomized controlled trials of digital mental health interventions; included adults, young adults, children, and adolescents across multiple psychiatric conditions",
+  "sample_size": "23 trials",
+  "country_or_setting": "International; trials identified from the ISRCTN registry across multiple countries and settings including health services, community, school, and forensic/prison settings",
+  "ai_type_application": "",
+  "ai_exposure_intervention": "Digital mental health interventions delivered via websites, apps, smartphones, computers, tablets, or virtual reality; interventions could be self-guided or supported by human contact",
+  "comparator_control_group": "Varied across included randomized controlled trials; any control group was eligible",
+  "mental_health_outcome": "Adverse events, serious adverse events, event seriousness, expectedness, relatedness, monitoring methods, and dropout reasons as potential indicators of harm",
+  "outcome_measurement_tool": "No single standardized tool across studies; some trials used symptom checklists, Short Mood and Feelings Questionnaire, GAD-7, PHQ-9, modified symptom checklist, modified side-effects scale, self-report, therapist/assessor reports, session monitoring, and medical notes review",
+  "positive_effects": "The review notes increasing recognition of adverse events in published protocols and suggests digital functionality could support standardized, automated harm monitoring and reporting",
+  "negative_effects_harms": "Significant variation and likely underreporting of adverse events in digital mental health trials; only 6 of 23 trials reported adverse events in primary results publications. Potential harms included distress, deterioration, self-harm-related risks, app/device-related harms, cybersickness, exclusion or frustration due to digital eligibility or access issues, misunderstanding or misuse of intervention content, and dropout reasons suggestive of adverse events or serious adverse events",
+  "adverse_events_reported": "Yes",
+  "evidence_type": "Review of registered randomized controlled trial protocols and primary results publications",
+  "main_finding": "Adverse events are inconsistently defined, monitored, categorized, and reported in trials of digital mental health interventions. Although 16 of 23 trials mentioned adverse events somewhere in trial documents, only 6 of 23 reported adverse events in primary results publications, indicating substantial variation and probable underrecognition of harms",
+  "effect_size_key_result": "Of 23 eligible trials, 16 (69%) included a statement on adverse events somewhere in trial documentation, but only 6 (26%) reported adverse events in the primary results publication; seriousness was referred to by 6 trials, relatedness by 4, and expectedness by 2",
+  "study_claims_causality": "No",
+  "evidence_supports_causality": "Not applicable",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": ""
+  },
+  "limitations_bias": "Search restricted to ISRCTN-registered trials with both published protocol and primary results publication, excluding other registries such as ClinicalTrials.gov and likely higher-rigor or unpublished studies. The review did not assess risk of bias of included trials, did not explore trial standard operating procedures beyond reported documents, and did not deeply analyze specific adverse event types. Findings may overrepresent better reporting practices and do not directly compare online versus offline trials or digital versus nondigital interventions",
+  "relevance_to_our_review": "Relevant for understanding harms and adverse mental health effects in digital interventions, but it does not specifically study artificial intelligence exposures or AI systems. It is mainly useful as contextual background on how harms are monitored and reported in digital mental health research",
+  "use_decision": "Exclude",
+  "reason_for_decision": "Exclude because the paper is not about AI effects on mental health; it is a methodological review of adverse event reporting in digital mental health intervention trials broadly",
+  "notes_for_research_question": "Useful background source on harm reporting standards, adverse event definitions, and methodological gaps that may also apply to AI-enabled mental health tools, but not direct evidence on AI mental health effects",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Digital smartphone intervention to recognise and manage early warning signs in schizophrenia to prevent relapse: the EMPOWER feasibility cluster RCT",
+      "year": "2022",
+      "authors": "Gumley AI, Bradstreet S, Ainsworth J, Allan S, Alvarez-Jimenez M, Birchwood M, et al.",
+      "doi_or_identifier": "10.3310/hlze0479",
+      "why_relevant": "Cited as an example of strong adverse event monitoring in a digital mental health trial, including app-related adverse events and categorization of severity, intensity, and relatedness"
+    },
+    {
+      "study_title": "Therapist-supported online remote behavioural intervention for tics in children and adolescents in England (ORBIT): a multicentre, parallel group, single-blind, randomised controlled trial",
+      "year": "2021",
+      "authors": "Hollis C, Hall CL, Jones R, Marston L, Novere ML, Hunter R, et al.",
+      "doi_or_identifier": "10.1016/S2215-0366(21)00235-2",
+      "why_relevant": "Referenced as a primary trial included in the review that used a modified side-effects scale and reported adverse event monitoring in a digital mental health intervention"
+    },
+    {
+      "study_title": "A randomized controlled trial of an internet-delivered treatment: Its potential as a low-intensity community intervention for adults with symptoms of depression",
+      "year": "2015",
+      "authors": "Richards D, Timulak L, O'Brien E, Hayes C, Vigano N, Sharry J, et al.",
+      "doi_or_identifier": "10.1016/j.brat.2015.10.005",
+      "why_relevant": "Cited to illustrate higher dropout in the intervention arm, suggesting dropout reasons may reveal unrecognized adverse events"
+    },
+    {
+      "study_title": "Web-based depression treatment for type 1 and type 2 diabetic patients: a randomized, controlled trial",
+      "year": "2011",
+      "authors": "van Bastelaar KMP, Pouwer F, Cuijpers P, Riper H, Snoek FJ",
+      "doi_or_identifier": "10.2337/dc10-1248",
+      "why_relevant": "Cited as an example of higher dropout in the digital intervention arm that may indicate unrecognized harms"
+    },
+    {
+      "study_title": "The effectiveness of an online support group for members of the community with depression: a randomised controlled trial",
+      "year": "2012",
+      "authors": "Griffiths KM, Mackinnon AJ, Crisp DA, Christensen H, Bennett K, Farrer L",
+      "doi_or_identifier": "10.1371/journal.pone.0053244",
+      "why_relevant": "Referenced as a study where adverse events were stated to be not applicable despite higher intervention-arm dropout"
+    },
+    {
+      "study_title": "Effectiveness and Cost-Effectiveness of a Self-Guided Internet Intervention for Social Anxiety Symptoms in a General Population Sample: Randomized Controlled Trial",
+      "year": "2020",
+      "authors": "Powell J, Williams V, Atherton H, Bennett K, Yang Y, Davoudianfar M, et al.",
+      "doi_or_identifier": "10.2196/16804",
+      "why_relevant": "Cited as another example of higher dropout in intervention versus control, relevant to potential unrecognized adverse events"
+    },
+    {
+      "study_title": "Low-intensity cognitive-behaviour therapy interventions for obsessive-compulsive disorder compared to waiting list for therapist-led cognitive-behaviour therapy: 3-arm randomised controlled trial of clinical effectiveness",
+      "year": "2017",
+      "authors": "Lovell K, Bower P, Gellatly J, Byford S, Bee P, McMillan D, et al.",
+      "doi_or_identifier": "10.1371/journal.pmed.1002337",
+      "why_relevant": "Cited as a study with high intervention-arm dropout despite stating there were no adverse events"
+    },
+    {
+      "study_title": "A Direct-to-Public Peer Support Program (Big White Wall) Versus Web-Based Information to Aid the Self-management of Depression and Anxiety: Results and Challenges of an Automated Randomized Controlled Trial",
+      "year": "2021",
+      "authors": "Morriss R, Kaylor-Hughes C, Rawsthorne M, Coulson N, Simpson S, Guo B, et al.",
+      "doi_or_identifier": "10.2196/23487",
+      "why_relevant": "Cited to illustrate a digital-specific potential harm where automated eligibility exclusion led to disappointment, frustration, and a sense of exclusion"
+    }
+  ],
+  "primary_studies_count": 8,
+  "source_file": "mental-2023-1-e42501.pdf"
+}

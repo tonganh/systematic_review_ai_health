@@ -1,0 +1,111 @@
+{
+  "title": "ALGORITHMS, ADDICTION, AND ADOLESCENT MENTAL HEALTH: An Interdisciplinary Study to Inform State-level Policy Action to Protect Youth from the Dangers of Social Media",
+  "year": "2023",
+  "journal_or_conference": "American Journal of Law & Medicine",
+  "type_of_paper": "Narrative review and legal/policy analysis",
+  "study_design": "Interdisciplinary review of public health and neuroscience literature, with legal analysis and discussion of economic findings; not an original primary empirical study of mental health outcomes",
+  "population": "Children and adolescents/young social media users, primarily U.S. youth; also discusses adolescent users in studies from the U.S. and UK",
+  "sample_size": "",
+  "country_or_setting": "Primarily United States; also references studies and policy examples from the United Kingdom, Europe, Australia, Canada, and social media platforms generally",
+  "ai_type_application": "Social media recommendation algorithms/content-ranking algorithms used by platforms such as TikTok, Instagram, Facebook, Snapchat, YouTube, and Twitter/X to personalize feeds, promote content, maximize engagement, and target advertising",
+  "ai_exposure_intervention": "Exposure to algorithm-driven social media feeds and platform features such as personalized recommendations, infinite scroll, likes, notifications, autoplay, and targeted content/advertising; emphasis on harmful algorithmic amplification of extreme content (e.g., eating disorder, self-harm, suicide-related material)",
+  "comparator_control_group": "Varies across cited studies; examples discussed include Facebook/Instagram users versus game-playing controls, thin-body versus higher-weight image exposure conditions, one-week social media abstinence versus usual use, vulnerable versus standard TikTok accounts",
+  "mental_health_outcome": "Depression, anxiety, psychological distress, suicidality, self-harm, poor body image/body dissatisfaction, eating disorder risk/disordered eating, low self-esteem",
+  "outcome_measurement_tool": "Varies by cited study; includes Patient Health Questionnaire-8 (PHQ-8), General Anxiety Disorder Scale-7 (GAD-7), General Health Questionnaire (GHQ-12), body satisfaction/body dissatisfaction measures, appearance comparison measures, and attention/state body dissatisfaction measures",
+  "positive_effects": "The paper largely focuses on harms and policy responses; no clear beneficial mental health effects of AI/social media algorithms are reported",
+  "negative_effects_harms": "Algorithm-driven exposure is linked to poor body image, increased appearance comparison, body dissatisfaction, eating disorder risk, depressive symptoms, anxiety, psychological distress, self-harm and suicide-related content exposure, suicidality, compulsive/problematic use, and addictive engagement. Vulnerable adolescent accounts may receive substantially more self-harm, suicide, and disordered-eating content.",
+  "adverse_events_reported": "Yes",
+  "evidence_type": "Narrative review of experimental studies, longitudinal cohort studies, neuroscience evidence, journalistic investigations, policy/legal analysis, and economic analysis",
+  "main_finding": "The paper argues that social media algorithms that personalize and intensify exposure to harmful content can worsen adolescent mental health, especially for body image, eating disorders, depression, anxiety, and suicidality. It concludes that social media platforms are economically incentivized to continue these practices and advocates for state-level regulation, especially independent algorithm risk audits with public disclosure.",
+  "effect_size_key_result": "The paper cites examples rather than pooled estimates: vulnerable TikTok accounts were served 12 times more self-harm and suicide videos than standard accounts in one cited study; the authors also note nearly $11 billion in annual advertising revenue from U.S. users aged 0-17 years across major platforms. No single meta-analytic effect size is reported by this paper.",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Moderate",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "Problematic/addictive use is discussed as a risk factor and mechanism in reviewed studies, but not uniformly controlled across the review",
+    "demographics": "Some cited studies compare by age, sex/gender, and vulnerability profile; no uniform adjustment across the paper",
+    "other_confounders": "The paper notes possible mechanisms and factors such as sleep displacement, reduced physical activity, social comparison, peer feedback, and platform type, but does not provide a unified confounder-adjustment model"
+  },
+  "limitations_bias": "This is not a systematic review or meta-analysis and does not report a formal search strategy, inclusion criteria, quality appraisal, or pooled effect estimates. Much of the evidence summarized is observational or platform-specific. The paper notes difficulties in establishing direct causation because platforms do not allow external researchers access to their algorithms. Legal and policy arguments dominate alongside the evidence review.",
+  "relevance_to_our_review": "Relevant as a review/policy paper on AI-like algorithmic recommendation systems and adolescent mental health harms, but it is not a primary study directly testing an AI intervention or experimentally manipulating an AI system in a clinical mental health context. Useful for background, mechanisms, and cited primary evidence on algorithmic exposure and adverse mental health outcomes.",
+  "use_decision": "Maybe",
+  "reason_for_decision": "Include as background/contextual review if the systematic review includes AI-enabled social media algorithms and mental health harms; exclude from quantitative evidence synthesis of primary studies because it is a narrative review and policy analysis rather than an original empirical study.",
+  "notes_for_research_question": "The paper is highly relevant if the review scope includes recommendation algorithms as AI systems affecting mental health at population level. It emphasizes adolescent vulnerability, algorithmic amplification of harmful content, and the gap between associative evidence and direct causal proof. It can be mined for primary studies on image-based social media, body image, depression, anxiety, and suicidality.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Negotiated Media Effects. Peer Feedback Modifies Effects of Media\u2019s Thin-Body Ideal on Adolescent Girls",
+      "year": "2014",
+      "authors": "Jolanda Veldhuis et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Experimental study cited as evidence that peer feedback and thin-ideal images shape adolescent girls\u2019 body ideals and susceptibility, relevant to algorithmically amplified image exposure and body image harm."
+    },
+    {
+      "study_title": "Compared to Facebook, Instagram Use Causes More Appearance Comparison and Lower Body Satisfaction in College Women",
+      "year": "2020",
+      "authors": "Renee Engeln et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Experimental study cited showing Instagram use increases appearance comparison and decreases body satisfaction relative to control conditions, relevant to image-based social media effects on mental health."
+    },
+    {
+      "study_title": "Effects of Instagram Body Portrayals on Attention, State Body Dissatisfaction, and Appearance Management Behavioral Intention",
+      "year": "2021",
+      "authors": "Ciera Kirkpatrick and Sungkyoung Lee",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Experimental study cited showing thin-body Instagram exposure increases attention and state body dissatisfaction, directly relevant to harmful content exposure."
+    },
+    {
+      "study_title": "Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial",
+      "year": "2022",
+      "authors": "Jeffrey Lambert et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Randomized controlled trial cited showing that a one-week break from social media improved depression and anxiety scores, relevant to causal inference on social media exposure and mental health."
+    },
+    {
+      "study_title": "Direct and Indirect Relationships Between Social Media Use and Body Satisfaction: A Prospective Study Among Adolescent Boys and Girls",
+      "year": "2021",
+      "authors": "Hannah K. Jarman et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Longitudinal study cited linking higher social media use to more social comparison and later lower body satisfaction in adolescents."
+    },
+    {
+      "study_title": "Suicide Risk in Emerging Adulthood: Associations with Screen Time over 10 Years",
+      "year": "2021",
+      "authors": "Sarah M. Coyne et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Longitudinal cohort study cited showing high and increasing social media use in adolescent girls was associated with increased suicide risk ten years later."
+    },
+    {
+      "study_title": "Roles of Cyberbullying, Sleep, and Physical Activity in Mediating the Effects of Social Media Use on Mental Health and Wellbeing Among Young People in England: A Secondary Analysis of Longitudinal Data",
+      "year": "2019",
+      "authors": "Russell Viner et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Longitudinal analysis cited showing frequent social media use was associated with later psychological distress; also relevant for mediating mechanisms."
+    },
+    {
+      "study_title": "Longitudinal Associations Between Appearance-related Social Media Consciousness and Adolescents\u2019 Depressive Symptoms",
+      "year": "2022",
+      "authors": "Anne J. Maheux et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Longitudinal study cited showing appearance-related social media consciousness predicted later depressive symptoms in high school students."
+    },
+    {
+      "study_title": "The Power of the Like in Adolescence: Effects of Peer Influence on Neural and Behavioral Responses to Social Media",
+      "year": "2016",
+      "authors": "Lauren E. Sherman et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Neuroscience study cited as evidence that social media rewards such as likes activate reward processing and influence adolescent behavior, relevant to algorithmic engagement features."
+    },
+    {
+      "study_title": "Neural Responses to Social and Monetary Reward in Early Adolescence and Emerging Adulthood",
+      "year": "2017",
+      "authors": "Paige Ethridge et al.",
+      "doi_or_identifier": "Not reported in source review",
+      "why_relevant": "Neuroscience study cited to support the claim that adolescents are especially sensitive to social rewards, relevant to social media reinforcement mechanisms."
+    }
+  ],
+  "primary_studies_count": 10,
+  "source_file": "algorithms-addiction-and-adolescent-mental-health-an-interdisciplinary-study-to-inform-state-level-policy-action-to-protect-youth-from-the-dangers-of-social-media.pdf"
+}

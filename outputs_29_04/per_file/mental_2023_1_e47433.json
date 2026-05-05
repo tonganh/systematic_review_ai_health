@@ -1,0 +1,202 @@
+{
+  "title": "The Safety of Digital Mental Health Interventions: Systematic Review and Recommendations",
+  "year": "2023",
+  "journal_or_conference": "JMIR Mental Health",
+  "type_of_paper": "Systematic review",
+  "study_design": "Systematic review of published studies on safety of digital mental health interventions; included 17 randomized controlled trials and 6 pre-post studies, plus a secondary web-based postmarket safety search",
+  "population": "Adults aged >16 years using clinical digital mental health interventions for conditions/symptom clusters including psychosis, depression, anxiety, body dysmorphic disorder, eating disorders, PTSD, suicidal ideation, insomnia, and loneliness",
+  "sample_size": "23 included studies; individual study sample sizes ranged from 7 to 3755",
+  "country_or_setting": "37 countries across included studies; most prevalent country United Kingdom; mainly high-income Western settings",
+  "ai_type_application": "Digital mental health interventions broadly (mobile apps, websites/internet programs, virtual reality, social media-based interventions); no specific AI system evaluated",
+  "ai_exposure_intervention": "Exposure to digital mental health interventions (DMHIs) such as internet-based CBT programs, smartphone apps, virtual reality therapies, and related digital therapeutics",
+  "comparator_control_group": "Varied across primary studies: treatment as usual, waitlist, supportive therapy, psychoeducation, healthy control, similar neutral intervention, similar active intervention; some studies were single-arm pre-post",
+  "mental_health_outcome": "Primarily safety outcomes and harms of DMHIs, including adverse events, serious adverse events, symptom deterioration, increased anxiety/distress/depression, suicidal ideation-related harms, sleep disturbance, dependence, rumination, paranoia, traumatic memory triggering, and technical distress; efficacy outcomes varied across interventions",
+  "outcome_measurement_tool": "No single tool; safety assessed via adverse event collection, serious adverse event reporting, self-report measures, standardized instruments such as Fear of Recurrence Scale, Symptom Checklist, PHQ-9, Inventory for the Assessment of Negative Effects of Psychotherapy, and bespoke questions",
+  "positive_effects": "Review notes evidence that some DMHIs are effective and comparable to face-to-face therapies for common mental health conditions; some primary studies reported clinically significant improvement despite some negative effects",
+  "negative_effects_harms": "Main reported treatment-related adverse event was symptom deterioration. Other harms included increased anxiety, distress or depression, increased sleep disturbances, triggering traumatic memory, unhelpful rumination from self-monitoring, increased paranoia, dependence on program content, feeling not taken seriously, technical difficulties, and one app-related serious adverse event involving hospitalization linked by participant to feeling overwhelmed by app installation.",
+  "adverse_events_reported": "Yes",
+  "evidence_type": "Systematic review of primary intervention studies with qualitative synthesis and some secondary odds ratio calculations",
+  "main_finding": "Safety assessment in digital mental health intervention studies is inconsistent and often inadequate. About one-third of included studies did not collect any safety data. Methods and frequency of adverse event assessment varied widely, formal statistical analyses were rare, symptom deterioration was the main reported adverse event, and risk mitigation mainly relied on excluding high-risk groups. The authors recommend standardized safety assessment, reporting, analysis, inclusion of high-risk groups with safeguards, and use of research safety data to inform postmarket mitigation.",
+  "effect_size_key_result": "23 studies included; 8/23 (35%) did not assess or collect safety data. 15/23 (65%) assessed risk. Only 6/17 RCTs reported sufficient data for odds ratio calculation. One reviewed study showed participants in intervention group were over 3 times more likely to experience an adverse event than controls (reported in review as OR 3.2, 95% CI 1.12-9.19).",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Weak",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "",
+    "medical_condition": "",
+    "family_social_factors": "",
+    "addiction_problematic_use": "",
+    "demographics": "",
+    "other_confounders": ""
+  },
+  "limitations_bias": "Most included RCTs had some concerns about risk of bias; more than one-quarter of included studies were non-randomized pre-post designs with confounding concerns. Safety outcomes were mostly qualitative, preventing meta-analysis. Only English-language studies and adult populations were included. Search terms focused on safety/risk language, which may have missed studies not explicitly labeling harms. Included studies were mostly from high-income Western countries, limiting generalizability.",
+  "relevance_to_our_review": "Relevant as background evidence on harms and safety of digital mental health interventions, but not specifically about AI effects on mental health. Useful for contextualizing adverse effects reporting and safety monitoring in digital interventions more broadly.",
+  "use_decision": "Maybe",
+  "reason_for_decision": "Include only if the review accepts broader digital mental health interventions as adjacent evidence for AI-enabled tools; otherwise exclude because the paper is not specifically about AI applications.",
+  "notes_for_research_question": "This is a review paper, not a primary AI study. It may help extract concepts on adverse events, causality, and safety monitoring relevant to AI mental health tools, but it does not isolate AI exposures. The paper emphasizes heterogeneity in adverse event definitions and recommends standardized safety assessment.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Internet-based behavioural activation with lay counsellor support versus online minimal psychoeducation without support for treatment of depression: a randomised controlled trial in Indonesia",
+      "year": "2018",
+      "authors": "Arjadi R, Nauta MH, Scholte WF, Hollon SD, Chowdhary N, Suryani AO, et al.",
+      "doi_or_identifier": "10.1016/S2215-0366(18)30223-2",
+      "why_relevant": "Primary digital mental health intervention trial included in the review with safety/adverse event reporting."
+    },
+    {
+      "study_title": "Virtual-reality-based cognitive behavioural therapy versus waiting list control for paranoid ideation and social avoidance in patients with psychotic disorders: a single-blind randomised controlled trial",
+      "year": "2018",
+      "authors": "Pot-Kolder RM, Geraets CN, Veling W, van Beilen M, Staring AB, Gijsman HJ, et al.",
+      "doi_or_identifier": "10.1016/S2215-0366(18)30053-1",
+      "why_relevant": "Primary VR-based mental health intervention trial reviewed for safety outcomes."
+    },
+    {
+      "study_title": "Therapist guided internet based cognitive behavioural therapy for body dysmorphic disorder: single blind randomised controlled trial",
+      "year": "2016",
+      "authors": "Enander J, Andersson E, Mataix-Cols D, Lichtenstein L, Alstr\u00f6m K, Andersson G, et al.",
+      "doi_or_identifier": "10.1136/bmj.i241",
+      "why_relevant": "Primary study included in the review with adverse event comparisons and one significant odds ratio reported in the review."
+    },
+    {
+      "study_title": "Primary care peer-supported internet-mediated psychological treatment for adults with anxiety disorders: mixed methods study",
+      "year": "2020",
+      "authors": "Nissling L, Fahlke C, Lilja JL, Skoglund I, Weineland S",
+      "doi_or_identifier": "10.2196/19226",
+      "why_relevant": "Primary digital anxiety intervention included in the safety review."
+    },
+    {
+      "study_title": "Internet-based cognitive behavioral therapy via videoconference for patients with bulimia nervosa and binge-eating disorder: pilot prospective single-arm feasibility trial",
+      "year": "2019",
+      "authors": "Hamatani S, Numata N, Matsumoto K, Sutoh C, Ibuki H, Oshiro K, et al.",
+      "doi_or_identifier": "10.2196/15738",
+      "why_relevant": "Primary digital eating disorder intervention included in the safety review."
+    },
+    {
+      "study_title": "Guided internet-based intervention for people with HIV and depressive symptoms: a randomised controlled trial in the Netherlands",
+      "year": "2018",
+      "authors": "van Luenen S, Garnefski N, Spinhoven P, Kraaij V",
+      "doi_or_identifier": "10.1016/S2352-3018(18)30133-4",
+      "why_relevant": "Primary internet-based depression intervention included in the review."
+    },
+    {
+      "study_title": "The effects of improving sleep on mental health (OASIS): a randomised controlled trial with mediation analysis",
+      "year": "2017",
+      "authors": "Freeman D, Sheaves B, Goodwin GM, Yu LM, Nickless A, Harrison PJ, et al.",
+      "doi_or_identifier": "10.1016/S2215-0366(17)30328-0",
+      "why_relevant": "Primary digital insomnia intervention reviewed; noted novel symptom of increased mania despite no AEs reported."
+    },
+    {
+      "study_title": "GET.HAPPY - acceptance of an internet-based self-management positive psychology intervention for adult primary care patients with mild and moderate depression or dysthymia: a pilot study",
+      "year": "2018",
+      "authors": "G\u00f6rges F, Oehler C, von Hirschhausen E, Hegerl U, Rummel-Kluge C",
+      "doi_or_identifier": "10.1016/j.invent.2018.03.001",
+      "why_relevant": "Primary digital depression intervention included in the review with negative effects reporting."
+    },
+    {
+      "study_title": "An Internet-based writing intervention for PTSD in veterans: a feasibility and pilot effectiveness trial",
+      "year": "2017",
+      "authors": "Krupnick JL, Green BL, Amdur R, Alaoui A, Belouali A, Roberge E, et al.",
+      "doi_or_identifier": "10.1037/tra0000176",
+      "why_relevant": "Primary PTSD digital intervention included in the safety review."
+    },
+    {
+      "study_title": "Condensed Internet-delivered prolonged exposure provided soon after trauma: a randomised trial",
+      "year": "2023",
+      "authors": "Bragesj\u00f6 M, Arnberg FK, Olofsdotter Lauri K, Aspvall K, S\u00e4rnholm J, Andersson E",
+      "doi_or_identifier": "10.1017/S0033291721003706",
+      "why_relevant": "Primary trauma-focused digital intervention with adverse event data included in the review."
+    },
+    {
+      "study_title": "Initial findings on RESTORE for healthcare workers: an internet-delivered intervention for COVID-19-related mental health symptoms",
+      "year": "2022",
+      "authors": "Trottier K, Monson CM, Kaysen D, Wagner AC, Liebman RE, Abbey SE",
+      "doi_or_identifier": "10.1038/s41398-022-01965-3",
+      "why_relevant": "Primary digital intervention included in the review, relevant to safety/withdrawal reporting."
+    },
+    {
+      "study_title": "Digital smartphone intervention to recognise and manage early warning signs in schizophrenia to prevent relapse: the EMPOWER feasibility cluster RCT",
+      "year": "2022",
+      "authors": "Gumley AI, Bradstreet S, Ainsworth J, Allan S, Alvarez-Jimenez M, Birchwood M, et al.",
+      "doi_or_identifier": "10.3310/HLZE0479",
+      "why_relevant": "Primary app-based psychosis intervention included in the review; reported one app-related serious adverse event and multiple app-related adverse effects."
+    },
+    {
+      "study_title": "The effect of a therapeutic smartphone application on suicidal ideation in young adults: findings from a randomized controlled trial in Australia",
+      "year": "2022",
+      "authors": "Torok M, Han J, McGillivray L, Wong Q, Werner-Seidler A, O'Dea B, et al.",
+      "doi_or_identifier": "10.1371/journal.pmed.1003978",
+      "why_relevant": "Primary smartphone mental health intervention included in the review with negative effects reporting."
+    },
+    {
+      "study_title": "Actissist: proof-of-concept trial of a theory-driven digital intervention for psychosis",
+      "year": "2018",
+      "authors": "Bucci S, Barrowclough C, Ainsworth J, Machin M, Morris R, Berry K, et al.",
+      "doi_or_identifier": "10.1093/schbul/sby032",
+      "why_relevant": "Primary psychosis app intervention included in the review."
+    },
+    {
+      "study_title": "Smartphone-delivered self-management for first-episode psychosis: the ARIES feasibility randomised controlled trial",
+      "year": "2020",
+      "authors": "Steare T, O'Hanlon P, Eskinazi M, Osborn D, Lloyd-Evans B, Jones R, et al.",
+      "doi_or_identifier": "10.1136/bmjopen-2019-034927",
+      "why_relevant": "Primary smartphone psychosis intervention included in the review."
+    },
+    {
+      "study_title": "Effect of a WeChat-based intervention (Run4Love) on depressive symptoms among people living with HIV in China: a randomized controlled trial",
+      "year": "2020",
+      "authors": "Guo Y, Hong YA, Cai W, Li L, Hao Y, Qiao J, et al.",
+      "doi_or_identifier": "10.2196/16715",
+      "why_relevant": "Primary social media-based mental health intervention included in the review."
+    },
+    {
+      "study_title": "Efficacy of digital cognitive behavioral therapy for moderate-to-severe symptoms of generalized anxiety disorder: a randomized controlled trial",
+      "year": "2020",
+      "authors": "Carl JR, Miller CB, Henry AL, Davis ML, Stott R, Smits JA, et al.",
+      "doi_or_identifier": "10.1002/da.23079",
+      "why_relevant": "Primary digital CBT trial included in the review with adverse event data."
+    },
+    {
+      "study_title": "A pilot digital intervention targeting loneliness in youth mental health",
+      "year": "2019",
+      "authors": "Lim MH, Rodebaugh TL, Eres R, Long KM, Penn DL, Gleeson JF",
+      "doi_or_identifier": "10.3389/fpsyt.2019.00604",
+      "why_relevant": "Primary digital intervention included in the review with safety assessment."
+    },
+    {
+      "study_title": "Effectiveness of an internet-based self-help therapy program for suicidal ideation with follow-up at 6 months: results of a randomized controlled trial",
+      "year": "2021",
+      "authors": "M\u00fchlmann C, Madsen T, Hjorth\u00f8jC C, Forman JL, Kerkhof AJ, Nordentoft M, et al.",
+      "doi_or_identifier": "10.4088/JCP.20m13803",
+      "why_relevant": "Primary suicidal ideation intervention included in the review with negative effects and suicide attempt/death data."
+    },
+    {
+      "study_title": "Outcomes of an online computerized cognitive behavioral treatment program for treating chinese patients with depression: a pilot study",
+      "year": "2018",
+      "authors": "Yeung A, Wang F, Feng F, Zhang J, Cooper A, Hong L, et al.",
+      "doi_or_identifier": "10.1016/j.ajp.2017.11.007",
+      "why_relevant": "Primary online CBT depression intervention included in the review."
+    },
+    {
+      "study_title": "Virtual reality and persecutory delusions: safety and feasibility",
+      "year": "2008",
+      "authors": "Fornells-Ambrojo M, Barker C, Swapp D, Slater M, Antley A, Freeman D",
+      "doi_or_identifier": "10.1016/j.schres.2008.05.013",
+      "why_relevant": "Primary VR mental health study included in the safety review."
+    },
+    {
+      "study_title": "Automated virtual reality therapy to treat agoraphobic avoidance and distress in patients with psychosis (gameChange): a multicentre, parallel-group, single-blind, randomised, controlled trial in England with mediation and moderation analyses",
+      "year": "2022",
+      "authors": "Freeman D, Lambe S, Kabir T, Petit A, Rosebrock L, Yu LM, gameChange Trial Group",
+      "doi_or_identifier": "10.1016/S2215-0366(22)00060-8",
+      "why_relevant": "Primary VR intervention included in the review with AE/SAE comparisons."
+    },
+    {
+      "study_title": "Digitally supported CBT to reduce paranoia and improve reasoning for people with schizophrenia-spectrum psychosis: the SlowMo RCT",
+      "year": "2021",
+      "authors": "Garety P, Ward T, Emsley R, Greenwood K, Freeman D, Fowler D, et al.",
+      "doi_or_identifier": "10.3310/eme08110",
+      "why_relevant": "Primary digitally supported CBT trial included in the review with detailed adverse event reporting."
+    }
+  ],
+  "primary_studies_count": 23,
+  "source_file": "mental-2023-1-e47433.pdf"
+}

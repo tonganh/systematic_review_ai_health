@@ -1,0 +1,132 @@
+{
+  "title": "Artificial intelligence in mental health care: a systematic review of diagnosis, monitoring, and intervention applications",
+  "year": "2025",
+  "journal_or_conference": "Psychological Medicine",
+  "type_of_paper": "Systematic review",
+  "study_design": "Systematic review following PRISMA guidelines; registered on PROSPERO (CRD42023388503)",
+  "population": "Studies involving individuals with or at risk of mental health conditions across diagnosis, monitoring, and intervention domains; excluded studies primarily targeting dementia, ADHD, autism spectrum disorders, and drug abuse",
+  "sample_size": "85 included studies",
+  "country_or_setting": "Database review of studies from CCTR, CINAHL, PubMed, PsycINFO, and Scopus; settings varied across included studies internationally",
+  "ai_type_application": "Artificial intelligence in mental health care including machine learning, deep learning, support vector machine, random forest, neural networks, natural language processing, AI chatbots, AI-based apps, and AI-assisted monitoring/prediction tools",
+  "ai_exposure_intervention": "AI applications for mental health diagnosis, monitoring of prognosis/treatment effectiveness, and AI-assisted interventions such as chatbots, medication adherence apps, therapist-support platforms, and robotic companions",
+  "comparator_control_group": "Varied across included studies; where applicable included usual care, psychoeducation, waitlist, no treatment, self-administered care, traditional in-person therapy, or other active comparators",
+  "mental_health_outcome": "Diagnosis/classification/prediction of depression, anxiety, schizophrenia, bipolar disorder, obsessive-compulsive disorder, postpartum depression, suicide risk/ideation, psychosis, stress, loneliness, burnout, quality of life, treatment response, symptom change, relapse risk, and prognosis",
+  "outcome_measurement_tool": "Varied across included studies; examples include PHQ-9, PHQ-8, GAD-7, HAMD/HRSD, MADRS, BDI, HADS, PANSS, EPDS, PSS, QIDS, EMA measures, MRI/EEG/HRV biomarkers, speech and smartphone-derived data",
+  "positive_effects": "AI tools appeared accurate in detecting, classifying, and predicting risk of mental health conditions; AI monitoring showed promise for predicting treatment response and prognosis; several AI-assisted interventions, especially some chatbots and support tools, reduced depressive/anxiety symptoms, improved medication adherence, increased therapy attendance, and improved some stress-related or biomarker outcomes",
+  "negative_effects_harms": "Intervention effects were inconsistent across studies; some AI chatbots showed limited or no superiority over usual care, limited reduction in depressive symptoms in some groups, and potential issues with misunderstanding replies, unnatural interaction, limited empathy, privacy risks, bias, hallucinations, and low engagement/commitment",
+  "adverse_events_reported": "Not clear",
+  "evidence_type": "Systematic review of 85 studies including controlled intervention studies, observational cohort/cross-sectional studies, case-control studies, and before-after studies without control",
+  "main_finding": "AI shows substantial potential across diagnosis, monitoring, and intervention in mental health. Support vector machine and random forest were commonly used in diagnosis, machine learning in monitoring, and AI chatbots in intervention. Overall, AI tools demonstrated promising accuracy and utility, but important limitations remain in data quality, diversity, transparency, external validation, bias, and ethics.",
+  "effect_size_key_result": "Among 85 included studies, 50 were rated good, 34 fair, and 1 poor. In diagnosis studies, reported accuracies ranged from 51% to 97.54%. The review states that machine learning generally showed satisfactory to good performance (often above 75%) in detecting, classifying, and predicting mental health conditions, while intervention effects were mixed and monitoring models often showed moderate to good predictive performance.",
+  "study_claims_causality": "Partial",
+  "evidence_supports_causality": "Moderate",
+  "controlled_confounders": {
+    "baseline_mental_health_condition": "Varied across included primary studies; examples included baseline depression severity, anxiety severity, symptom scales, prior diagnoses, treatment history, and baseline mental health status",
+    "medical_condition": "Varied across included studies; examples included concurrent physical illness, BMI, medical history, somatic variables, biomarkers, medication use, and comorbidities",
+    "family_social_factors": "Varied across included studies; examples included social support, family history, quality of social/work/family life, socioeconomic factors, stressful life events, and neighborhood factors",
+    "addiction_problematic_use": "Varied across included studies; examples included smoking, alcohol use, substance abuse/addiction, and drug-positive urine screening",
+    "demographics": "Varied across included studies; commonly age, sex/gender, education, occupation, marital status, race/ethnicity, income, employment status",
+    "other_confounders": "The review notes that many studies inadequately adjusted for key potential confounding variables; technical factors, site heterogeneity, data quality, treatment assignment, and device-related access factors were also relevant"
+  },
+  "limitations_bias": "The review identifies methodological inconsistencies, limited sample sizes in many studies, lack of diversity and representativeness in datasets, self-report bias, reporting bias, imbalanced datasets, confounding variables, overfitting, limited external validation, trade-offs between specificity and sensitivity, limited generalizability, heterogeneous populations and predictors, insufficient transparency/interpretability, and ethical/privacy concerns. Intervention studies often lacked adherence/dropout reporting and adequate concealment/blinding. The review itself excluded conference papers and non-English studies and did not deeply critically analyze each AI model.",
+  "relevance_to_our_review": "Highly relevant as a broad evidence synthesis on AI effects in mental health across diagnosis, monitoring, and intervention, including both beneficial effects and limitations/harms",
+  "use_decision": "Include",
+  "reason_for_decision": "Directly addresses AI applications and effects in mental health care and synthesizes evidence on diagnosis, monitoring, and interventions from 85 studies",
+  "notes_for_research_question": "Useful for summarizing the overall state of evidence: AI appears promising for diagnosis and monitoring, while intervention evidence is mixed but sometimes positive. Important for extracting themes on effectiveness, inconsistency of intervention outcomes, bias, ethics, privacy, and implementation barriers. This is a review paper, not a primary effect study.",
+  "is_review_paper": true,
+  "primary_studies": [
+    {
+      "study_title": "Using psychological artificial intelligence (tess) to relieve symptoms of depression and anxiety: randomized controlled trial",
+      "year": "2018",
+      "authors": "Fulmer, R.; Joerin, A.; Gentile, B.; Lakerink, L.; Rauws, M.",
+      "doi_or_identifier": "10.2196/mental.9782",
+      "why_relevant": "Primary intervention study in the review evaluating an AI chatbot for reducing depression and anxiety symptoms"
+    },
+    {
+      "study_title": "Artificial intelligence\u2013based chatbot for anxiety and depression in university students: pilot randomized controlled trial",
+      "year": "2021",
+      "authors": "Klos, M. C.; Escoredo, M.; Joerin, A.; Lemos, V. N.; Rauws, M.; Bunge, E. L.",
+      "doi_or_identifier": "10.2196/20678",
+      "why_relevant": "Primary intervention study assessing AI chatbot effects on anxiety and depression symptoms"
+    },
+    {
+      "study_title": "Feasibility and impact of a mental health chatbot on postpartum mental health: A randomized controlled trial",
+      "year": "2023",
+      "authors": "Suharwardy, S.; Ramachandran, M.; Leonard, S. A.; Gunaseelan, A.; Lyell, D. J.; Darcy, A.; Judy, A.",
+      "doi_or_identifier": "10.1016/j.xagr.2023.100165",
+      "why_relevant": "Primary intervention study on chatbot effects on postpartum depression and anxiety outcomes"
+    },
+    {
+      "study_title": "Effects of an artificial intelligence platform for behavioral interventions on depression and anxiety symptoms: randomized clinical trial",
+      "year": "2023",
+      "authors": "Sadeh-Sharvit, S.; Camp, T. D.; Horton, S. E.; Hefner, J. D.; Berry, J. M.; Grossman, E.; Hollon, S. D.",
+      "doi_or_identifier": "10.2196/46781",
+      "why_relevant": "Primary intervention study examining AI-assisted therapy platform effects on depression and anxiety symptoms"
+    },
+    {
+      "study_title": "Using a tablet-based app to deliver evidence-based practices for suicidal patients in the emergency department: pilot randomized controlled trial",
+      "year": "2021",
+      "authors": "Dimeff, L. A.; Jobes, D. A.; Koerner, K.; Kako, N.; Jerome, T.; Kelley-Brimer, A.; Schak, K. M.",
+      "doi_or_identifier": "10.2196/23022",
+      "why_relevant": "Primary intervention study evaluating an AI-enabled app for suicidal patients"
+    },
+    {
+      "study_title": "Efficacy of a smartphone app in enhancing medication adherence and accuracy in individuals with schizophrenia during the COVID-19 pandemic: randomized controlled trial",
+      "year": "2023",
+      "authors": "Chen, H. H.; Hsu, H. T.; Lin, P. C.; Chen, C.-Y.; Hsieh, H. F.; Ko, C. H.",
+      "doi_or_identifier": "10.2196/50806",
+      "why_relevant": "Primary intervention study on an AI-based app improving medication adherence and psychiatric symptoms in schizophrenia"
+    },
+    {
+      "study_title": "Effectiveness of a chatbot in improving the mental wellbeing of health workers in Malawi during the COVID-19 pandemic: A randomized, controlled trial",
+      "year": "2024",
+      "authors": "Kleinau, E.; Lamba, T.; Jaskiewicz, W.; Gorentz, K.; Hungerbuehler, I.; Rahimi, D.; Kapps, M.",
+      "doi_or_identifier": "10.1371/journal.pone.0303370",
+      "why_relevant": "Primary intervention study on chatbot effects on depression, anxiety, loneliness, and burnout"
+    },
+    {
+      "study_title": "Effectiveness of a web-based and mobile therapy chatbot on anxiety and depressive symptoms in subclinical young adults: randomized controlled trial",
+      "year": "2024",
+      "authors": "Karkosz, S.; Szyma\u0144ski, R.; Sanna, K.; Micha\u0142owski, J.",
+      "doi_or_identifier": "10.2196/47960",
+      "why_relevant": "Primary intervention study on chatbot efficacy for depressive and anxiety symptoms"
+    },
+    {
+      "study_title": "Can AI make people happy? The effect of AI-based chatbot on smile and speech in Parkinson\u2019s disease",
+      "year": "2022",
+      "authors": "Ogawa, M.; Oyama, G.; Morito, K.; Kobayashi, M.; Yamada, Y.; Shinkawa, K.; Hattori, N.",
+      "doi_or_identifier": "10.1016/j.parkreldis.2022.04.018",
+      "why_relevant": "Primary intervention study of AI chatbot with mood-related outcomes"
+    },
+    {
+      "study_title": "One-week suicide risk prediction using real-time smartphone monitoring: prospective cohort study",
+      "year": "2023",
+      "authors": "Barrigon, M. L.; Romero-Medrano, L.; Moreno-Mu\u00f1oz, P.; Porras-Segovia, A.; Lopez-Castroman, J.; Courtet, P.; Baca-Garcia, E.",
+      "doi_or_identifier": "10.2196/43719",
+      "why_relevant": "Primary monitoring study relevant to AI prediction of short-term suicide risk"
+    },
+    {
+      "study_title": "Cross-trial prediction of treatment outcome in depression: A machine learning approach",
+      "year": "2016",
+      "authors": "Chekroud, A. M.; Zotti, R. J.; Shehzad, Z.; Gueorguieva, R.; Johnson, M. K.; Trivedi, M. H.; Corlett, P. R.",
+      "doi_or_identifier": "10.1016/S2215-0366(15)00471-X",
+      "why_relevant": "Primary monitoring study relevant to AI prediction of antidepressant treatment outcomes"
+    },
+    {
+      "study_title": "Multimodal digital assessment of depression with actigraphy and app in Hong Kong Chinese",
+      "year": "2024",
+      "authors": "Chen, J.; Chan, N. Y.; Li, C.-T.; Chan, J. W. Y.; Liu, Y.; Li, S. X.; Wing, Y.-K.",
+      "doi_or_identifier": "10.1038/s41398-024-02873-4",
+      "why_relevant": "Primary diagnosis study evaluating multimodal AI assessment for major depressive disorder"
+    },
+    {
+      "study_title": "Detection of major depressive disorder from linear and nonlinear heart rate variability features during mental task protocol",
+      "year": "2019",
+      "authors": "Byun, S.; Kim, A. Y.; Jang, E. H.; Kim, S.; Choi, K. W.; Yu, H. Y.; Jeon, H. J.",
+      "doi_or_identifier": "10.1016/j.compbiomed.2019.103381",
+      "why_relevant": "Primary diagnosis study on AI-based detection of depression using physiological features"
+    }
+  ],
+  "primary_studies_count": 13,
+  "source_file": "artificial-intelligence-in-mental-health-care-a-systematic-review-of-diagnosis-monitoring-and-intervention-applications.pdf"
+}
